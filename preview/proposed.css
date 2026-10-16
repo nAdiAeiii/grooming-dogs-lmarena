@@ -1,0 +1,48 @@
+/* Proposed design changes, from the skills review (impeccable critique + review-animations).
+   Loaded only in "Proposed" mode. Every rule stays inside the locked owner decisions
+   DS-OD-01..06; the comment on each names the rule it serves. To ship one, move it into
+   BUILD/gd-home/gd-home.css or BUILD/site.css. */
+
+/* 1. Defect on the live home page: the utility chips are inline-flex with a 6px gap, so the
+      bold label and the sentence become separate flex items and render as "Tools : The tools…".
+      Inline-block keeps the label and its colon together. (gd-home.css .gd-chips a) */
+.gd-chips a {
+	display: inline-block;
+}
+
+/* 2. DS-OD-05: "Grids: desktop 2-4 columns … Never cram 6 or more cards." The six task tiles sit
+      in one row on desktop. Three columns on desktop, two below 1024px (the existing tablet and
+      phone rules already use 3 and 2). (gd-home.css .gd-grid6) */
+.gd-grid6 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 560px) {
+	.gd-grid6 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* 3. DS-OD-04: "No parallax, large transforms, autoplay carousels or unexpected motion." The
+      carousel now waits for the reader to press Play (proposed.js). Its stage also loses the
+      empty band above the ring: 560px -> 440px on desktop, 300px -> 260px on phones; the
+      component scales the ring to whatever stage it gets. (gd-home.css .gd-cc__stage) */
+.gd-cc__stage { height: 440px; }
+@media (max-width: 767px) {
+	.gd-cc__stage { height: 260px; }
+}
+
+/* 4. DS-OD-02: "No all-caps headings." The small label above "Start here" is set in letter-spaced
+      capitals, which reads as a heading of its own. Same words, sentence case, body-size UI
+      text, so the heading below it carries the section. (gd-home.css .gd-kicker) */
+.gd-kicker {
+	text-transform: none !important;
+	letter-spacing: 0 !important;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	color: var(--e-global-color-secondary, #6B5E55) !important;
+}
+
+/* 5. Browser surfaces in the kit's colours (DS-OD-06): text selection uses the honey shine as a
+      background behind espresso text (honey is never used as a text colour). */
+::selection {
+	background: rgba(227, 163, 59, .38);
+	color: var(--e-global-color-primary, #3A2318);
+}
