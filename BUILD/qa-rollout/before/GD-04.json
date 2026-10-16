@@ -1,0 +1,154 @@
+{
+ "title": "How to Bathe a Dog: Setup, Shampoo, Rinsing and Drying",
+ "description": "Bathe your dog step by step: brush first, set up the space, choose a dog shampoo, rinse properly and dry completely, keeping water out of the eyes and ears.",
+ "canonical": "https://grooming-dogs.com/bathing-your-dog/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "How to Bathe a Dog: Setup, Shampoo, Rinsing and Drying",
+ "breadcrumb": "Home › Bathing",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>A walk-in shower with a handheld showerhead and a non-slip mat works well, and small dogs can often be washed in a large sink. Outdoors, use a hose only in warm weather: bathing outdoors in cool or cold weather can dangerously lower your dog&#8217;s body temperature <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. For a single dirty spot, a pet spot cleaner or waterless shampoo may do instead of a full bath <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>.</p>\"}, \"name\": \"How do I bathe my dog without a bathtub?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Before. Brush, bathe and dry your dog thoroughly first, then trim <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. A clean, dry, brushed coat shows you what actually needs trimming. See <a href=\\\"/dog-haircuts-and-trimming/\\\">trimming and haircuts at home</a>.</p>\"}, \"name\": \"Should I bathe my dog before or after a haircut?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Yes, with care. Towel-dry first, then use a cool or low setting <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Keep the dryer moving and away from the skin, because a hot dryer can burn <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. If your dog is frightened by the noise, towel-dry and keep them warm instead.</p>\"}, \"name\": \"Can I use a hair dryer on my dog?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/bathing-your-dog/\", \"name\": \"Bathing\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:37+00:00\", \"description\": \"Bathe your dog step by step: brush first, set up the space, choose a dog shampoo, rinse properly and dry completely, keeping water out of the eyes and ears.\", \"headline\": \"How to Bathe a Dog: Setup, Shampoo, Rinsing and Drying\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-20741414-1024x683.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#webpage\"}, \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#webpage\"}, \"name\": \"How to Bathe a Dog: Setup, Shampoo, Rinsing and Drying\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/bathing-your-dog/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:37+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"How to Bathe a Dog: Setup, Shampoo, Rinsing and Drying\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-20741414-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/bathing-your-dog/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-20741414-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-20741414-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "How to bathe your dog"
+  ],
+  [
+   "2",
+   "Before the bath"
+  ],
+  [
+   "2",
+   "Bathing your dog, step by step"
+  ],
+  [
+   "2",
+   "Rinsing thoroughly"
+  ],
+  [
+   "2",
+   "Drying your dog"
+  ],
+  [
+   "3",
+   "Towel drying"
+  ],
+  [
+   "3",
+   "Using a dryer safely"
+  ],
+  [
+   "3",
+   "Making sure your dog dries fully"
+  ],
+  [
+   "2",
+   "Choosing a shampoo"
+  ],
+  [
+   "2",
+   "Washing the face and around the ears"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "How do I bathe my dog without a bathtub?"
+  ],
+  [
+   "3",
+   "Should I bathe my dog before or after a haircut?"
+  ],
+  [
+   "3",
+   "Can I use a hair dryer on my dog?"
+  ]
+ ],
+ "copy": [
+  "Home › Bathing",
+  "You want to wash your dog without irritating their skin or eyes, and get them properly dry afterward. Here’s how to prepare, bathe, rinse and dry, step by step.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How often to bathe depends on your dog’s coat. See how often to bathe your dog . If your dog fights bath time, start with if your dog hates the bath .",
+  "Photo: David Kanigan / Pexels",
+  "Short answer:",
+  "Brush your dog first, because water makes mats worse.",
+  "Wet the coat with warm water.",
+  "Work in a shampoo made for dogs from the neck backward, keeping it out of the eyes and ears.",
+  "Rinse until no shampoo is left.",
+  "Towel-dry, then use a dryer on a cool or low setting if you need one, held away from the skin.",
+  "Wash the face separately with a damp cloth.",
+  "Brush first. Water makes mats worse [2] . Wet mats tighten as they dry and pull on the skin [3] . Brush the coat out completely before your dog gets wet. If you find tight mats, don’t bathe over them. See brush out the coat first or ask a groomer.",
+  "Set up the space. Choose a warm room, and get everything ready before you bring your dog in, so you never have to leave them alone in the tub. A non-slip mat in the bath or shower helps your dog feel steady. Don’t bathe your dog outdoors when the weather is cool or cold: it can cause a dangerous drop in body temperature [1] .",
+  "What you’ll need",
+  "Shampoo made for dogs",
+  "Towels (a microfiber towel absorbs well)",
+  "A non-slip mat for the tub or shower",
+  "A cup, jug or handheld shower to wet and rinse",
+  "A soft cloth or cotton balls for the face",
+  "A hair dryer with a cool or low setting (optional)",
+  "Treats",
+  "Choosing a dryer or other equipment? See choosing a dryer and bathing kit .",
+  "Wet the coat thoroughly with warm water [1] . Use comfortably warm water, never hot, and wet right down to the skin. Leave the head for last, or wash it separately (see below).",
+  "Apply a mild shampoo made for dogs, working from the neck backward [1] . Keep shampoo out of your dog’s eyes and ears [2] .",
+  "Massage the shampoo through the coat [1] , down to the skin, including the chest, belly, legs and tail.",
+  "Rinse completely (see the next section).",
+  "Towel-dry before your dog leaves the bath area, then finish drying (see “Drying your dog”).",
+  "Calm, steady handling and a few treats help. If your dog panics or struggles, stop, and see grooming a dog who hates being groomed before you try again.",
+  "Rinse until there’s no shampoo left in the coat. Leftover shampoo can irritate the skin [1] . Rinsing usually takes longer than the wash itself, so keep going until the water runs clear and the coat no longer feels slippery. Pay extra attention to:",
+  "the armpits, belly and between the back legs;",
+  "under the tail;",
+  "around the neck and collar area.",
+  "If your dog is itchy or smells off after a bath, see itching or smell after a bath .",
+  "Drying matters as much as washing. Your dog should be fully dry before going outside in cool weather or settling down for the night.",
+  "Start with a towel [3] . Press and squeeze the water out of the coat rather than rubbing hard, which can tangle long or curly hair. A microfiber towel absorbs well [2] .",
+  "A hair dryer is optional. If you use one:",
+  "Towel-dry first, then switch to a cool setting [3] or a low setting [2] . Hot dryers can burn a dog’s skin [3] .",
+  "Keep the dryer moving back and forth, and hold it away from your dog’s skin [2] .",
+  "Go by your dog’s coat and comfort when deciding whether to use a dryer at all [1] . If the noise upsets your dog, towel-dry and keep them somewhere warm instead.",
+  "Never point a hot dryer at your dog’s skin, and never leave a dryer running on a dog unattended.",
+  "Thick and long coats can take a while to dry all the way down to the skin. Keep your dog somewhere warm until they’re completely dry. What your dog’s coat needs is explained in dog coat types .",
+  "Use a shampoo made for dogs. Dog care organizations consistently recommend dog-specific products [1] [2] . Here’s why human shampoo isn’t a good substitute [3] :",
+  "Human hair products aren’t designed for pets.",
+  "Your dog will lick their coat, and human shampoo isn’t made with that in mind.",
+  "Some ingredients in human shampoos, such as tea tree oil or anti-dandruff ingredients, may be too harsh for a dog’s skin.",
+  "What about baby shampoo? If you’ve run out of dog shampoo and have to bathe your dog now, the Animal Medical Center advises using only a no-tears baby product [3] . Treat it as a one-off. Switch back to a dog shampoo for regular baths [1] .",
+  "Medicated shampoos: use these only if your vet recommends them, and follow the vet’s instructions.",
+  "One dirty patch? You don’t always need a full bath. For a muddy paw or a single dirty spot, a spot cleaner, waterless shampoo or wipe made for pets may be enough [3] .",
+  "Faces need a gentler approach than the body.",
+  "Use a damp cloth or cotton ball to wipe the face and around the eyes, rather than pouring water or shampoo over the head [2] .",
+  "Keep shampoo and water out of the eyes and ears, and never push anything into them [2] . Shampoo in the eyes can cause irritation, or a painful injury to the surface of the eye [3] .",
+  "For dogs with facial folds or wrinkles, such as Pugs and Shar-Peis, clean the folds gently with damp cotton and dry thoroughly between them [4] .",
+  "Eyes: if your dog is squinting, keeps an eye closed, or the eye looks red or sore after a bath, contact your vet.",
+  "Ears: watch for redness, discharge, an unusual smell or pawing at the ears, especially in dogs with floppy ears. Contact a vet if you notice them [2] .",
+  "Routine ear care is covered in cleaning your dog’s ears .",
+  "How do I bathe my dog without a bathtub?",
+  "A walk-in shower with a handheld showerhead and a non-slip mat works well, and small dogs can often be washed in a large sink. Outdoors, use a hose only in warm weather: bathing outdoors in cool or cold weather can dangerously lower your dog’s body temperature [1] . For a single dirty spot, a pet spot cleaner or waterless shampoo may do instead of a full bath [3] .",
+  "Should I bathe my dog before or after a haircut?",
+  "Before. Brush, bathe and dry your dog thoroughly first, then trim [2] . A clean, dry, brushed coat shows you what actually needs trimming. See trimming and haircuts at home .",
+  "Can I use a hair dryer on my dog?",
+  "Yes, with care. Towel-dry first, then use a cool or low setting [2] [3] . Keep the dryer moving and away from the skin, because a hot dryer can burn [2] [3] . If your dog is frightened by the noise, towel-dry and keep them warm instead.",
+  "Where to go next",
+  "How to brush your dog properly",
+  "Brush before every bath. Here’s how to do it to the skin.",
+  "How often to groom your dog",
+  "How often your dog’s coat needs a bath.",
+  "Cleaning your dog’s ears",
+  "Bath time is a good moment to check the ears.",
+  "Problems after grooming",
+  "Itchy or smelly after a bath? Start here.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog has a skin, eye or ear problem, or is in pain, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, published January 17, 2023, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[2] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[3] Ann Hohenhaus, DVM, The Animal Medical Center (New York): “Can Bath Time be Dangerous for Pets?”, November 30, 2016. https://www.amcny.org/blog/2016/11/30/can-bath-time-dangerous-pets/",
+  "[4] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, April 9, 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations"
+ ]
+}

@@ -1,0 +1,479 @@
+/* Grooming Dogs: global CSS implementing DS-OD-01..06 (owner decisions 2026-10-05; DS-OD-06 = palette B + Literata / Source Sans 3).
+   Colors reference Elementor kit globals (kit 15), with locked fallbacks. */
+
+/* Visible keyboard focus (DS accessibility; color.focus) */
+a:focus-visible,
+button:focus-visible,
+.elementor-button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+	outline: 3px solid var(--e-global-color-gdfocus, #A84A24);
+	outline-offset: 2px;
+}
+
+/* Links in running text stay distinguishable without hover (DS-OD-01) */
+.elementor-widget-text-editor a,
+.gd-prose a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* Reading measure for long-form prose, about 680-760px (DS-OD-05) */
+.gd-prose {
+	max-width: 720px;
+}
+
+/* Tables: restrained, scroll horizontally on narrow screens (DS-OD-04) */
+.gd-table-wrap {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.gd-table-wrap table {
+	border-collapse: collapse;
+	width: 100%;
+	min-width: 560px;
+}
+.gd-table-wrap th,
+.gd-table-wrap td {
+	border: 1px solid var(--e-global-color-gdborder, #E6D8C8);
+	padding: 8px 16px;
+	text-align: left;
+	vertical-align: top;
+}
+.gd-table-wrap th {
+	background: var(--e-global-color-gdsurfs, #F7EFE4);
+	color: var(--e-global-color-primary, #3A2318);
+}
+
+/* Subtle interaction only (DS-OD-04) */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		scroll-behavior: auto !important;
+		transition: none !important;
+		animation: none !important;
+	}
+}
+
+/* ---------- Shared shell (DS-OD-03) ---------- */
+.gd-header .hfe-site-title,
+.gd-header .hfe-site-title a,
+.gd-header .gd-wordmark p,
+.gd-header .gd-wordmark a {
+	font-family: Literata, Georgia, "Times New Roman", serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.2;
+	margin: 0;
+	color: var(--e-global-color-primary, #3A2318);
+	text-decoration: none;
+}
+.gd-nav .hfe-nav-menu a.hfe-menu-item,
+.gd-nav .hfe-nav-menu a.hfe-sub-menu-item {
+	font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--e-global-color-primary, #3A2318);
+}
+.gd-nav .hfe-nav-menu a.hfe-menu-item:hover,
+.gd-nav .hfe-nav-menu a.hfe-sub-menu-item:hover {
+	color: var(--e-global-color-gdlinkh, #8A3A1A);
+}
+.gd-nav .hfe-nav-menu .current-menu-item > a,
+.gd-nav .hfe-nav-menu .current-menu-ancestor > a {
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+.gd-nav .sub-menu {
+	background: var(--e-global-color-gdsurf, #FFFCF7);
+	border: 1px solid var(--e-global-color-gdborder, #E6D8C8);
+	border-radius: 8px;
+}
+.gd-nav .hfe-nav-menu-icon,
+.gd-nav .hfe-nav-menu-icon svg {
+	color: var(--e-global-color-primary, #3A2318);
+	fill: var(--e-global-color-primary, #3A2318);
+}
+.gd-footer,
+.gd-footer p,
+.gd-footer li,
+.gd-footer .hfe-copyright-wrapper,
+.gd-footer .hfe-copyright-wrapper span {
+	color: #FFFFFF;
+}
+.gd-footer a {
+	color: #FFFFFF;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+.gd-footer a:hover {
+	color: var(--e-global-color-gdsurfs, #F7EFE4);
+}
+.gd-footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.gd-footer li {
+	margin: 0 0 8px;
+}
+.gd-footer-cont {
+	padding-top: 40px !important;
+}
+.gd-footer .gd-copyright {
+	margin-top: 24px;
+	font-size: 14px;
+}
+
+/* ---------- Components (DS-OD-04) ---------- */
+.gd-cols-3 {
+	columns: 3;
+	column-gap: 32px;
+	padding-left: 1.2em;
+}
+.gd-cols-3 li {
+	break-inside: avoid;
+	margin-bottom: 8px;
+}
+@media (max-width: 1024px) {
+	.gd-cols-3 { columns: 2; }
+	.gd-footer-cont { padding-top: 0 !important; }
+}
+@media (max-width: 767px) {
+	.gd-cols-3 { columns: 1; }
+}
+.gd-term {
+	margin: 0 0 16px;
+}
+.gd-term dt {
+	margin: 0;
+}
+.gd-term dd {
+	margin: 0;
+}
+.gd-label {
+	color: var(--e-global-color-primary, #3A2318);
+}
+.gd-sources {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.gd-sources li {
+	margin: 0 0 8px;
+	overflow-wrap: anywhere;
+}
+.gd-jump {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 24px;
+}
+sup a {
+	text-decoration: none;
+}
+
+/* Mobile/tablet header: toggle sits beside the wordmark; dropdown opens full width under the header */
+@media (max-width: 1024px) {
+	.gd-header { position: relative; }
+	.gd-header .gd-nav { flex: 0 0 auto !important; width: auto !important; min-width: 0; position: static; margin-left: auto; }
+	.gd-header .gd-nav nav.hfe-dropdown {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 100%;
+		width: 100% !important;
+		z-index: 100;
+		background: var(--e-global-color-gdsurf, #FFFCF7);
+		border-bottom: 1px solid var(--e-global-color-gdborder, #E6D8C8);
+	}
+	.gd-header .gd-nav .hfe-nav-menu a.hfe-menu-item,
+	.gd-header .gd-nav .hfe-nav-menu a.hfe-sub-menu-item { padding: 12px 16px; }
+}
+
+/* Contact form (WPForms) uses the locked primary action (DS-OD-04) */
+div.wpforms-container-full .wpforms-form button[type=submit],
+div.wpforms-container-full .wpforms-form .wpforms-submit {
+	background-color: var(--e-global-color-accent, #A84A24) !important;
+	border-color: var(--e-global-color-accent, #A84A24) !important;
+	color: #FFFFFF !important;
+	border-radius: 6px !important;
+	font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-weight: 600;
+	padding: 16px 32px !important;
+	height: auto !important;
+}
+div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full .wpforms-form .wpforms-submit:hover {
+	background-color: var(--e-global-color-gdacth, #8A3A1A) !important;
+	border-color: var(--e-global-color-gdacth, #8A3A1A) !important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-description a {
+	color: var(--e-global-color-gdlink, #A84A24);
+	text-decoration: underline;
+}
+
+/* Visible focus in the header navigation (HFE resets outlines) */
+.gd-nav .hfe-nav-menu a:focus-visible,
+.gd-nav .hfe-nav-menu .hfe-has-submenu-container:focus-visible,
+.gd-nav .hfe-nav-menu__toggle:focus-visible {
+	outline: 3px solid var(--e-global-color-gdfocus, #A84A24) !important;
+	outline-offset: 2px;
+}
+
+/* ---------- DS-OD-06: UI text in Source Sans 3 ---------- */
+.rank-math-breadcrumb,
+.rank-math-breadcrumb p,
+.gd-footer,
+.gd-label,
+.gd-jump,
+.gd-sources,
+.gd-table-wrap table,
+figcaption,
+.widget-image-caption,
+div.wpforms-container-full .wpforms-form {
+	font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.gd-label {
+	letter-spacing: .02em;
+}
+
+/* ---------- DS-OD-06: honey "shine" (decorative only, never text) ---------- */
+/* Link hover: underline turns honey and thickens */
+.elementor-widget-text-editor a:hover,
+.gd-prose a:hover {
+	text-decoration-color: var(--e-global-color-gdshine, #E3A33B);
+	text-decoration-thickness: 2px;
+}
+.gd-nav .hfe-nav-menu a.hfe-menu-item:hover,
+.gd-footer a:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--e-global-color-gdshine, #E3A33B);
+	text-decoration-thickness: 2px;
+	text-underline-offset: 6px;
+}
+.gd-footer a:hover {
+	text-underline-offset: 2px;
+}
+/* Buttons: soft warm glow on hover */
+.elementor-button,
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	transition: background-color .15s ease, box-shadow .15s ease;
+}
+.elementor-button:hover,
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+	box-shadow: 0 6px 18px -6px var(--e-global-color-gdshine, #E3A33B);
+}
+/* Header: thin honey line under the white bar */
+.gd-header {
+	box-shadow: inset 0 -2px 0 var(--e-global-color-gdshine, #E3A33B);
+}
+/* Wordmark: small honey dot before the name */
+.gd-header .gd-wordmark p::before,
+.gd-header .hfe-site-title::before {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: var(--e-global-color-gdshine, #E3A33B);
+	margin-right: 10px;
+	vertical-align: .12em;
+}
+/* First section of every page: a faint honey sheen in the top corner (the only gradient allowed) */
+.elementor[data-elementor-type="wp-page"] > .e-con:first-child {
+	background-image: radial-gradient(120% 90% at 85% 0%, rgba(227, 163, 59, .16), transparent 60%);
+}
+
+/* ---------- DS-OD-06 (owner, 2026-10-05): dark espresso header ---------- */
+.gd-header .hfe-site-title,
+.gd-header .hfe-site-title a,
+.gd-header .gd-wordmark p,
+.gd-header .gd-wordmark a {
+	color: var(--e-global-color-gdsurf, #FFFCF7);
+}
+.gd-header .gd-wordmark p::before,
+.gd-header .hfe-site-title::before {
+	box-shadow: 0 0 0 4px rgba(255, 252, 247, .12);
+}
+.gd-header .gd-nav .hfe-nav-menu > li > a.hfe-menu-item,
+.gd-header .gd-nav .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item,
+.gd-header .gd-nav .hfe-nav-menu > li .hfe-menu-toggle,
+.gd-header .gd-nav .hfe-nav-menu > li > .hfe-has-submenu-container .sub-arrow {
+	color: var(--e-global-color-gdsurf, #FFFCF7);
+}
+.gd-header .gd-nav .hfe-nav-menu > li > a.hfe-menu-item:hover,
+.gd-header .gd-nav .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item:hover {
+	color: var(--e-global-color-gdsurf, #FFFCF7);
+}
+/* Submenus and the mobile panel stay light, with espresso text */
+.gd-header .gd-nav .sub-menu a.hfe-sub-menu-item,
+.gd-header .gd-nav nav.hfe-dropdown a.hfe-menu-item,
+.gd-header .gd-nav nav.hfe-dropdown .sub-arrow {
+	color: var(--e-global-color-primary, #3A2318);
+}
+.gd-header .hfe-nav-menu-icon,
+.gd-header .hfe-nav-menu-icon svg,
+.gd-header .hfe-nav-menu__toggle {
+	color: var(--e-global-color-gdsurf, #FFFCF7);
+	fill: var(--e-global-color-gdsurf, #FFFCF7);
+}
+/* Copper focus is too dark on espresso: use honey in the header bar */
+.gd-header .gd-wordmark a:focus-visible,
+.gd-header .gd-nav .hfe-nav-menu > li > a:focus-visible,
+.gd-header .gd-nav .hfe-nav-menu > li > .hfe-has-submenu-container:focus-visible,
+.gd-header .gd-nav .hfe-nav-menu__toggle:focus-visible {
+	outline-color: var(--e-global-color-gdshine, #E3A33B) !important;
+}
+
+/* ---------- DS-OD-06: honey highlight under the H1 key phrase ---------- */
+.gd-hl {
+	background-image: linear-gradient(transparent 62%, rgba(227, 163, 59, .38) 62%, rgba(227, 163, 59, .38) 92%, transparent 92%);
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	padding: 0 .06em;
+}
+/* Mobile/tablet panel is light: its items (including parents with submenus) use espresso text.
+   Needs higher specificity than the dark-bar rules above. */
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a.hfe-menu-item,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li .hfe-menu-toggle,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container .sub-arrow,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a.hfe-menu-item:hover,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item:hover {
+	color: var(--e-global-color-primary, #3A2318);
+}
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a:focus-visible,
+.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container:focus-visible {
+	outline-color: var(--e-global-color-gdfocus, #A84A24) !important;
+}
+
+/* ---------- Skip link (HFE's .hfe-skip-link, restyled with kit tokens; owner-approved a11y fix 2026-10-05) ---------- */
+body a.hfe-skip-link:focus {
+	top: 8px;
+	inset-inline-start: 8px;
+	padding: 12px 20px;
+	background: var(--e-global-color-primary, #3A2318);
+	color: var(--e-global-color-gdsurf, #FFFCF7);
+	font: 600 16px/1.2 "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	border-radius: 6px;
+	outline: 3px solid var(--e-global-color-gdshine, #E3A33B);
+	outline-offset: 2px;
+}
+/* The skip-link target receives focus programmatically; no outline around the whole page body */
+main#content:focus {
+	outline: none;
+}
+
+/* ---------- Footer v2 (owner-approved 2026-10-05; GD-04 pilot, now site-wide) ---------- */
+.gd-footer--v2 { border-top: 3px solid var(--e-global-color-gdshine, #E3A33B); }
+.gd-footer--v2 .gd-fgrid {
+	display: grid;
+	grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr);
+	gap: 32px;
+	font: 15px/1.5 "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+@media (max-width: 1024px) {
+	.gd-footer--v2 .gd-fgrid { grid-template-columns: 1fr 1fr; }
+	.gd-footer--v2 .gd-fbrand { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+	.gd-footer--v2 .gd-fgrid { grid-template-columns: 1fr; }
+}
+.gd-footer--v2 .gd-fmark {
+	font: 700 20px/1.2 Literata, Georgia, "Times New Roman", serif;
+	color: var(--e-global-color-gdsurf, #FFFCF7) !important;
+	text-decoration: none !important;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+.gd-footer--v2 .gd-fmark::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--e-global-color-gdshine, #E3A33B); }
+.gd-footer--v2 .gd-fbrand p { margin: 12px 0 0; max-width: 36ch; color: var(--e-global-color-gdsurf, #FFFCF7); }
+.gd-footer--v2 .gd-fbrand p.gd-fsmall { font-size: 14px; color: var(--e-global-color-gdsurfs, #F7EFE4); opacity: .85; }
+.gd-footer--v2 .gd-flabel {
+	margin: 2px 0 14px !important;
+	font: 600 13px/1.2 "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: var(--e-global-color-gdsurfs, #F7EFE4) !important;
+}
+.gd-footer--v2 ul { display: grid; gap: 10px; }
+.gd-footer--v2 li { margin: 0 !important; }
+.gd-footer--v2 ul.gd-ftwo { grid-template-columns: 1fr 1fr; column-gap: 20px; }
+.gd-footer--v2 a { text-decoration: none !important; color: var(--e-global-color-gdsurf, #FFFCF7) !important; }
+.gd-footer--v2 a:hover { text-decoration: underline !important; text-decoration-color: var(--e-global-color-gdshine, #E3A33B) !important; text-decoration-thickness: 2px !important; text-underline-offset: 4px !important; }
+.gd-footer--v2 a:focus-visible { outline: 3px solid var(--e-global-color-gdshine, #E3A33B) !important; outline-offset: 2px; }
+.gd-footer--v2 .gd-fbase { border-top: 1px solid rgba(255, 252, 247, .16); padding-top: 16px; justify-content: space-between !important; align-items: center !important; }
+.gd-footer--v2 .gd-fbase p, .gd-footer--v2 .gd-fbase .hfe-copyright-wrapper { margin: 0 !important; }
+.gd-footer--v2 .gd-fbase .elementor-widget { margin: 0 !important; }
+.gd-footer--v2 .gd-fbase .hfe-copyright-wrapper,
+.gd-footer--v2 .gd-fbase .hfe-copyright-wrapper span { color: var(--e-global-color-gdsurfs, #F7EFE4) !important; font: 14px/1.4 "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.gd-footer--v2 a.gd-totop {
+	display: inline-block;
+	padding: 8px 14px;
+	border: 1px solid rgba(255, 252, 247, .35);
+	border-radius: 999px;
+	font: 600 14px/1 "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.gd-footer--v2 a.gd-totop:hover { border-color: var(--e-global-color-gdshine, #E3A33B); text-decoration: none !important; }
+
+/* ---------- Dark submenus (owner-approved 2026-10-06): desktop dropdowns and the mobile/tablet panel ---------- */
+.gd-header .gd-nav .sub-menu {
+	background: var(--e-global-color-gdbrandd, #28170F) !important;
+	border: 1px solid rgba(255, 252, 247, .12) !important;
+	border-radius: 10px;
+	box-shadow: 0 18px 36px -16px rgba(0, 0, 0, .55);
+	padding: 6px 0;
+}
+.gd-header .gd-nav .sub-menu li,
+.gd-header .gd-nav .sub-menu a,
+.gd-header .gd-nav nav.hfe-dropdown,
+.gd-header .gd-nav nav.hfe-dropdown li,
+.gd-header .gd-nav nav.hfe-dropdown a {
+	border-color: rgba(255, 252, 247, .12) !important;
+}
+.gd-header .gd-nav .sub-menu a.hfe-sub-menu-item,
+.gd-header .gd-nav nav.hfe-dropdown .sub-menu a.hfe-sub-menu-item {
+	background: transparent !important;
+	color: var(--e-global-color-gdsurf, #FFFCF7) !important;
+	border-left: 2px solid transparent !important;
+}
+.gd-header .gd-nav .sub-menu a.hfe-sub-menu-item:hover,
+.gd-header .gd-nav .sub-menu a.hfe-sub-menu-item:focus-visible {
+	background: rgba(255, 252, 247, .08) !important;
+	border-left-color: var(--e-global-color-gdshine, #E3A33B) !important;
+	text-decoration: none !important;
+}
+@media (max-width: 1024px) {
+	.gd-header .gd-nav nav.hfe-dropdown {
+		background: var(--e-global-color-gdbrandd, #28170F) !important;
+		border-bottom: 2px solid var(--e-global-color-gdshine, #E3A33B) !important;
+	}
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a.hfe-menu-item,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li .hfe-menu-toggle,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container .sub-arrow,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a.hfe-menu-item:hover,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container a.hfe-menu-item:hover {
+		color: var(--e-global-color-gdsurf, #FFFCF7) !important;
+		background: transparent !important;
+	}
+	.gd-header .gd-nav nav.hfe-dropdown .sub-menu {
+		border: 0 !important;
+		box-shadow: none !important;
+		border-radius: 0;
+		background: rgba(255, 252, 247, .04) !important;
+	}
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > a:focus-visible,
+	.gd-header .gd-nav nav.hfe-dropdown .hfe-nav-menu > li > .hfe-has-submenu-container:focus-visible,
+	.gd-header .gd-nav nav.hfe-dropdown a:focus-visible {
+		outline-color: var(--e-global-color-gdshine, #E3A33B) !important;
+	}
+}

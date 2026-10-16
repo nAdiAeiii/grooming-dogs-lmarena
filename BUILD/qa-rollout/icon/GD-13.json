@@ -1,0 +1,166 @@
+{
+ "title": "Senior Dog Grooming: Adapting the Routine Safely",
+ "description": "Adapt grooming for an older dog: shorter sessions, supported positions, gentle handling for stiff joints and thin skin, nail care, and changes to tell a vet.",
+ "canonical": "https://grooming-dogs.com/senior-dog-grooming/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Senior Dog Grooming: Adapting the Routine Safely",
+ "breadcrumb": "Home › Senior dogs",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>You have several options:</p>\\n<ul><li><strong>Let your dog sit or lie down</strong> on a non-slip mat in the tub or shower <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>.</li><li><strong>Support a larger dog</strong> with a padded harness when lifting them in and out <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>.</li><li><strong>Spot-clean dirty patches</strong> with a pet spot cleaner or wipes between baths <sup><a href=\\\"#s5\\\" aria-label=\\\"Source 5\\\">[5]</a></sup>.</li><li><strong>Get help</strong> from a groomer or your vet&#8217;s practice if a full bath at home isn&#8217;t safe.</li></ul>\\n<p>If your dog seems to be in pain, see your vet first.</p>\"}, \"name\": \"My old dog can't stand for a bath. What are my options?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Yes, gently. Brushing still helps keep the coat comfortable. Use a soft brush rather than one with stiff metal pins, which can be too harsh on thin skin and can nick warts or lumps <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Keep sessions short, and check the skin as you go.</p>\"}, \"name\": \"Should I still brush a dog with thin skin?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Mention it to your vet. Coat that doesn&#8217;t regrow, or new thinning or bald patches, is worth having checked rather than guessing at the cause.</p>\"}, \"name\": \"My senior dog's coat isn't growing back after a clip. Should I worry?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/\", \"name\": \"Senior dogs\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:39+00:00\", \"description\": \"Adapt grooming for an older dog: shorter sessions, supported positions, gentle handling for stiff joints and thin skin, nail care, and changes to tell a vet.\", \"headline\": \"Senior Dog Grooming: Adapting the Routine Safely\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-5255270-1024x683.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#webpage\"}, \"keywords\": \"senior dog grooming\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#webpage\"}, \"name\": \"Senior Dog Grooming: Adapting the Routine Safely\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/senior-dog-grooming/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:39+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Senior Dog Grooming: Adapting the Routine Safely\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-5255270-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/senior-dog-grooming/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-5255270-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-5255270-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Grooming an older dog safely"
+  ],
+  [
+   "2",
+   "What changes as dogs age"
+  ],
+  [
+   "2",
+   "Adapting the routine"
+  ],
+  [
+   "2",
+   "Handling and positioning"
+  ],
+  [
+   "2",
+   "Bathing an older dog"
+  ],
+  [
+   "2",
+   "Nail care for older dogs"
+  ],
+  [
+   "2",
+   "What to watch for while grooming"
+  ],
+  [
+   "2",
+   "Working with a groomer"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "My old dog can't stand for a bath. What are my options?"
+  ],
+  [
+   "3",
+   "Should I still brush a dog with thin skin?"
+  ],
+  [
+   "3",
+   "My senior dog's coat isn't growing back after a clip. Should I worry?"
+  ]
+ ],
+ "copy": [
+  "Home › Senior dogs",
+  "Your dog is getting older, and the grooming routine that used to be easy now seems harder for them, or for you. Here’s how to adapt it.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How often to groom an older dog: see adjusting the grooming schedule .",
+  "If your dog has become fearful of grooming: see if your dog resists .",
+  "Photo: Samson Katt / Pexels",
+  "Short answer:",
+  "Old age isn’t a disease [1] , and your older dog may not need any changes to their grooming.",
+  "If grooming has become harder, keep sessions short with breaks, put your dog on a non-slip surface, let them sit, lie down or shift position, and use a soft brush on thin skin [1] [2] .",
+  "Use grooming time to notice lumps and changes, and have anything new checked by your vet [1] [2] .",
+  "If your dog suddenly resists being handled or seems sore, see your vet. Changes that look like “just getting old” can be pain [1] [3] .",
+  "There’s no fixed age when a dog becomes “senior”. Veterinary guidelines describe a senior dog as being in roughly the last quarter of its expected lifespan, which varies between breeds and sizes [1] .",
+  "Old age is not a disease. Not every older dog declines in the same way [1] . Your dog may need no changes at all. But some older dogs find grooming harder:",
+  "Movement: some older dogs move less easily or feel stiff, and pain and discomfort become more common in later life [1] .",
+  "Skin: some older dogs have thinner skin that cuts or bruises more easily [2] .",
+  "Lumps and growths: these become more common, and a vet can’t always tell a harmless lump from a serious one just by looking at it [1] .",
+  "Pain can look like aging: owners often put changes down to normal aging when the real cause may be pain, and the signs can be subtle [1] .",
+  "That last point matters for grooming. If your dog has started to resist being brushed or handled, don’t assume it’s just age (see “What to watch for while grooming” below).",
+  "Keep sessions short. Some older dogs can’t stand comfortably for long [2] .",
+  "Take frequent breaks. Stop to stroke your dog or let them rest [2] .",
+  "Split the work. Brush one day, check nails and ears another. Nothing has to happen in one go.",
+  "Let your dog move. Allow them to shift position or move around during the session [2] .",
+  "Watch for “that’s enough”. If your dog tries to leave or starts panting, they may be stressed or sore. Let them tell you when they’ve had enough [2] .",
+  "Reward along the way. Give small treats throughout the session [2] .",
+  "How often each task needs doing still depends on your dog’s coat. See adjusting the grooming schedule .",
+  "What you’ll need",
+  "Grip underfoot: a bath mat, rug or yoga mat for better footing [1] [2] .",
+  "Lifting help: for a larger dog, a fitted, padded harness can help you lift and support them [1] .",
+  "A soft brush. See choosing a brush .",
+  "Treats.",
+  "How to position an older dog:",
+  "Groom on a non-slip surface, with your dog standing or lying down, whichever is more comfortable [2] .",
+  "Consider grooming at floor level rather than lifting your dog onto a table. Veterinary guidance for older dogs suggests soft surfaces, or examining them off the table, for those with mobility problems [1] .",
+  "Let your dog change position. Lying down for a long time can put pressure on the hips or spine [2] .",
+  "Move legs and joints gently, and avoid stretching a leg further than your dog is comfortable with [1] .",
+  "Support the whole body when lifting. For a larger dog, a padded harness helps [1] .",
+  "Don’t hold your dog down. If they can’t be groomed without force, stop (see the callout).",
+  "If your dog cries out, flinches at one spot, or can’t get comfortable in any position, stop. Pain is a reason to see your vet, not to work around. If your dog is frightened rather than sore, see if your dog resists .",
+  "The bathing method doesn’t change. The setup does:",
+  "Grip in the bath: use a non-slip mat in the tub or shower, so your dog doesn’t slip [1] [2] .",
+  "Getting in and out: help your dog in and out rather than letting them jump. Support a larger dog’s body with a padded harness [1] .",
+  "If standing is hard, let your dog sit or lie on the non-slip mat while you wash them [2] .",
+  "Dry thoroughly, and keep your dog somewhere warm until they’re completely dry.",
+  "Between baths, a spot cleaner, waterless shampoo or pet wipe can deal with a single dirty patch without a full bath [5] .",
+  "If your dog can’t be bathed safely at home, a groomer or your vet’s practice may be able to help. The full method is in bathing technique .",
+  "Nails matter for footing. Long nails can reduce traction and affect how a dog stands and walks [4] , and good grip is especially important for a dog who’s already a little unsteady.",
+  "Check the nails as part of your routine. How often they need trimming depends on your dog. See adjusting the grooming schedule .",
+  "Trim the hair growing between the paw pads. Long hair there can make an older dog slip on hard floors [2] . See trimming at home .",
+  "Choose a comfortable position. If standing on three legs is hard, try lying your dog on their side on a non-slip mat.",
+  "Take your time. Do a few nails, rest, then do the rest.",
+  "How to find the quick and trim safely: see trimming nails .",
+  "Grooming is a good chance to look your dog over. As you work, check for mats, lumps, hot spots and anything stuck in the coat. Pay attention to between the toes, under the tail, behind the ears and in the mouth [2] .",
+  "Contact your vet if you notice:",
+  "A new lump or growth, or one that has changed. A vet can’t always tell a harmless lump from a serious one by sight, so have it checked rather than waiting to see [1] .",
+  "Sores, including pressure sores on the hips or elbows [2] .",
+  "Skin or coat changes you haven’t seen before, or hair that isn’t growing back.",
+  "Sensitivity in one spot, or a sudden change in how your dog tolerates being handled. A sudden change in an adult dog’s behavior can be an early sign of a health problem, including pain [3] , and owners can easily mistake pain for aging [1] .",
+  "Brushing near lumps: use a soft brush, because a slicker brush with metal pins can nick a wart or lump [2] .",
+  "If something looks wrong after a groom, see problems after grooming .",
+  "Older dogs, especially those with long coats, can benefit from professional grooming [2] .",
+  "Finding a groomer: look for a gentle groomer who is happy to work slowly. Veterinary guidance lists gentle groomers among the useful resources for owners of older pets [1] . See choosing a groomer .",
+  "Tell the groomer about:",
+  "stiffness or sore spots;",
+  "lumps;",
+  "any health conditions;",
+  "how long your dog can comfortably stand.",
+  "Ask whether they can work in shorter stints, with breaks.",
+  "Heavy matting: if brushing out the mats would be painful for your dog, it may be kinder to have a groomer clip the coat [2] . That’s a decision for the groomer. Don’t cut mats out at home (see dealing with mats ).",
+  "Health limits: if your dog has significant health or mobility problems, talk to your vet before booking.",
+  "Sedation: whether sedation for grooming is appropriate for your dog is a decision for your vet.",
+  "My old dog can't stand for a bath. What are my options?",
+  "You have several options:",
+  "Let your dog sit or lie down on a non-slip mat in the tub or shower [2] .",
+  "Support a larger dog with a padded harness when lifting them in and out [1] .",
+  "Spot-clean dirty patches with a pet spot cleaner or wipes between baths [5] .",
+  "Get help from a groomer or your vet’s practice if a full bath at home isn’t safe.",
+  "If your dog seems to be in pain, see your vet first.",
+  "Should I still brush a dog with thin skin?",
+  "Yes, gently. Brushing still helps keep the coat comfortable. Use a soft brush rather than one with stiff metal pins, which can be too harsh on thin skin and can nick warts or lumps [2] . Keep sessions short, and check the skin as you go.",
+  "My senior dog's coat isn't growing back after a clip. Should I worry?",
+  "Mention it to your vet. Coat that doesn’t regrow, or new thinning or bald patches, is worth having checked rather than guessing at the cause.",
+  "Where to go next",
+  "How to trim your dog’s nails",
+  "Nail technique, at your dog’s pace.",
+  "Bathing your dog",
+  "The full bathing method.",
+  "Grooming a dog who hates being groomed",
+  "If your older dog has become fearful.",
+  "Choosing a dog groomer",
+  "Finding a gentle groomer.",
+  "This is general information about grooming, not veterinary advice. If your dog seems sore, has a new lump, or has changed how they react to being handled, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] Dhaliwal R, et al.: “2023 AAHA Senior Care Guidelines for Dogs and Cats”, Journal of the American Animal Hospital Association (2023). https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/2023-aaha-senior-care-guidelines-for-dogs-and-cats/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats.pdf",
+  "[2] Terry Albert, Fear Free Happy Homes: “12 Tips To Caring For Your Senior Dog’s Coat” (reviewed by board-certified veterinary behaviorist Dr. Kenneth Martin and/or veterinary technician specialist Debbie Martin, LVT), February 6, 2018. https://www.fearfreehappyhomes.com/12-tips-to-caring-for-your-senior-dogs-coat/",
+  "[3] American Veterinary Society of Animal Behavior (AVSAB) blog: “Sudden change in your dog’s behavior? He could be in pain”, updated December 11, 2024. https://avsab.org/sudden-change-in-your-dogs-behavior-he-could-be-in-pain/",
+  "[4] Harriet Meyers, American Kennel Club: “How to Trim Your Dog’s Nails Safely”, updated June 1, 2026. https://www.akc.org/expert-advice/health/how-to-trim-dogs-nails-safely/",
+  "[5] Ann Hohenhaus, DVM, The Animal Medical Center: “Can Bath Time be Dangerous for Pets?”, November 30, 2016. https://www.amcny.org/blog/2016/11/30/can-bath-time-dangerous-pets/"
+ ]
+}

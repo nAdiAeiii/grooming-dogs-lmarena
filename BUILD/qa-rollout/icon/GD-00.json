@@ -1,0 +1,77 @@
+{
+ "title": "Grooming Dogs: Practical Dog Grooming Guides for Owners",
+ "description": "Plain-English dog grooming guidance for owners: the full routine, schedules by coat type, each task step by step, and when a groomer or vet should take over.",
+ "canonical": "https://grooming-dogs.com/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Grooming Dogs: Practical Dog Grooming Guides for Owners",
+ "breadcrumb": "",
+ "schema": [
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#webpage\", \"@type\": \"WebPage\", \"about\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:38+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Grooming Dogs: Practical Dog Grooming Guides for Owners\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"potentialAction\": {\"@type\": \"SearchAction\", \"query-input\": \"required name=search_term_string\", \"target\": \"https://grooming-dogs.com/?s={search_term_string}\"}, \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Practical dog grooming , explained for owners"
+  ],
+  [
+   "2",
+   "Start here"
+  ],
+  [
+   "2",
+   "Grooming for your dog's situation"
+  ],
+  [
+   "2",
+   "Grooming tasks"
+  ],
+  [
+   "2",
+   "Using a professional groomer"
+  ],
+  [
+   "2",
+   "How this guide works"
+  ]
+ ],
+ "copy": [
+  "Clear, step-by-step guides to grooming your dog at home: brushing, bathing, nails, ears, teeth and trims. They also help you know when a groomer or your vet should take over.",
+  "We’re a guide, not a grooming salon, and we don’t give veterinary advice. More about us",
+  "Start with the full routine",
+  "Find your dog’s coat type",
+  "Photo: Yaroslav Shuraev / Pexels",
+  "The full grooming routine",
+  "Everything a home groom involves, in the order to do it.",
+  "A grooming schedule for your dog’s coat",
+  "How often to brush, bathe, trim nails, clean ears and brush teeth.",
+  "Find your dog’s coat type",
+  "Your dog’s coat shapes almost every grooming decision. Start by working out which type it is.",
+  "Grooming a puppy",
+  "Get a young dog used to being handled and groomed.",
+  "Grooming an older dog",
+  "Adapt grooming for stiff joints, thin skin and shorter patience.",
+  "A dog who hates grooming",
+  "Help a fearful or resistant dog cope, step by step.",
+  "Something wrong after grooming?",
+  "Itching, redness, head shaking or a smell: what to check, and when to see your vet.",
+  "Bathing",
+  "Brushing",
+  "Haircuts and trimming",
+  "Nails",
+  "Ears",
+  "Teeth",
+  "Choosing a groomer",
+  "What to ask, what to look for, and what to do if something goes wrong.",
+  "What grooming costs",
+  "Example US prices, and what makes a quote higher or lower.",
+  "Sourced. Health and safety statements in our guides are checked against named sources, such as veterinary and animal-welfare organizations, and the sources are listed on each guide.",
+  "Your vet comes first. We help you recognize when something may be wrong and send you to your vet. We don’t diagnose or recommend treatments.",
+  "Corrections welcome. Spotted a mistake? Send a correction .",
+  "How our guides are written and funded",
+  "Tools : The tools you actually need , matched to your dog’s coat.",
+  "New to grooming words? See the grooming glossary ."
+ ]
+}

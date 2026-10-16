@@ -1,0 +1,179 @@
+{
+ "title": "Dog Haircuts at Home: What to Trim and What to Leave",
+ "description": "What you can realistically trim at home (paw pads, sanitary area, around the eyes), how clipper blades work, and the cut names to use with your groomer.",
+ "canonical": "https://grooming-dogs.com/dog-haircuts-and-trimming/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Dog Haircuts at Home: What to Trim and What to Leave",
+ "breadcrumb": "Home › Haircuts & trimming",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>It&#8217;s safer to use blunt-ended (round-tip) scissors <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>, especially around the face, feet and private parts. Whatever you use, be very careful <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Keep the tips pointing away from your dog&#8217;s skin and eyes.</p>\"}, \"name\": \"Can I use regular scissors on my dog?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Uneven results usually come from the blade angle changing as you work. The angle, together with the thickness and texture of the coat, changes how short the blade cuts <sup><a href=\\\"#s4\\\" aria-label=\\\"Source 4\\\">[4]</a></sup>. Clipping a damp, tangled or unbrushed coat makes it worse. For an even finish, start with a clean, dry, brushed coat <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>, keep the blade angle steady, and use the same guide comb across each area.</p>\"}, \"name\": \"Why does my dog look patchy after I clipped them?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>At home, keep it light. Trim sparingly <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>, keep blades away from the skin <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>, and don&#8217;t shave your dog <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. For thick, double-coated dogs, shaving can cause problems: see <a href=\\\"/dog-coat-types/#should-you-shave-a-double-coated-dog\\\">why not to shave a double coat</a>. Shorter styles and clip-downs are a job for a groomer.</p>\"}, \"name\": \"How short is too short?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/\", \"name\": \"Haircuts &amp; trimming\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"description\": \"What you can realistically trim at home (paw pads, sanitary area, around the eyes), how clipper blades work, and the cut names to use with your groomer.\", \"headline\": \"Dog Haircuts at Home: What to Trim and What to Leave\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145893-1024x684.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#webpage\"}, \"keywords\": \"how to cut a dog's hair at home\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#webpage\"}, \"name\": \"Dog Haircuts at Home: What to Trim and What to Leave\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Dog Haircuts at Home: What to Trim and What to Leave\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145893-1024x684.jpeg\"}, \"url\": \"https://grooming-dogs.com/dog-haircuts-and-trimming/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145893-1024x684.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145893-1024x684.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Trimming and haircuts at home: what's realistic"
+  ],
+  [
+   "2",
+   "What to trim at home, and what to leave"
+  ],
+  [
+   "2",
+   "Preparing the coat"
+  ],
+  [
+   "2",
+   "Trimming the paw pads"
+  ],
+  [
+   "2",
+   "The sanitary trim"
+  ],
+  [
+   "2",
+   "Trimming around the eyes and face"
+  ],
+  [
+   "2",
+   "Using clippers and blades"
+  ],
+  [
+   "3",
+   "Blade numbers and guard combs"
+  ],
+  [
+   "3",
+   "Clipper heat and skin safety"
+  ],
+  [
+   "3",
+   "Avoiding a patchy finish"
+  ],
+  [
+   "2",
+   "Cut styles and what to ask for"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Can I use regular scissors on my dog?"
+  ],
+  [
+   "3",
+   "Why does my dog look patchy after I clipped them?"
+  ],
+  [
+   "3",
+   "How short is too short?"
+  ]
+ ],
+ "copy": [
+  "Home › Haircuts & trimming",
+  "You want to tidy up your dog’s coat yourself, safely, and know which jobs to leave to a groomer.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "Thinking of shaving a thick, double-coated dog? Read why not to shave a double coat first. For buying scissors or clippers, see choosing clippers and scissors .",
+  "Full haircuts and styling are best left to a groomer. At home, stick to small, careful trims. Photo: Goochie Poochie Grooming / Pexels",
+  "Short answer:",
+  "Stick to small, careful trims: hair covering the eyes, long hair around the genitals, and hair between the paw pads [1] .",
+  "Prepare the coat: trim only once it’s clean, dry and brushed [1] [2] .",
+  "Use the right tools: blunt-ended (round-tip) scissors, or small clippers with guide combs [1] .",
+  "Keep blades away from the skin [1] , and check that clipper blades aren’t getting hot [4] .",
+  "Leave full haircuts and styling to a groomer.",
+  "Trimming at home should be done carefully, slowly and sparingly [1] . Light trims are fine. For home grooming, the ASPCA advises against shaving your pet [2] .",
+  "Usually fine at home",
+  "Best left to a groomer (or vet)",
+  "Hair covering the eyes [1]",
+  "Full haircuts and breed-style trims",
+  "Long hair around the genitals and under the tail [1]",
+  "Matted coats (see dealing with mats )",
+  "Hair between the paw pads [1]",
+  "Shaving a double coat (see why not to shave a double coat )",
+  "A light overall tidy, with blades well away from the skin [1]",
+  "A dog that won’t keep still for scissors or clippers (see getting your dog used to clippers )",
+  "Hair around the face and feet, trimmed dry and clean [2]",
+  "Anal glands: a job for your vet (see below)",
+  "Brush, bathe and dry your dog thoroughly before you trim [1] . Clean, dry fur is easier to trim evenly [2] , and a brushed-out coat shows you what actually needs cutting.",
+  "Brushing technique: see brushing out the coat .",
+  "Bathing and drying: see bathing before you trim .",
+  "Work in good light, on a non-slip surface, with your dog calm and treats within reach. Keep sessions short.",
+  "What you’ll need",
+  "Blunt-ended (round-tip) scissors [1]",
+  "Small clippers with guide combs, if you’ll use clippers [1]",
+  "A comb",
+  "Treats",
+  "Choosing scissors or clippers? See choosing clippers and scissors .",
+  "The goal is to trim hair between the paw pads when it’s needed [1] , not to reshape the foot.",
+  "Hold one paw gently and spread the toes slightly so you can see the hair between the pads.",
+  "Trim the hair that sticks out beyond the pads so it sits roughly level with them. Use blunt-ended scissors or small clippers [1] .",
+  "Don’t dig the scissor points or clipper blade down between the pads. The skin there is easy to nick.",
+  "Take small amounts at a time, then check the paw before moving on to the next.",
+  "A sanitary trim keeps long hair around the genitals and under the tail short, so it stays cleaner [1] .",
+  "Have someone help steady your dog if possible, standing or lying on their side.",
+  "Use small clippers with a guide comb or blunt-ended scissors [1] . The Humane World for Animals guide notes that a number 10 blade may work best in delicate areas [1] .",
+  "Keep the blade flat and away from the skin, and trim only the long hair, not down to the skin.",
+  "Go slowly and stop if your dog moves suddenly.",
+  "The skin in this area is delicate. If you see redness, swelling or broken skin, stop. See redness after clipping or contact your vet.",
+  "Anal glands are not a home grooming job. Don’t try to express your dog’s anal sacs unless a veterinarian has trained you to do it [3] . If your dog keeps scooting or licking under the tail, ask your vet.",
+  "Trimming hair that covers the eyes [1] is the most delicate home trim. Take it slowly.",
+  "Steady your dog’s head with your free hand under the chin, or have someone help.",
+  "Use blunt-ended (round-tip) scissors [1] . Hold them parallel to the face, with the tips pointing away from the eye.",
+  "Trim only the hair that falls into the eyes, a little at a time.",
+  "Around the ears, hold the ear with your free hand so you only trim the excess fur [2] . Be very careful with the scissors [2] .",
+  "If your dog’s eye looks red or sore, or your dog is squinting after a trim, contact your vet.",
+  "Clipper blades are sold by number, and guide (guard) combs clip onto the blade to set how long the hair is left [4] . As a starting point, the Humane World for Animals guide suggests [1] :",
+  "Blade",
+  "Suggested use [1]",
+  "Number 10",
+  "Delicate areas",
+  "Number 4",
+  "A light overall trim",
+  "The length a blade actually leaves isn’t fixed. It changes with the angle of the blade against the skin, and with the thickness and texture of the coat [4] . Check the blade or guide comb manufacturer’s information for the approximate length of each blade, and start longer than you think you need. You can always take more off.",
+  "Clipper blades can get hot during use. Check the blade often, especially close-cutting blades [4] . If it feels hot to your touch, stop and let it cool, or switch to a cool blade.",
+  "Never use a damaged or broken blade or comb. It can injure the skin [4] .",
+  "Keep the blade away from the skin for an overall trim [1] .",
+  "If your dog’s skin looks red or irritated after clipping, see redness after clipping .",
+  "Start with a clean, dry, brushed coat [1] [2] . Tangles and damp hair clip unevenly.",
+  "Keep the blade at a steady angle. Changing the angle changes the length of the cut [4] .",
+  "Use the same guide comb across an area, and make slow, overlapping passes in the direction the hair grows.",
+  "If you find mats, stop and deal with them first: see dealing with mats .",
+  "Groomers and owners use names like “puppy cut”, “teddy bear cut” or “kennel cut”. The names are handy shorthand, but the clearest way to get the result you want is to describe it :",
+  "Body: how long you want the hair left",
+  "Head and face: rounded, shorter, or left natural",
+  "Legs and feet: the same length as the body, or fuller",
+  "Ears and tail: trimmed, tidied or left long",
+  "A photo: bring one of a cut you like, and ask whether it suits your dog’s coat",
+  "Check what the groomer means by any cut name before they start.",
+  "More on briefing a groomer: see what to ask your groomer .",
+  "Grooming terms explained: see the grooming glossary .",
+  "Can I use regular scissors on my dog?",
+  "It’s safer to use blunt-ended (round-tip) scissors [1] , especially around the face, feet and private parts. Whatever you use, be very careful [2] . Keep the tips pointing away from your dog’s skin and eyes.",
+  "Why does my dog look patchy after I clipped them?",
+  "Uneven results usually come from the blade angle changing as you work. The angle, together with the thickness and texture of the coat, changes how short the blade cuts [4] . Clipping a damp, tangled or unbrushed coat makes it worse. For an even finish, start with a clean, dry, brushed coat [1] [2] , keep the blade angle steady, and use the same guide comb across each area.",
+  "How short is too short?",
+  "At home, keep it light. Trim sparingly [1] , keep blades away from the skin [1] , and don’t shave your dog [2] . For thick, double-coated dogs, shaving can cause problems: see why not to shave a double coat . Shorter styles and clip-downs are a job for a groomer.",
+  "Where to go next",
+  "How to brush your dog properly",
+  "Brush out the coat before you trim.",
+  "Bathing your dog",
+  "Trim a clean, dry coat for an even finish.",
+  "Choosing a dog groomer",
+  "For full haircuts and styles.",
+  "Grooming tools",
+  "Scissors and clippers for home trims.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog’s skin, eyes or rear end look sore or inflamed, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[2] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, April 9, 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations",
+  "[3] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[4] Andis Company: Model RACA clipper “Use and Care” instructions (Form #60222). https://image.chewy.com/is/content/catalog/69074_UseAndCareInstructions._V1503496534_.pdf"
+ ]
+}

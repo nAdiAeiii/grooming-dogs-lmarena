@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/*
+  Brand DNA preserved from the live site (evidence: grooming-dogs.com homepage CSS)
+  - Display font: Comfortaa (rounded, friendly)
+  - Body font: Proza Libre
+  - Primary dark: #0d3a4f (deep petrol)
+  - Accent: #fcb900 / #feb82a (warm amber), #ff6900 (tangerine)
+*/
+
+@theme {
+  --color-ink: #0d3a4f;
+  --color-ink-800: #124a63;
+  --color-ink-600: #2f6579;
+  --color-ink-300: #8fa9b5;
+  --color-mist: #f1f6f8;
+  --color-sand: #fff9e6;
+  --color-amber: #fcb900;
+  --color-amber-soft: #fff2c9;
+  --color-amber-dark: #a97a00;
+  --color-tangerine: #ff6900;
+
+  --font-head: "Comfortaa", ui-rounded, "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Proza Libre", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --radius-card: 1.5rem;
+  --radius-pill: 999px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+/* --- Inline rich-text rendering (source content is authored in plain strings) --- */
+.prose-dog {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #243b46;
+}
+.prose-dog p {
+  margin-block: 0.9rem;
+}
+.prose-dog strong {
+  color: var(--color-ink);
+  font-weight: 700;
+}
+.prose-dog a {
+  color: var(--color-ink-800);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--color-amber);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.prose-dog a:hover {
+  color: var(--color-tangerine);
+}
+
+/* Comfortaa is a rounded display face with tall ascenders — needs looser tracking */
+.head-font {
+  font-family: var(--font-head);
+  letter-spacing: -0.01em;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: white;
+  color: var(--color-ink);
+  padding: 0.6rem 1rem;
+  border-radius: 0.75rem;
+}
+
+/* Scroll-margin so in-page anchors land below the sticky header */
+[id] {
+  scroll-margin-top: 6.5rem;
+}
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}

@@ -1,0 +1,140 @@
+{
+ "title": "Editorial, Sourcing and Disclosure Policy, Grooming Dogs",
+ "description": "How Grooming Dogs guides are written and sourced, where our guidance stops and a vet takes over, and how affiliate links and advertising fund the site.",
+ "canonical": "https://grooming-dogs.com/editorial-policy/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Editorial, Sourcing and Disclosure Policy, Grooming Dogs",
+ "breadcrumb": "Home › Editorial policy",
+ "schema": [
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/editorial-policy/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/editorial-policy/\", \"name\": \"Editorial policy\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/editorial-policy/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/editorial-policy/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:43+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Editorial, Sourcing and Disclosure Policy, Grooming Dogs\", \"url\": \"https://grooming-dogs.com/editorial-policy/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Editorial, sourcing and disclosure policy"
+  ],
+  [
+   "2",
+   "How our guides are written"
+  ],
+  [
+   "2",
+   "How we use sources"
+  ],
+  [
+   "2",
+   "Health and safety: where our guidance stops"
+  ],
+  [
+   "2",
+   "Expert review"
+  ],
+  [
+   "2",
+   "How the site is funded: affiliate links and advertising"
+  ],
+  [
+   "3",
+   "Affiliate links"
+  ],
+  [
+   "3",
+   "Advertising"
+  ],
+  [
+   "3",
+   "Review pages"
+  ],
+  [
+   "2",
+   "Images"
+  ],
+  [
+   "2",
+   "Corrections and updates"
+  ],
+  [
+   "2",
+   "What we don't cover"
+  ]
+ ],
+ "copy": [
+  "Home › Editorial policy",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "This page explains how Grooming Dogs guides are written and sourced, where our guidance stops and your vet takes over, and how the site is paid for. If you came here from a link next to an affiliate link, the disclosure is the part you’re looking for.",
+  "How our guides are written",
+  "Health and safety: where our guidance stops",
+  "Expert review",
+  "How the site is funded: affiliate links and advertising",
+  "Images",
+  "Corrections and updates",
+  "What we don't cover",
+  "One task per guide. Each guide covers one task, such as bathing, brushing or trimming nails. Where another guide already covers something, we link to it rather than repeat it.",
+  "Short answer first. Most guides start with a short answer, then give the detail.",
+  "Bylines. Guides are published under the byline “Grooming Dogs” . A guide shows a person’s name only if a real person wrote, edited or reviewed it, and then with their real name and their actual role.",
+  "Separate roles. We keep four roles separate: the author , who wrote the page;",
+  "the editor , who checked it;",
+  "an expert reviewer , who reviewed that specific page;",
+  "the sources , the publications behind its facts.",
+  "A source isn’t a reviewer, and citing a veterinary organization doesn’t mean a vet reviewed the page.",
+  "Dates. Each guide shows the date it was last updated.",
+  "Health and safety statements get extra scrutiny. They’re checked against named sources: veterinary organizations, veterinary hospitals and schools, veterinary reference manuals, and established animal-welfare organizations. The sources are listed at the end of the guide.",
+  "Where sources disagree, we say so, or we give the more cautious advice.",
+  "If we can’t support a claim, we narrow it, qualify it or leave it out. We don’t present unsupported claims as facts.",
+  "Product and equipment facts, such as how a clipper blade behaves, may come from the manufacturer’s own instructions. Those are labelled as such.",
+  "Prices come from businesses’ own published price lists. Each price shows the date we checked it. They’re labelled as examples, not averages, unless we can show a sound basis for an average.",
+  "Not every sentence carries a citation. Practical tips and plain explanations are written by us. Factual health, safety and price claims are the ones we source.",
+  "Our guides are general information about grooming. They are not veterinary advice , and they can’t diagnose your dog.",
+  "What we do: help you recognize when something may be wrong, then refer you to your vet.",
+  "What we don’t do: diagnose conditions, or recommend treatments, medications, supplements or home remedies.",
+  "When to see your vet: whenever a guide mentions signs of pain, injury or illness, contact your vet. Get urgent help if your dog is badly hurt or unwell.",
+  "If something looks wrong after grooming, start with problems after grooming .",
+  "At the moment, our guides are not reviewed by a veterinarian or other outside expert.",
+  "If a qualified expert reviews a guide in future, that page will show their name, a credential you can check, and the date they reviewed it. The review applies only to that page. We don’t use labels like “vet-approved” or “expert-checked”.",
+  "Grooming Dogs is editorial first. We choose topics, and write our guides, around what dog owners need to know. Some pages may earn money through affiliate links or advertising, which helps pay for the site. Commercial content doesn’t decide what we cover, what our guides recommend, or the order things appear in. We don’t publish sponsored guides.",
+  "What they are: some pages may link to products at online retailers. If you buy through one of those links, Grooming Dogs may earn a commission.",
+  "Where they can appear: only in a page’s “What you’ll need” box, or in sections that help you choose a type of tool.",
+  "Where they never appear: in step-by-step instructions, safety warnings, or advice about when to see your vet.",
+  "Disclosure on the page: a page with affiliate links says so on that page, before the first affiliate link , in plain words, for example: “Some links in this box are affiliate links. If you buy through them, Grooming Dogs may earn a commission.”",
+  "No unsupported “best” claims: we don’t call a product “best” or rank products without explaining how we compared them.",
+  "Some guides may show advertisements:",
+  "Labelling: ads are labelled “Advertisement” .",
+  "Where ads never appear: above a guide’s short answer;",
+  "inside step-by-step instructions or tables;",
+  "inside safety warnings or advice about when to see your vet;",
+  "on this page, the About page, the contact page or the privacy policy.",
+  "No influence: advertisers don’t decide what our guides say.",
+  "If we publish product reviews, they’ll be separate pages:",
+  "Clearly labelled as reviews.",
+  "With a method: each will explain how the products were evaluated.",
+  "No invented testing: we won’t claim testing, ratings or reviewers that don’t exist.",
+  "Separate from guides: a review page never replaces the guide for a task. For example, how to brush a dog stays in our brushing guide.",
+  "Source: photos come from a free stock photo library and are used under its license, with the photographer credited.",
+  "Checking: we look at each image ourselves before using it, to check it shows what the caption or description says. Photos that don’t match, or that could mislead, aren’t used.",
+  "No AI-generated images, and no images of injuries or skin problems presented as a way to diagnose your dog.",
+  "No image rather than a wrong one: if we can’t find a suitable photo, the page goes up without one.",
+  "If you think something on Grooming Dogs is wrong, out of date, or missing a source, please send a correction . It helps to tell us:",
+  "which page;",
+  "what you think is wrong;",
+  "if you can, a source.",
+  "Each guide shows the date it was last updated.",
+  "Grooming Dogs is about grooming. We don’t cover:",
+  "Veterinary care: diagnosing or treating skin, ear or dental disease, or treating fleas, ticks or other parasites. We help you recognize when to see your vet.",
+  "Dog food and nutrition, including supplements.",
+  "Puppy training, such as house training or crate training. Our puppy guide covers grooming only.",
+  "Cat grooming.",
+  "Adoption, pet sitting or breeding.",
+  "Allergies to dog hair in people, beyond keeping shedding under control.",
+  "Local groomer listings or bookings. We don’t list, rank or book groomers, but we do explain how to choose one.",
+  "Where to go next",
+  "About Grooming Dogs",
+  "About the site.",
+  "Contact & corrections",
+  "Send a correction or a question.",
+  "Privacy policy",
+  "How the site handles your data."
+ ]
+}
