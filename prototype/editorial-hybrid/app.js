@@ -28,30 +28,61 @@
 
   /* ---------- masthead menu: the live menu, with each guide's first published line ---------- */
   var MENU = [
-    { label: 'Start here', items: [['GD-01', 'The full grooming routine'], ['GD-03', 'Dog coat types'], ['GD-02', 'Grooming schedule'], ['GD-17', 'Grooming glossary']] },
-    { label: 'Grooming tasks', items: [['GD-04', 'Bathing'], ['GD-07', 'Nail trimming'], ['GD-05', 'Brushing'], ['GD-08', 'Ear cleaning'], ['GD-06', 'Haircuts & trimming'], ['GD-09', 'Teeth brushing']] },
-    { label: 'Your dog', items: [['GD-11', 'Puppy grooming'], ['GD-13', 'Senior dogs'], ['GD-12', 'Anxious dogs'], ['GD-14', 'Problems after grooming']] },
-    { label: 'Tools & groomers', items: [['GD-10', 'Grooming tools'], ['GD-15', 'Choosing a groomer'], ['GD-16', 'Grooming cost']] }
+    { label: 'Start here', intro: 'New to grooming? Learn the full routine, then find out what your dog’s coat needs.',
+      items: [['GD-01', 'The full grooming routine', 'list'], ['GD-03', 'Dog coat types', 'dog'], ['GD-02', 'Grooming schedule', 'calendar-blank'], ['GD-17', 'Grooming glossary', 'book-open']],
+      feat: ['coat-double', 'GD-03', 'Find your dog’s coat type'] },
+    { label: 'Grooming tasks', intro: 'Step-by-step guides for each job, with the tools and the warning signs.',
+      items: [['GD-04', 'Bathing', 'bathtub'], ['GD-07', 'Nail trimming', 'paw-print'], ['GD-05', 'Brushing', 'sparkle'], ['GD-08', 'Ear cleaning', 'ear'], ['GD-06', 'Haircuts & trimming', 'scissors'], ['GD-09', 'Teeth brushing', 'tooth']],
+      feat: ['lead-bathing', 'GD-04', 'Bathing your dog, step by step'] },
+    { label: 'Your dog', intro: 'Puppies, older dogs and nervous dogs need a gentler routine.',
+      items: [['GD-11', 'Puppy grooming', 'baby'], ['GD-13', 'Senior dogs', 'clock'], ['GD-12', 'Anxious dogs', 'heart'], ['GD-14', 'Problems after grooming', 'warning']],
+      feat: ['lead-puppy', 'GD-11', 'Puppy grooming'] },
+    { label: 'Tools & groomers', intro: 'What to buy, and how to choose and pay a professional.',
+      items: [['GD-10', 'Grooming tools', 'towel'], ['GD-15', 'Choosing a groomer', 'shield-check'], ['GD-16', 'Grooming cost', 'storefront']],
+      feat: ['lead-groomer', 'GD-15', 'Choosing a dog groomer'] }
   ];
   $('#nav-list').innerHTML = MENU.map(function (m, i) {
-    if (m.pid) { return '<li class="nav-item"><a class="nav-link" href="' + href(m.pid) + '" target="_blank" rel="noopener">' + esc(m.label) + '</a></li>'; }
+    var f = m.feat, fp = (window.GD_PHOTOS || []).filter(function (x) { return x.key === f[0]; })[0] || {};
     return '<li class="nav-item"><button type="button" class="nav-btn" aria-expanded="false" aria-controls="np-' + i + '">' + esc(m.label) + icon('caret-down') + '</button>' +
-      '<div class="nav-panel" id="np-' + i + '" hidden>' + m.items.map(function (it) {
-        return '<a href="' + href(it[0]) + '" target="_blank" rel="noopener"><b>' + esc(it[1]) + '</b><span>' + esc(firstSentence(D.menuLine[it[0]] || BY[it[0]].meta)) + '</span></a>';
-      }).join('') + '<p class="nav-hint">Not in the list? Search all 22 guides <kbd>/</kbd></p></div></li>';
+      '<div class="nav-panel" id="np-' + i + '" hidden><div class="np-in">' +
+        '<div class="np-intro"><p class="np-h">' + esc(m.label) + '</p><p>' + esc(m.intro) + '</p><p class="nav-hint">Not in the list? Search all 22 guides <kbd>/</kbd></p></div>' +
+        '<div class="np-links">' + m.items.map(function (it) {
+          return '<a href="' + href(it[0]) + '" target="_blank" rel="noopener">' + icon(it[2]) + '<b>' + esc(it[1]) + '</b><span>' + esc(firstSentence(D.menuLine[it[0]] || BY[it[0]].meta)) + '</span></a>';
+        }).join('') + '</div>' +
+        '<a class="np-feat" href="' + href(f[1]) + '" target="_blank" rel="noopener"><img src="assets/img/' + f[0] + '.jpg" alt="" loading="lazy"><b>' + esc(f[2]) + '</b><span>Photo: ' + esc(fp.credit || '') + ' / Pexels</span></a>' +
+      '</div></div></li>';
   }).join('');
   var mast = $('#mast');
+  var ind = document.createElement('span'); ind.className = 'nav-ind'; ind.setAttribute('aria-hidden', 'true'); mast.appendChild(ind);
+  function moveInd(btn) {
+    if (!btn) { ind.classList.remove('on'); return; }
+    var r = btn.getBoundingClientRect(), n = mast.getBoundingClientRect();
+    ind.style.width = (r.width - 24) + 'px'; ind.style.transform = 'translateX(' + (r.left - n.left + 12) + 'px)'; ind.classList.add('on');
+  }
   function closeMenus(except) {
     $$('.nav-btn[aria-expanded="true"]').forEach(function (b) { if (b !== except) { b.setAttribute('aria-expanded', 'false'); $('#' + b.getAttribute('aria-controls')).hidden = true; } });
+    if (!except) { mast.classList.remove('menu-on'); moveInd(null); }
+  }
+  function openMenu(b) {
+    var p = $('#' + b.getAttribute('aria-controls')), was = mast.classList.contains('menu-on');
+    closeMenus(b); b.setAttribute('aria-expanded', 'true'); p.hidden = false; mast.classList.add('menu-on'); moveInd(b);
+    /* animate only the first open; switching between menus is instant */
+    p.classList.remove('enter'); if (!was && !reduced) { void p.offsetWidth; p.classList.add('enter'); }
   }
   $('#nav-list').addEventListener('click', function (e) {
     var b = e.target.closest('.nav-btn'); if (!b) { return; }
-    var open = b.getAttribute('aria-expanded') !== 'true'; closeMenus(b);
-    b.setAttribute('aria-expanded', String(open)); $('#' + b.getAttribute('aria-controls')).hidden = !open;
+    if (b.getAttribute('aria-expanded') === 'true') { closeMenus(null); } else { openMenu(b); }
   });
+  var fine = matchMedia('(hover: hover) and (pointer: fine) and (min-width: 961px)'), hoverT;
+  $('#nav-list').addEventListener('mouseover', function (e) {
+    var b = e.target.closest('.nav-btn'); if (!b || !fine.matches) { return; }
+    clearTimeout(hoverT); hoverT = setTimeout(function () { if (b.getAttribute('aria-expanded') !== 'true') { openMenu(b); } }, mast.classList.contains('menu-on') ? 0 : 90);
+  });
+  mast.addEventListener('mouseleave', function () { if (fine.matches) { clearTimeout(hoverT); hoverT = setTimeout(function () { closeMenus(null); }, 180); } });
+  mast.addEventListener('mouseenter', function () { clearTimeout(hoverT); });
   $('#nav-list').addEventListener('keydown', function (e) {
     var b = e.target.closest('.nav-btn');
-    if (b && e.key === 'ArrowDown') { e.preventDefault(); b.setAttribute('aria-expanded', 'true'); var p = $('#' + b.getAttribute('aria-controls')); p.hidden = false; $('a', p).focus(); }
+    if (b && e.key === 'ArrowDown') { e.preventDefault(); openMenu(b); $('a', $('#' + b.getAttribute('aria-controls'))).focus(); }
     var panel = e.target.closest('.nav-panel');
     if (panel && (e.key === 'ArrowDown' || e.key === 'ArrowUp')) {
       e.preventDefault(); var ls = $$('a', panel), i = ls.indexOf(document.activeElement);
