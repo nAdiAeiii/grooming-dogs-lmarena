@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grooming Dogs Hybrid V2</title>
+<meta name="description" content="Hybrid V2 concept for grooming-dogs.com: the guide as a publication, with a desk beside it for search, previews, comparisons and a symptom finder. Content from the published pages.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,400;10..100,500&family=Albert+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#ask-input">Skip to search</a>
+
+<header class="mast">
+  <a class="wordmark" href="#top" aria-label="Grooming Dogs, top of page">Grooming Dogs</a>
+  <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+  <nav class="menu" id="main-nav" aria-label="Main">
+    <ul id="menu"></ul>
+  </nav>
+  <button type="button" class="mast-search" id="mast-search" aria-controls="ask-input">Search <kbd>/</kbd></button>
+</header>
+
+<div class="stage" id="top">
+  <!-- The publication: scrolls, leads -->
+  <main class="pub" id="main">
+    <section class="opening" aria-labelledby="pub-title">
+      <h1 class="display" id="pub-title"><span class="ln">Practical dog grooming,</span> <span class="ln">explained for owners</span></h1>
+      <p class="standfirst" id="standfirst"></p>
+    </section>
+
+    <section class="chapters" id="chapters" aria-labelledby="chapters-title">
+      <h2 class="sr-only" id="chapters-title">The guide in five chapters</h2>
+      <div id="chapter-list"></div>
+    </section>
+
+    <section class="decide" id="decide" aria-labelledby="decide-title">
+      <h2 class="head" id="decide-title">Decide between</h2>
+      <p class="sec-lead">The comparisons the guides already make, side by side.</p>
+      <div class="tabs" role="tablist" aria-label="Comparisons" id="decide-tabs"></div>
+      <div class="tabpanel" role="tabpanel" id="decide-panel" tabindex="0"></div>
+    </section>
+
+    <section class="symptoms" id="symptoms" aria-labelledby="symptoms-title">
+      <h2 class="head" id="symptoms-title">Something looks wrong</h2>
+      <p class="sec-lead">Pick what you see after grooming. Each line comes from the published problems guide, including when it is a job for your vet.</p>
+      <div class="sym-grid">
+        <ul class="sym-list" id="sym-list" aria-label="What you see"></ul>
+        <div class="sym-detail" id="sym-detail" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="coat" id="coat" aria-labelledby="coat-title">
+      <h2 class="head" id="coat-title">Know the coat first</h2>
+      <p class="sec-lead">Coat changes two things: how often to brush and which tools to start with. Pick what you see and feel when you part the hair.</p>
+      <div class="coat-grid">
+        <ul class="coat-list" id="coat-list" aria-label="What you see and feel"></ul>
+        <div class="coat-result" id="coat-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="works" id="works" aria-labelledby="works-title">
+      <h2 class="head" id="works-title">How this guide works</h2>
+      <div class="works-grid" id="works-grid"></div>
+    </section>
+
+    <footer class="foot">
+      <p><a class="ext" href="https://grooming-dogs.com/about/">About</a> · <a class="ext" href="https://grooming-dogs.com/editorial-policy/">Editorial policy</a> · <a class="ext" href="https://grooming-dogs.com/contact/">Contact</a> · <a class="ext" href="https://grooming-dogs.com/privacy-policy/">Privacy policy</a> · <a class="ext" href="https://grooming-dogs.com/dog-grooming-glossary/">Glossary</a></p>
+      <p class="foot-note">Hybrid V2, a concept prototype. Text and links come from the published grooming-dogs.com pages; links open the live pages. <a href="wireframes.html">Wireframes and decisions</a></p>
+    </footer>
+  </main>
+
+  <!-- The desk: sticky, supports -->
+  <aside class="desk" id="desk" aria-label="The desk: search and preview">
+    <div class="card" id="card">
+      <form class="ask" id="ask" role="search" autocomplete="off">
+        <label for="ask-input">What do you want to do?</label>
+        <input id="ask-input" type="search" placeholder="e.g. my dog smells after a bath" enterkeyhint="search" aria-describedby="ask-hint">
+        <p class="ask-hint" id="ask-hint">Searches the 22 published guides, their sections and their answered questions.</p>
+      </form>
+      <div class="results" id="results" aria-live="polite"></div>
+      <div class="preview" id="preview" aria-live="polite"></div>
+    </div>
+  </aside>
+</div>
+
+<!-- Phone: the preview opens as a sheet -->
+<div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+  <div class="sheet-bar"><span class="sheet-grip" aria-hidden="true"></span><button type="button" class="sheet-close" id="sheet-close">Close</button></div>
+  <div class="sheet-body" id="sheet-body"></div>
+</div>
+
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

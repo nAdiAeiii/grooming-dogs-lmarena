@@ -1,0 +1,170 @@
+<title>The Practical Grooming Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+
+<meta name="description" content="Concept prototype: find a grooming answer for your dog's coat, compare tools and methods, and follow one guide to the next.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@700;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+
+<a class="skip" href="#main">Skip to the answer finder</a>
+
+<header class="mast" id="top">
+  <a class="wordmark" href="#desk" data-home>The Practical Grooming Desk</a>
+  <nav aria-label="Sections">
+    <ul class="mast-links">
+      <li><a href="#desk" data-home><span class="wide-txt">Find an </span>answer</a></li>
+      <li><a href="#board" data-home><span class="wide-txt">Compare </span>tools</a></li>
+      <li class="wide"><a href="#guides" data-home>Guides</a></li>
+      <li class="wide"><a href="#limits" data-home>Limits</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<div id="home">
+
+  <!-- 1. Find an answer -->
+  <section class="desk wrap" id="desk" aria-labelledby="desk-title">
+    <h1 class="display" id="desk-title">
+      <span class="d-line">What does a</span>
+      <span class="swatch" id="swatch" aria-hidden="true"></span>
+      <span class="sr-only" id="swatch-word">double</span>
+      <span class="d-line">coat need?</span>
+    </h1>
+
+    <div class="desk-grid">
+      <div class="pickers">
+        <fieldset class="pick">
+          <legend>Your dog’s coat</legend>
+          <div class="chips chips-coat" id="coat-chips"></div>
+          <p class="coat-hint" id="coat-hint" aria-live="polite"></p>
+        </fieldset>
+        <fieldset class="pick">
+          <legend>The job</legend>
+          <div class="chips chips-task" id="task-chips"></div>
+        </fieldset>
+
+      </div>
+
+      <article class="answer" id="answer" aria-live="polite" aria-labelledby="answer-title">
+        <h2 class="answer-title" id="answer-title">Brushing a double coat</h2>
+        <p class="answer-often"><span class="often-label">How often</span> <strong id="answer-often">2–3 times a week</strong></p>
+        <p class="answer-body" id="answer-body"></p>
+        <div class="answer-tools">
+          <p class="tools-label">You’ll need</p>
+          <ul class="tool-links" id="answer-tools"></ul>
+        </div>
+        <p class="answer-watch" id="answer-watch"></p>
+        <div class="answer-actions">
+          <a class="button" id="answer-guide" href="#g-brush-double-coat">Read the full guide</a>
+          <a class="link-plain" href="#board" data-home>Compare these tools</a>
+        </div>
+      </article>
+      <form class="ask" id="ask" role="search" autocomplete="off">
+          <label for="ask-input">Or ask the desk a question</label>
+          <div class="ask-row">
+            <input id="ask-input" type="search" placeholder="e.g. mats behind the ears" enterkeyhint="search">
+          </div>
+          <div class="ask-results" id="ask-results" aria-live="polite"></div>
+        </form>
+    </div>
+    <noscript><p class="noscript">This prototype needs JavaScript for the answer finder. The guides are listed further down this page.</p></noscript>
+  </section>
+
+  <!-- 2. The tool board -->
+  <section class="board-sec" id="board" aria-labelledby="board-title">
+    <div class="wrap board-grid">
+      <div class="board-intro">
+        <h2 class="head" id="board-title">The tool board</h2>
+        <p class="board-lead">Every tool hangs in its own outline. The ones lit in mint earn their place on a <strong id="board-coat-word">double</strong> coat; the grey ones do little for it.</p>
+        <fieldset class="pick pick-dark">
+          <legend>Show tools for</legend>
+          <div class="chips chips-dark" id="board-coat-chips"></div>
+        </fieldset>
+      </div>
+      <div class="board-wall">
+        <ul class="board" id="board-list" aria-label="Grooming tools"></ul>
+        <div class="tool-detail" id="tool-detail" aria-live="polite" tabindex="-1"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Two ways to do it -->
+  <section class="ways wrap" id="compare" aria-labelledby="ways-title">
+    <div class="ways-switch" role="group" aria-label="Choose a job to compare" id="ways-switch"></div>
+    <div class="ways-stage">
+      <h2 class="ways-words" id="ways-title" aria-live="polite"></h2>
+      <div class="ways-object" id="ways-object" aria-hidden="true"></div>
+    </div>
+    <div class="ways-facts">
+      <div class="table-scroll">
+        <table class="ways-table" id="ways-table"></table>
+      </div>
+      <p class="ways-note" id="ways-note"></p>
+    </div>
+  </section>
+
+  <!-- 4. Guides -->
+  <section class="guides wrap" id="guides" aria-labelledby="guides-title">
+    <h2 class="head guides-head" id="guides-title">Every guide leads somewhere</h2>
+    <div class="guides-grid">
+      <div class="guides-aside">
+        <p>Start with a question, read the guide, and each one ends with the next step that usually follows. No dead ends.</p>
+        <div class="guides-swatch" id="guides-swatch" aria-hidden="true"></div>
+      </div>
+      <div class="table-scroll">
+        <table class="route">
+          <caption class="sr-only">Guides and the next step each one leads to</caption>
+          <thead><tr><th scope="col">Guide</th><th scope="col">Time</th><th scope="col">Leads to</th></tr></thead>
+          <tbody id="route-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Limits -->
+  <section class="limits wrap" id="limits" aria-labelledby="limits-title">
+    <h2 class="sr-only" id="limits-title">What this desk covers</h2>
+    <ul class="limits-facts">
+      <li><strong>Sample content.</strong> Written for this prototype; not reviewed by a groomer or a vet.</li>
+      <li><strong>Not veterinary advice.</strong> Nothing here diagnoses or treats.</li>
+      <li><strong>Stop signs on every guide.</strong> Each one says when to stop.</li>
+    </ul>
+    <div class="limits-text">
+      <p class="statement"><span class="dropcap" id="limits-cap" aria-hidden="true"></span>This desk covers routine home grooming for healthy adult dogs: brushing, bathing, mats, nails, ears and teeth. It stops where a groomer or a vet starts.</p>
+      <p class="statement soft">Call your vet or a groomer for pain, a wound, a smelly ear, bleeding that will not stop, or a mat tight to the skin.</p>
+    </div>
+  </section>
+
+  <!-- 6. Questions -->
+  <section class="faq wrap" id="questions" aria-labelledby="faq-title">
+    <div class="faq-row faq-headrow"><h2 class="faq-q faq-title" id="faq-title">Common questions</h2></div>
+    <div id="faq-list"></div>
+  </section>
+</div>
+
+<!-- Guide view (rendered from data.js when the address is #g-…) -->
+<div id="guide" hidden></div>
+</main>
+
+<footer class="close" id="close">
+  <div class="wrap close-inner">
+    <div class="close-top">
+      <p>A concept prototype for grooming-dogs.com. All guide text is sample content; tools and coats are drawn in code.</p>
+      <a class="link-plain" href="#top" data-home>Back to top</a>
+    </div>
+    <a class="close-line" href="#desk" data-home>Start with the coat</a>
+    <div class="close-meta">
+      <p><a href="#desk" data-home>Find an answer</a> · <a href="#board" data-home>Tool board</a> · <a href="#guides" data-home>Guides</a></p>
+      <p>Type: Big Shoulders and Public Sans</p>
+      <p>Concept, October 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="art.js"></script>
+<script src="app.js"></script>

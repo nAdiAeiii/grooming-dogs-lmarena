@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grooming Dogs Hybrid V1</title>
+<meta name="description" content="Hybrid concept prototype for grooming-dogs.com: editorial guides with a practical answer finder, a tool plate and guide-to-guide reading paths.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,800;1,7..72,400&family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the answer</a>
+
+<header class="mast" id="top">
+  <a class="wordmark" href="#find">Grooming Dogs</a>
+  <nav aria-label="Sections">
+    <ul class="mast-links">
+      <li><a href="#find">Find</a></li>
+      <li><a href="#plate">Tools</a></li>
+      <li><a href="#ways">Compare</a></li>
+      <li class="wide"><a href="#reading">Guides</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<div id="home">
+
+  <!-- Masthead: the coat mosaic is the coat picker -->
+  <section class="find" id="find" aria-labelledby="find-title">
+    <div class="mosaic" id="mosaic" role="group" aria-label="Choose your dog's coat"></div>
+
+    <div class="sheet find-head">
+      <div class="axis-left">
+        <p class="standfirst">Practical dog grooming, explained for owners. Pick the coat above and the job below; the answer is written for that coat.</p>
+      </div>
+      <div class="axis-right">
+        <h1 class="title" id="find-title">What does a <span class="hl" id="title-coat">double</span> coat need?</h1>
+        <div class="tasks" role="group" aria-label="Choose the job" id="tasks"></div>
+      </div>
+    </div>
+
+    <article class="answer sheet" id="answer" aria-labelledby="answer-title" aria-live="polite">
+      <aside class="axis-left margin">
+        <div class="note note-often">
+          <p class="note-figure"><span class="often-lead">How often:</span> <span id="answer-often">2–3 times a week</span></p>
+        </div>
+        <div class="note">
+          <p class="note-label">You’ll need</p>
+          <ul class="tool-links" id="answer-tools"></ul>
+        </div>
+        <div class="note note-stop">
+          <p class="note-label">Stop and check</p>
+          <p id="answer-watch"></p>
+        </div>
+      </aside>
+      <div class="axis-right">
+        <h2 class="answer-title" id="answer-title">Brushing a double coat</h2>
+        <p class="answer-body" id="answer-body"></p>
+        <p class="answer-coat" id="answer-coat"></p>
+      </div>
+      <div class="axis-right answer-foot">
+        <div class="answer-actions">
+          <a class="cell cell-ink" id="answer-guide" href="#g-brush-double-coat">Read the guide</a>
+          <a class="cell cell-soft" href="#plate">Compare the tools</a>
+        </div>
+        <form class="ask" id="ask" role="search" autocomplete="off">
+          <label for="ask-input">Or ask a question in your own words</label>
+          <input id="ask-input" type="search" placeholder="e.g. knots behind the ears" enterkeyhint="search">
+          <div class="ask-results" id="ask-results" aria-live="polite"></div>
+        </form>
+      </div>
+    </article>
+    <noscript><p class="noscript">This prototype needs JavaScript for the answer finder. The guides are listed further down.</p></noscript>
+  </section>
+
+  <!-- The plate: tools as a printed specimen plate -->
+  <section class="plate-sec" id="plate" aria-labelledby="plate-title">
+    <div class="sheet plate-head">
+      <div class="axis-left"><p class="side">Each tool is drawn to its working shape. Dark ones earn their place on a <strong id="plate-coat">double</strong> coat; pale ones do little for it.</p></div>
+      <div class="axis-right"><h2 class="sec-title" id="plate-title">The grooming plate</h2></div>
+    </div>
+    <div class="plate-body">
+      <ul class="plate" id="plate-list" aria-label="Grooming tools"></ul>
+      <div class="entry" id="tool-entry" aria-live="polite" tabindex="-1"></div>
+    </div>
+  </section>
+
+  <!-- Two ways to do one job -->
+  <section class="ways" id="ways" aria-labelledby="ways-title">
+    <div class="ways-plate" id="ways-plate" aria-hidden="true"></div>
+    <div class="ways-text">
+      <div class="ways-tabs" role="group" aria-label="Choose a job to compare" id="ways-tabs"></div>
+      <h2 class="ways-title" id="ways-title"></h2>
+      <div class="table-scroll"><table class="ways-table" id="ways-table"></table></div>
+      <p class="ways-note" id="ways-note"></p>
+    </div>
+  </section>
+
+  <!-- Reading path -->
+  <section class="reading" id="reading" aria-labelledby="reading-title">
+    <h2 class="sec-title reading-title" id="reading-title">Read this, then that</h2>
+    <div class="reading-grid">
+      <div class="reading-aside">
+        <p>Every guide ends with the guide that usually comes next, so a question turns into a routine rather than a dead end.</p>
+        <div class="reading-swatch" id="reading-swatch" aria-hidden="true"></div>
+      </div>
+      <div class="table-scroll">
+        <table class="route">
+          <caption class="sr-only">Guides, how long each takes, and the guide it leads to</caption>
+          <thead><tr><th scope="col">Guide</th><th scope="col">Time</th><th scope="col">Then read</th></tr></thead>
+          <tbody id="route-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Limits: a full-bleed colour page -->
+  <section class="limits" id="limits" aria-labelledby="limits-title">
+    <div class="sheet">
+      <div class="axis-left"><h2 class="limits-title" id="limits-title">Where this guide stops</h2></div>
+      <div class="axis-right">
+        <p class="limits-statement">We cover routine home grooming for healthy adult dogs. Call your vet or a groomer for pain, a wound, a smelly ear, bleeding that will not stop, or a mat tight to the skin.</p>
+        <p class="limits-small">Everything on this page is sample content written for a concept prototype. It has not been reviewed by a groomer or a vet, and it is not veterinary advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions as reading text -->
+  <section class="faq" id="questions" aria-labelledby="faq-title">
+    <h2 class="faq-title" id="faq-title">Common questions</h2>
+    <div class="faq-text" id="faq-list"></div>
+  </section>
+</div>
+
+<div id="guide" hidden></div>
+</main>
+
+<footer class="close" id="close">
+  <div class="close-inner">
+    <div class="close-top">
+      <p><span class="close-mark">Grooming Dogs</span> Hybrid concept V1: editorial guides with a practical desk. Sample content; coats and tools are drawn in code.</p>
+      <a href="#top">Back to top</a>
+    </div>
+    <a class="close-line" href="#find">Start with the coat</a>
+    <div class="close-meta">
+      <p><a href="#find">Find an answer</a> · <a href="#plate">Tool plate</a> · <a href="#reading">Guides</a></p>
+      <p>Literata and Source Sans 3</p>
+      <p>Concept, October 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="art.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
