@@ -172,6 +172,7 @@
     input.focus({ preventScroll: true });
   }
   $('#mast-search').addEventListener('click', focusSearch);
+  $('#field-go').addEventListener('click', function () { clearTimeout(timer); if (!input.value.trim()) { input.focus(); return; } showResults(input.value); var b = $('.r-item', results); if (b) { b.focus(); } else { input.focus(); } });
   $$('[data-search]').forEach(function (b) { b.addEventListener('click', focusSearch); });
 
   /* ---------- sliding pill shared by the coat picker, the problem list and the groomer tabs ---------- */
@@ -365,7 +366,17 @@
   var STEPS = [
     { title: 'Do it yourself, or hand it over?', body: function () { var t = tableAt('GD-06', 'what-to-trim-at-home-and-what-to-leave'); return '<p class="lede">What owners can usually do at home, and what is best left to a groomer or vet.</p><div class="split">' + [0, 1].map(function (c) { return '<div><h4>' + esc(t.head[c]) + '</h4><ul class="dots">' + t.rows.map(function (r) { return '<li>' + esc(r[c]) + '</li>'; }).join('') + '</ul></div>'; }).join('') + '</div><p class="cmp-src">From ' + ext('GD-06', 'what-to-trim-at-home-and-what-to-leave', 'Trimming and haircuts at home') + '. See also ' + ext('GD-16', 'home-grooming-vs-professional-grooming', 'home or professional, compared') + '.</p>'; } },
     { title: 'Where to take your dog', body: function () { return '<div class="table-scroll">' + tableHTML(tableAt('GD-15', 'salon-mobile-self-wash-or-home-visit')) + '</div><p class="cmp-src">From ' + ext('GD-15', 'salon-mobile-self-wash-or-home-visit', 'Choosing a dog groomer') + '.</p>'; } },
-    { title: 'What it costs', body: function () { return '<p class="lede">US prices, checked October 5, 2026.</p><ul class="dots">' + cost.short.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul><p class="cmp-src">From ' + ext('GD-16', 'typical-grooming-prices', 'What dog grooming costs') + '. ' + ext('GD-16', 'ways-to-reduce-the-cost-safely', 'Ways to reduce the cost safely') + '.</p>'; } },
+    { title: 'What it costs', body: function () {
+        var sh = cost.short; /* GD-16 short answer: salon, mobile, self-wash, what changes the price, caveat */
+        var cards = [
+          { name: 'Salon full groom', range: '$55–$200', note: 'Small to extra-large dog, before tax, in the salons we checked.', extra: 'A national chain advertises a bath and haircut from $38. That’s a starting price, not a typical bill.' },
+          { name: 'Mobile groomer', range: '$90–$300+', note: 'Full grooms listed by the mobile groomers we checked.' },
+          { name: 'Self-service wash', range: '$15–$20', note: 'A session, using the business’s tub and equipment.' }
+        ];
+        return '<p class="lede">US prices, checked October 5, 2026.</p><div class="price-cards">' + cards.map(function (c) {
+          return '<div class="price"><p class="price-name">' + esc(c.name) + '</p><p class="price-range">' + esc(c.range) + '</p><p class="price-note">' + esc(c.note) + '</p>' + (c.extra ? '<p class="price-extra">' + esc(c.extra) + '</p>' : '') + '</div>';
+        }).join('') + '</div><p><b>What changes the price:</b> ' + esc(sh[3].replace(/^What changes the price:\s*/, '')) + '</p><p class="price-caveat">' + esc(sh[4]) + '</p>' +
+        '<p class="cmp-src">From ' + ext('GD-16', 'typical-grooming-prices', 'What dog grooming costs') + ', where every price links to its source. ' + ext('GD-16', 'ways-to-reduce-the-cost-safely', 'Ways to reduce the cost safely') + '.</p>'; } },
     { title: 'How to choose the groomer', body: function () { return '<ol class="nums">' + choose.short.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ol><p class="cmp-src">From ' + ext('GD-15', 'how-to-choose-a-groomer', 'How to choose a groomer') + '. ' + ext('GD-15', 'warning-signs', 'Warning signs') + '.</p>'; } }
   ];
   $('#pro-steps').insertAdjacentHTML('beforeend', STEPS.map(function (st, i) {
