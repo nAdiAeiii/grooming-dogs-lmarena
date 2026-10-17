@@ -97,6 +97,12 @@
       "skillPath": "skills/soft-skill/SKILL.md",
       "computedHash": "7db385e4c5370e5a7fca9704a1361b056e4504ea6a03924bb86f33a4f00b5c73"
     },
+    "ian-xiaohei-illustrations": {
+      "source": "helloianneo/ian-xiaohei-illustrations",
+      "sourceType": "github",
+      "skillPath": "ian-xiaohei-illustrations/SKILL.md",
+      "computedHash": "0345947cf4ffbbaa3190d7d676e0a35821daae349be036555050a51eb71f5b55"
+    },
     "image-to-code": {
       "source": "Leonxlnx/taste-skill",
       "sourceType": "github",
