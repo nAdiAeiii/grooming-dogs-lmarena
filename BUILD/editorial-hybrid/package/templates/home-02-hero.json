@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Hero and search",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00003",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-hero"
+   },
+   "elements": [
+    {
+     "id": "gd00004",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<section class=\"ask hero\" aria-labelledby=\"h-title\">\n    <div class=\"hero-bg\" aria-hidden=\"true\"><img src=\"{{IMG:lead-brushing-home}}\" width=\"1400\" height=\"934\" alt=\"\" fetchpriority=\"high\"></div>\n    <div class=\"wrap hero-in\">\n      <h1 id=\"h-title\" class=\"rise\">Practical <span class=\"hl\" id=\"hl\">dog grooming</span>, explained for owners</h1>\n      <p class=\"lede rise\">Clear, step-by-step guides to grooming your dog at home: brushing, bathing, nails, ears, teeth and trims. They also help you know when a groomer or your vet should take over.</p>\n      <div class=\"search rise\" id=\"search\">\n        <label for=\"ask-input\" class=\"sr-only\">Search the guides</label>\n        <div class=\"field\">\n          <svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-magnifying-glass\"/></svg>\n          <input id=\"ask-input\" type=\"search\" autocomplete=\"off\" spellcheck=\"false\" enterkeyhint=\"search\"\n            role=\"combobox\" aria-expanded=\"false\" aria-controls=\"results\" aria-autocomplete=\"list\" aria-describedby=\"ask-hint\">\n          <span class=\"loop\" id=\"loop\" aria-hidden=\"true\"></span>\n          <button type=\"button\" class=\"field-go\" id=\"field-go\">Search</button>\n        </div>\n        <p class=\"sr-only\" id=\"ask-hint\">Searches the 22 published guides, their sections and their answered questions.</p>\n        <div class=\"results\" id=\"results\" role=\"listbox\" aria-label=\"Search results\" hidden></div>\n      </div>\n      <ul class=\"qs rise\" id=\"qs\" aria-label=\"Questions owners ask\"></ul>\n      <div class=\"actions rise\">\n        <a class=\"btn\" href=\"/how-to-groom-your-dog-at-home/\">Start with the full routine</a>\n        <p class=\"salon\">We’re a guide, not a grooming salon, and we don’t give veterinary advice. <a href=\"/about/\">More about us</a></p>\n      </div>\n    </div>\n    <p class=\"hero-credit\">Photo: Yaroslav Shuraev / Pexels</p>\n  </section>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

@@ -1,0 +1,9 @@
+/* Front page: Elementor containers hold one HTML widget each; make them invisible to the layout. */
+body.gd-front .gd-sec.e-con { --padding-top: 0px; --padding-right: 0px; --padding-bottom: 0px; --padding-left: 0px; --gap: 0px; --width: 100%; padding: 0; }
+body.gd-front .gd-sec > .elementor-element { width: 100%; }
+body.gd-front .gd-sec .elementor-widget-container { padding: 0; margin: 0; }
+/* The chapter bar sits in its own container here, so it is fixed under the header instead of sticky. */
+body.gd-front .gd-sec-chapters { position: relative; z-index: 45; height: 0; }
+body.gd-front .chapter-bar { position: fixed; left: 0; right: 0; margin-bottom: 0; }
+.admin-bar.gd-front .chapter-bar { top: calc(var(--mast-h) + 32px); }
+@media (max-width: 782px) { .admin-bar.gd-front .chapter-bar { top: var(--mast-h); } }

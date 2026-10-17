@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Tool dialog and reading slip",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00011",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-overlays"
+   },
+   "elements": [
+    {
+     "id": "gd00012",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<div class=\"tool-scrim\" id=\"tool-scrim\" hidden></div>\n<div class=\"tool-dialog\" id=\"tool-dialog\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"td-title\" hidden>\n  <button type=\"button\" class=\"td-close\" id=\"td-close\"><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-x\"/></svg><span class=\"sr-only\">Close</span></button>\n  <div class=\"td-body\" id=\"td-body\"></div>\n</div>\n\n<!-- reading slip: right sheet on desktop, bottom drawer on phones -->\n<div class=\"scrim\" id=\"scrim\" hidden></div>\n<aside class=\"slip\" id=\"slip\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"slip-title\" hidden>\n  <div class=\"slip-bar\"><span class=\"grip\" aria-hidden=\"true\"></span><button type=\"button\" class=\"slip-close\" id=\"slip-close\"><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-x\"/></svg><span>Close</span></button></div>\n  <div class=\"slip-body\" id=\"slip-body\"></div>\n</aside>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

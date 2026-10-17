@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Groomers chapter",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd0000d",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-groomers"
+   },
+   "elements": [
+    {
+     "id": "gd0000e",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<section class=\"ch ch-heather\" id=\"groomers\" data-ch=\"groomers\" aria-labelledby=\"h-pro\">\n    <span class=\"anchor\" id=\"using-a-professional-groomer\" aria-hidden=\"true\"></span>\n    <div class=\"wrap\">\n      <div class=\"ch-head\"><h2 id=\"h-pro\">When a groomer takes over</h2></div>\n      <p class=\"lede pro-lede\">Four questions, in the order owners usually face them.</p>\n      <div class=\"pro\">\n        <div class=\"pro-side\">\n          <figure class=\"pro-photo\"><img src=\"{{IMG:lead-groomer}}\" width=\"800\" height=\"534\" loading=\"lazy\" alt=\"\"><figcaption id=\"pro-credit\"></figcaption></figure>\n          <div class=\"steps\" id=\"pro-steps\" role=\"tablist\" aria-orientation=\"vertical\" aria-label=\"Using a groomer\"><span class=\"pill\" aria-hidden=\"true\"></span></div>\n        </div>\n        <div class=\"pro-main\" id=\"pro-panel\" role=\"tabpanel\" tabindex=\"0\"></div>\n      </div>\n    </div>\n  </section>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

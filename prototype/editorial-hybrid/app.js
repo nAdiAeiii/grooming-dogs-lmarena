@@ -4,16 +4,19 @@
   'use strict';
   var PAGES = window.GD_PAGES, D = window.GD_DATA;
   var BY = {}; PAGES.forEach(function (p) { BY[p.pid] = p; });
-  var SITE = 'https://grooming-dogs.com';
+  /* On the live site (window.GD_LIVE) links are same-site and open in place; the prototype opens grooming-dogs.com in a new tab. */
+  var LIVE = !!window.GD_LIVE, SITE = LIVE ? '' : 'https://grooming-dogs.com', TGT = LIVE ? '' : ' target="_blank" rel="noopener"';
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var cap = function (s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; };
   var href = function (pid, sec) { return SITE + BY[pid].url + (sec ? '#' + sec : ''); };
-  var ext = function (pid, sec, text, cls) { return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + href(pid, sec) + '" target="_blank" rel="noopener">' + esc(text) + '</a>'; };
+  var ext = function (pid, sec, text, cls) { return '<a' + (cls ? ' class="' + cls + '"' : '') + ' href="' + href(pid, sec) + '"' + TGT + '>' + esc(text) + '</a>'; };
   var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
   var phone = function () { return innerWidth <= 760; };
+  /* On the live site the image URLs come from the media library (window.GD_IMG, keyed like assets/photos.json). */
+  var img = function (k) { return (window.GD_IMG && window.GD_IMG[k]) || 'assets/img/' + k + '.jpg'; };
   var icon = function (id) { return '<svg class="ic" aria-hidden="true"><use href="#ph-' + id + '"/></svg>'; };
   var tool = function (id, cls) { return '<svg' + (cls ? ' class="' + cls + '"' : '') + ' viewBox="0 0 240 120" aria-hidden="true"><use href="#t-' + id + '"/></svg>'; };
   var firstSentence = function (s) { var m = String(s).match(/^.*?[.!?](\s|$)/); return (m ? m[0] : s).trim(); };
@@ -41,58 +44,19 @@
       items: [['GD-10', 'Grooming tools', 'towel'], ['GD-15', 'Choosing a groomer', 'shield-check'], ['GD-16', 'Grooming cost', 'storefront']],
       feat: ['lead-groomer', 'GD-15', 'Choosing a dog groomer'] }
   ];
-  $('#nav-list').innerHTML = MENU.map(function (m, i) {
+  if (!$('#nav-list').children.length) $('#nav-list').innerHTML = MENU.map(function (m, i) {
     var f = m.feat, fp = (window.GD_PHOTOS || []).filter(function (x) { return x.key === f[0]; })[0] || {};
     return '<li class="nav-item"><button type="button" class="nav-btn" aria-expanded="false" aria-controls="np-' + i + '">' + esc(m.label) + icon('caret-down') + '</button>' +
       '<div class="nav-panel" id="np-' + i + '" hidden><div class="np-in">' +
         '<div class="np-intro"><p class="np-h">' + esc(m.label) + '</p><p>' + esc(m.intro) + '</p><p class="nav-hint">Not in the list? Search all 22 guides <kbd>/</kbd></p></div>' +
         '<div class="np-links">' + m.items.map(function (it) {
-          return '<a href="' + href(it[0]) + '" target="_blank" rel="noopener">' + icon(it[2]) + '<b>' + esc(it[1]) + '</b><span>' + esc(firstSentence(D.menuLine[it[0]] || BY[it[0]].meta)) + '</span></a>';
+          return '<a href="' + href(it[0]) + '"' + TGT + '>' + icon(it[2]) + '<b>' + esc(it[1]) + '</b><span>' + esc(firstSentence(D.menuLine[it[0]] || BY[it[0]].meta)) + '</span></a>';
         }).join('') + '</div>' +
-        '<a class="np-feat" href="' + href(f[1]) + '" target="_blank" rel="noopener"><img src="assets/img/' + f[0] + '.jpg" alt="" loading="lazy"><b>' + esc(f[2]) + '</b><span>Photo: ' + esc(fp.credit || '') + ' / Pexels</span></a>' +
+        '<a class="np-feat" href="' + href(f[1]) + '"' + TGT + '><img src="' + img(f[0]) + '" alt="" loading="lazy"><b>' + esc(f[2]) + '</b><span>Photo: ' + esc(fp.credit || '') + ' / Pexels</span></a>' +
       '</div></div></li>';
   }).join('');
-  var mast = $('#mast');
-  var ind = document.createElement('span'); ind.className = 'nav-ind'; ind.setAttribute('aria-hidden', 'true'); mast.appendChild(ind);
-  function moveInd(btn) {
-    if (!btn) { ind.classList.remove('on'); return; }
-    var r = btn.getBoundingClientRect(), n = mast.getBoundingClientRect();
-    ind.style.width = (r.width - 24) + 'px'; ind.style.transform = 'translateX(' + (r.left - n.left + 12) + 'px)'; ind.classList.add('on');
-  }
-  function closeMenus(except) {
-    $$('.nav-btn[aria-expanded="true"]').forEach(function (b) { if (b !== except) { b.setAttribute('aria-expanded', 'false'); $('#' + b.getAttribute('aria-controls')).hidden = true; } });
-    if (!except) { mast.classList.remove('menu-on'); moveInd(null); }
-  }
-  function openMenu(b) {
-    var p = $('#' + b.getAttribute('aria-controls')), was = mast.classList.contains('menu-on');
-    closeMenus(b); b.setAttribute('aria-expanded', 'true'); p.hidden = false; mast.classList.add('menu-on'); moveInd(b);
-    /* animate only the first open; switching between menus is instant */
-    p.classList.remove('enter'); if (!was && !reduced) { void p.offsetWidth; p.classList.add('enter'); }
-  }
-  $('#nav-list').addEventListener('click', function (e) {
-    var b = e.target.closest('.nav-btn'); if (!b) { return; }
-    if (b.getAttribute('aria-expanded') === 'true') { closeMenus(null); } else { openMenu(b); }
-  });
-  var fine = matchMedia('(hover: hover) and (pointer: fine) and (min-width: 961px)'), hoverT;
-  $('#nav-list').addEventListener('mouseover', function (e) {
-    var b = e.target.closest('.nav-btn'); if (!b || !fine.matches) { return; }
-    clearTimeout(hoverT); hoverT = setTimeout(function () { if (b.getAttribute('aria-expanded') !== 'true') { openMenu(b); } }, mast.classList.contains('menu-on') ? 0 : 90);
-  });
-  mast.addEventListener('mouseleave', function () { if (fine.matches) { clearTimeout(hoverT); hoverT = setTimeout(function () { closeMenus(null); }, 180); } });
-  mast.addEventListener('mouseenter', function () { clearTimeout(hoverT); });
-  $('#nav-list').addEventListener('keydown', function (e) {
-    var b = e.target.closest('.nav-btn');
-    if (b && e.key === 'ArrowDown') { e.preventDefault(); openMenu(b); $('a', $('#' + b.getAttribute('aria-controls'))).focus(); }
-    var panel = e.target.closest('.nav-panel');
-    if (panel && (e.key === 'ArrowDown' || e.key === 'ArrowUp')) {
-      e.preventDefault(); var ls = $$('a', panel), i = ls.indexOf(document.activeElement);
-      ls[(i + (e.key === 'ArrowDown' ? 1 : ls.length - 1)) % ls.length].focus();
-    }
-  });
-  $('#mast-menu').addEventListener('click', function () { var o = !mast.classList.contains('nav-open'); mast.classList.toggle('nav-open', o); this.setAttribute('aria-expanded', String(o)); });
+  var shell = function () { if (window.GDShell) { window.GDShell.close(); } };
   document.addEventListener('click', function (e) {
-    if (!e.target.closest('.nav-item')) { closeMenus(null); }
-    if (!e.target.closest('.mast')) { mast.classList.remove('nav-open'); $('#mast-menu').setAttribute('aria-expanded', 'false'); }
     if (!e.target.closest('#search')) { hideResults(); }
   });
 
@@ -205,14 +169,19 @@
     else if (e.key === 'Escape') { if (!results.hidden) { e.stopPropagation(); hideResults(); } else { input.value = ''; searchBox.classList.remove('has-text'); } }
   });
   function focusSearch() {
-    closeMenus(null); mast.classList.remove('nav-open');
+    shell();
     var top = searchBox.getBoundingClientRect().top + scrollY - 140;
     if (Math.abs(scrollY - top) > 40) { scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' }); }
     input.focus({ preventScroll: true });
   }
-  $('#mast-search').addEventListener('click', focusSearch);
+  $('#mast-search').addEventListener('click', function (e) { e.preventDefault(); focusSearch(); });
   $('#field-go').addEventListener('click', function () { clearTimeout(timer); if (!input.value.trim()) { input.focus(); return; } showResults(input.value); var b = $('.r-item', results); if (b) { b.focus(); } else { input.focus(); } });
-  $$('[data-search]').forEach(function (b) { b.addEventListener('click', focusSearch); });
+  $$('[data-search]').forEach(function (b) { b.addEventListener('click', function (e) { e.preventDefault(); focusSearch(); }); });
+  /* Search buttons on other pages land here as /#search. Wait for load: the browser's own fragment handling at load time moves focus. */
+  if (location.hash === '#search') {
+    var goSearch = function () { setTimeout(focusSearch, 0); };
+    if (document.readyState === 'complete') { goSearch(); } else { addEventListener('load', goSearch); }
+  }
 
   /* ---------- sliding pill shared by the coat picker, the problem list and the groomer tabs ---------- */
   function placePill(container, btn, instant) {
@@ -237,7 +206,7 @@
     var extra = c.id === 'double' ? '<p>Don’t shave a double coat. ' + ext('GD-03', 'should-you-shave-a-double-coated-dog', 'Why not') + '</p>' : '';
     $('#sheet').innerHTML =
       '<div class="sheet-main">' +
-        '<figure class="sheet-photo"><img src="assets/img/' + c.photo + '.jpg" width="800" height="534" loading="lazy" alt="' + esc(ph.alt || '') + '"><figcaption>Photo: ' + esc(ph.credit || '') + ' / Pexels</figcaption></figure>' +
+        '<figure class="sheet-photo"><img src="' + img(c.photo) + '" width="800" height="534" loading="lazy" alt="' + esc(ph.alt || '') + '"><figcaption>Photo: ' + esc(ph.credit || '') + ' / Pexels</figcaption></figure>' +
         '<div class="sheet-body">' +
           '<h3>' + (/coat$/i.test(c.name) ? esc(c.name) : 'A ' + esc(c.name.toLowerCase()) + ' coat') + '</h3>' +
           '<div class="srow"><span class="sn">1</span><div><p class="sk"><span class="sr-only">Step 1: </span>' + ext('GD-03', null, 'Find your dog’s coat type') + '</p><p>' + esc(cap(c.looks)) + '</p><p style="color:var(--muted);font-size:var(--t-small);margin-top:4px">' + esc(c.breeds) + '</p></div></div>' +
@@ -273,7 +242,7 @@
   var ROW_ICON = { brushes: 'sparkle', combs: 'drop', nails: 'paw-print', bathing: 'bathtub', earsteeth: 'tooth', trims: 'scissors' };
   $('#plate-rows').innerHTML = ROWS.map(function (r) {
     var ts = D.tools.filter(function (t) { return t.task === r[0]; });
-    var links = r[2].map(function (pid) { return '<a class="task-link" href="' + href(pid) + '" target="_blank" rel="noopener">' + esc(BY[pid].crumb) + ' guide</a>'; }).join('');
+    var links = r[2].map(function (pid) { return '<a class="task-link" href="' + href(pid) + '"' + TGT + '>' + esc(BY[pid].crumb) + ' guide</a>'; }).join('');
     return '<div class="prow" data-row="' + r[0] + '"><div class="prow-head"><p class="task">' + icon(ROW_ICON[r[0]]) + esc(r[1]) + '</p>' + links +
       (r[0] === 'nails' ? '<button type="button" class="cmp-link" data-cmp-nails>Clippers or grinder?</button>' : '') + '</div>' +
       '<div class="tools">' + ts.map(function (t) {
@@ -439,11 +408,11 @@
   $('.pro-photo img').alt = gp.alt || '';
 
   /* ---------- footer: the live footer's links ---------- */
-  var fl = function (list) { return list.map(function (x) { return '<li><a href="' + href(x[0]) + '" target="_blank" rel="noopener">' + esc(x[1]) + '</a></li>'; }).join(''); };
-  $('#foot-guides').innerHTML = fl([['GD-01', 'Full routine'], ['GD-03', 'Coat types'], ['GD-02', 'Schedule'], ['GD-05', 'Brushing'], ['GD-04', 'Bathing'], ['GD-07', 'Nails'], ['GD-08', 'Ears'], ['GD-09', 'Teeth'], ['GD-06', 'Haircuts & trimming']]);
-  $('#foot-dog').innerHTML = fl([['GD-11', 'Puppy grooming'], ['GD-13', 'Senior dogs'], ['GD-12', 'Anxious dogs']]);
-  $('#foot-help').innerHTML = fl([['GD-14', 'Problems'], ['GD-10', 'Tools'], ['GD-15', 'Choosing a groomer'], ['GD-16', 'Grooming cost'], ['GD-17', 'Glossary']]);
-  $('#foot-about').innerHTML = fl([['GD-18', 'About'], ['GD-19', 'Editorial & sourcing policy'], ['GD-20', 'Contact & corrections'], ['GD-21', 'Privacy policy']]);
+  var fl = function (list) { return list.map(function (x) { return '<li><a href="' + href(x[0]) + '"' + TGT + '>' + esc(x[1]) + '</a></li>'; }).join(''); };
+  if (!$('#foot-guides').children.length) $('#foot-guides').innerHTML = fl([['GD-01', 'Full routine'], ['GD-03', 'Coat types'], ['GD-02', 'Schedule'], ['GD-05', 'Brushing'], ['GD-04', 'Bathing'], ['GD-07', 'Nails'], ['GD-08', 'Ears'], ['GD-09', 'Teeth'], ['GD-06', 'Haircuts & trimming']]);
+  if (!$('#foot-dog').children.length) $('#foot-dog').innerHTML = fl([['GD-11', 'Puppy grooming'], ['GD-13', 'Senior dogs'], ['GD-12', 'Anxious dogs']]);
+  if (!$('#foot-help').children.length) $('#foot-help').innerHTML = fl([['GD-14', 'Problems'], ['GD-10', 'Tools'], ['GD-15', 'Choosing a groomer'], ['GD-16', 'Grooming cost'], ['GD-17', 'Glossary']]);
+  if (!$('#foot-about').children.length) $('#foot-about').innerHTML = fl([['GD-18', 'About'], ['GD-19', 'Editorial & sourcing policy'], ['GD-20', 'Contact & corrections'], ['GD-21', 'Privacy policy']]);
 
   /* ---------- reading slip: right sheet on desktop, bottom drawer on phones ---------- */
   var slip = $('#slip'), scrim = $('#scrim'), lastFocus = null;
@@ -455,9 +424,9 @@
     return '<p class="slip-chapter" style="--c:' + g.c + '">' + esc(g.name) + '</p><h2 id="slip-title">' + esc(p.h1) + '</h2>' +
       (f ? '<div class="slip-faq"><b>' + esc(f.q) + '</b><p>' + esc(f.a) + '</p></div>' : '') +
       '<div><h3>' + (p.short ? 'The short answer, as published' : 'What this page covers') + '</h3>' + short + '</div>' +
-      '<div><h3>In this guide</h3><div class="slip-secs">' + secs.map(function (s) { return '<a class="' + (s.id === opt.sec ? 'hit' : '') + '" href="' + href(pid, s.id) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a>'; }).join('') + '</div></div>' +
+      '<div><h3>In this guide</h3><div class="slip-secs">' + secs.map(function (s) { return '<a class="' + (s.id === opt.sec ? 'hit' : '') + '" href="' + href(pid, s.id) + '"' + TGT + '>' + esc(s.title) + '</a>'; }).join('') + '</div></div>' +
       (next.length ? '<div><h3>Readers go next</h3><div class="slip-next">' + next.map(function (x) { return '<button type="button" class="chip" data-open="' + x.pid + '">' + esc(x.crumb || x.h1) + '</button>'; }).join('') + '</div></div>' : '') +
-      '<a class="btn" href="' + href(pid, opt.sec) + '" target="_blank" rel="noopener">Open the guide ' + icon('arrow-up-right') + '</a>';
+      '<a class="btn" href="' + href(pid, opt.sec) + '"' + TGT + '>Open the guide ' + icon('arrow-up-right') + '</a>';
   }
   function openSlip(pid, opt) {
     hideResults();
@@ -506,7 +475,7 @@
   document.addEventListener('keydown', function (e) {
     var typing = /INPUT|TEXTAREA/.test(document.activeElement.tagName);
     if ((e.key === '/' && !typing) || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k')) { e.preventDefault(); closeSlip(); focusSearch(); return; }
-    if (e.key === 'Escape') { if (!td.hidden) { closeDialog(); } else if (!slip.hidden) { closeSlip(); } else { closeMenus(null); mast.classList.remove('nav-open'); } }
+    if (e.key === 'Escape') { if (!td.hidden) { closeDialog(); } else if (!slip.hidden) { closeSlip(); } else { shell(); } }
     var trap = !td.hidden ? '#tool-dialog' : (!slip.hidden ? '#slip' : null);
     if (e.key === 'Tab' && trap) {
       var f = $$(trap + ' a, ' + trap + ' button'), first = f[0], last = f[f.length - 1];

@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Coat chapter",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00007",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-coat"
+   },
+   "elements": [
+    {
+     "id": "gd00008",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<section class=\"ch ch-sage\" id=\"coat\" data-ch=\"coat\" aria-labelledby=\"h-coat\">\n    <span class=\"anchor\" id=\"start-here\" aria-hidden=\"true\"></span>\n    <div class=\"wrap\">\n      <div class=\"ch-head\">\n        <h2 id=\"h-coat\">What your dog’s coat needs</h2>\n        <p class=\"lede\">Coat changes how often you brush and bathe, and which tools to start with.</p>\n      </div>\n      <div class=\"coat-pick\">\n        <div class=\"seg\" id=\"coat-seg\" role=\"radiogroup\" aria-label=\"Coat type\"><span class=\"pill\" aria-hidden=\"true\"></span></div>\n        <a class=\"quiet\" href=\"/dog-coat-types/#how-to-identify-your-dogs-coat\">Not sure? Identify the coat</a>\n      </div>\n      <article class=\"sheet\" id=\"sheet\" aria-live=\"polite\"></article>\n    </div>\n  </section>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

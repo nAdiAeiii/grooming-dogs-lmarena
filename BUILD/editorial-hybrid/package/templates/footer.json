@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Footer",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00015",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-footer"
+   },
+   "elements": [
+    {
+     "id": "gd00016",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<footer class=\"foot\">\n  <div class=\"wrap\">\n    <div class=\"foot-band\">\n      <img src=\"{{IMG:lead-senior}}\" alt=\"\" loading=\"lazy\" width=\"1400\" height=\"934\">\n      <div class=\"foot-band-in\">\n        <p class=\"foot-ask\">Still have a grooming question?</p>\n        <p class=\"foot-sub\">Search the 22 guides, or jump back to a chapter.</p>\n        <button type=\"button\" class=\"foot-search\" data-search=\"\"><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-magnifying-glass\"></use></svg><span>Search the guides</span><kbd>/</kbd></button>\n        <nav class=\"foot-ch\" aria-label=\"Chapters on this page\">\n          <a href=\"/#coat\" style=\"--c:var(--sage-bg)\">Coat</a><a href=\"/#plate\" style=\"--c:var(--honey-bg)\">Tools</a><a href=\"/#problems\" style=\"--c:var(--slate-bg)\">Problems</a><a href=\"/#groomers\" style=\"--c:var(--heather-bg)\">Groomers</a>\n        </nav>\n      </div>\n      <p class=\"foot-credit\">Photo: Samson Katt / Pexels</p>\n    </div>\n  </div>\n  <div class=\"wrap foot-grid\">\n    <div class=\"foot-brand\">\n      <p class=\"wordmark\"><svg class=\"mark\" viewBox=\"0 0 512 512\" aria-hidden=\"true\"><use href=\"#brand-comb\"></use></svg>Grooming Dogs</p>\n      <p>Clear, step-by-step guides to grooming your dog at home. We’re a guide, not a grooming salon, and we don’t give veterinary advice.</p>\n    </div>\n    <div><h2>Grooming guides</h2><ul id=\"foot-guides\"><li><a href=\"/how-to-groom-your-dog-at-home/\">Full routine</a></li><li><a href=\"/dog-coat-types/\">Coat types</a></li><li><a href=\"/how-often-should-you-groom-your-dog/\">Schedule</a></li><li><a href=\"/brushing-your-dog/\">Brushing</a></li><li><a href=\"/bathing-your-dog/\">Bathing</a></li><li><a href=\"/trimming-dog-nails/\">Nails</a></li><li><a href=\"/cleaning-dog-ears/\">Ears</a></li><li><a href=\"/brushing-dog-teeth/\">Teeth</a></li><li><a href=\"/dog-haircuts-and-trimming/\">Haircuts &amp; trimming</a></li></ul></div>\n    <div><h2>Your dog</h2><ul id=\"foot-dog\"><li><a href=\"/puppy-grooming/\">Puppy grooming</a></li><li><a href=\"/senior-dog-grooming/\">Senior dogs</a></li><li><a href=\"/grooming-an-anxious-dog/\">Anxious dogs</a></li></ul><h2 class=\"foot-h2b\">Help &amp; tools</h2><ul id=\"foot-help\"><li><a href=\"/dog-grooming-problems/\">Problems</a></li><li><a href=\"/dog-grooming-tools/\">Tools</a></li><li><a href=\"/choosing-a-dog-groomer/\">Choosing a groomer</a></li><li><a href=\"/dog-grooming-cost/\">Grooming cost</a></li><li><a href=\"/dog-grooming-glossary/\">Glossary</a></li></ul></div>\n    <div><h2>About the site</h2><ul id=\"foot-about\"><li><a href=\"/about/\">About</a></li><li><a href=\"/editorial-policy/\">Editorial &amp; sourcing policy</a></li><li><a href=\"/contact/\">Contact &amp; corrections</a></li><li><a href=\"/privacy-policy/\">Privacy policy</a></li></ul></div>\n  </div>\n  <div class=\"wrap foot-bar\">\n    <p>© 2026 Grooming Dogs</p>\n    <a href=\"#\">Back to top ↑</a>\n  </div>\n</footer>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}
