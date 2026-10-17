@@ -12,7 +12,8 @@ for f in sorted(icons.glob("*.svg")):
     vb = re.search(r'viewBox="([^"]+)"', svg).group(1)
     inner = re.sub(r"^<svg[^>]*>|</svg>\s*$", "", svg.strip())
     syms.append(f'<symbol id="ph-{f.stem}" viewBox="{vb}">{inner}</symbol>')
-tools = re.sub(r"^<svg[^>]*>|</svg>\s*$", "", (HERE / "assets" / "tools.svg").read_text(encoding="utf-8").strip())
+brand = '<symbol id="brand-comb" viewBox="0 0 512 512"><g fill="currentColor"><rect x="80" y="112" width="352" height="112" rx="40"/><rect x="80" y="200" width="64" height="216" rx="32"/><rect x="176" y="200" width="64" height="216" rx="32"/><rect x="272" y="200" width="64" height="216" rx="32"/><rect x="368" y="200" width="64" height="216" rx="32"/></g></symbol>'
+tools = brand + re.sub(r"^<svg[^>]*>|</svg>\s*$", "", (HERE / "assets" / "tools.svg").read_text(encoding="utf-8").strip())
 sprite = ('<svg width="0" height="0" style="position:absolute" aria-hidden="true">\n'
           '<!-- Icons: Phosphor Icons, MIT licence (assets/icons/LICENSE-phosphor.txt). -->\n' + "\n".join(syms) + "\n" + tools + "\n</svg>")
 src = (HERE / "index.src.html").read_text(encoding="utf-8").replace("<!--SPRITE-->", sprite)

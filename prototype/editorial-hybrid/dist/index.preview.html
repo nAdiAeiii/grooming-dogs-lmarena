@@ -3,6 +3,13 @@
 
 <meta name="description" content="Prototype of the grooming-dogs.com homepage: the Editorial Concept with search first, the coat sheet, the grooming plate, problems after grooming and groomers.">
 <meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Grooming Dogs">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<meta name="theme-color" content="#3A2318">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Source+Sans+3:wght@400;500;600&display=swap">
@@ -43,7 +50,7 @@
 <symbol id="ph-van" viewBox="0 0 256 256"><path d="M254.07,106.79,208.53,53.73A16,16,0,0,0,196.26,48H32A16,16,0,0,0,16,64V176a16,16,0,0,0,16,16H49a32,32,0,0,0,62,0h50a32,32,0,0,0,62,0h17a16,16,0,0,0,16-16V112A8,8,0,0,0,254.07,106.79ZM230.59,104H176V64h20.26ZM104,104V64h56v40ZM88,64v40H32V64ZM80,200a16,16,0,1,1,16-16A16,16,0,0,1,80,200Zm112,0a16,16,0,1,1,16-16A16,16,0,0,1,192,200Zm31-24a32,32,0,0,0-62,0H111a32,32,0,0,0-62,0H32V120H240v56Z"/></symbol>
 <symbol id="ph-warning" viewBox="0 0 256 256"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></symbol>
 <symbol id="ph-x" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"/></symbol>
-
+<symbol id="brand-comb" viewBox="0 0 512 512"><g fill="currentColor"><rect x="80" y="112" width="352" height="112" rx="40"/><rect x="80" y="200" width="64" height="216" rx="32"/><rect x="176" y="200" width="64" height="216" rx="32"/><rect x="272" y="200" width="64" height="216" rx="32"/><rect x="368" y="200" width="64" height="216" rx="32"/></g></symbol>
 <!-- Tool drawings: Hybrid V1 (art.js) plus scissors and clippers drawn for this prototype. -->
 <symbol id="t-slicker" viewBox="0 0 240 120"><g fill="currentColor"><rect x="36" y="52" width="120" height="16" rx="8"/><rect x="150" y="30" width="58" height="60" rx="10"/><g><rect x="154" y="24" width="3" height="10" rx="1.5"/><rect x="161" y="24" width="3" height="10" rx="1.5"/><rect x="168" y="24" width="3" height="10" rx="1.5"/><rect x="175" y="24" width="3" height="10" rx="1.5"/><rect x="182" y="24" width="3" height="10" rx="1.5"/><rect x="189" y="24" width="3" height="10" rx="1.5"/><rect x="196" y="24" width="3" height="10" rx="1.5"/><rect x="203" y="24" width="3" height="10" rx="1.5"/></g></g></symbol>
 <symbol id="t-pin" viewBox="0 0 240 120"><g fill="currentColor"><rect x="30" y="54" width="110" height="14" rx="7"/><ellipse cx="176" cy="61" rx="44" ry="34"/></g></symbol>
@@ -75,7 +82,7 @@
 
 <header class="mast" id="mast">
   <div class="mast-in">
-    <a class="wordmark" href="#top"><span class="dot" aria-hidden="true"></span>Grooming Dogs</a>
+    <a class="wordmark" href="#top"><svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><use href="#brand-comb"/></svg>Grooming Dogs</a>
     <nav class="nav" id="nav" aria-label="Main">
       <ul class="nav-list" id="nav-list"></ul>
     </nav>
@@ -208,7 +215,7 @@
 <footer class="foot">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <p class="wordmark"><span class="dot" aria-hidden="true"></span>Grooming Dogs</p>
+      <p class="wordmark"><svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><use href="#brand-comb"/></svg>Grooming Dogs</p>
       <p>Clear, step-by-step guides to grooming your dog at home. We’re a guide, not a grooming salon, and we don’t give veterinary advice.</p>
       <button type="button" class="foot-search" data-search><svg class="ic" aria-hidden="true"><use href="#ph-magnifying-glass"/></svg>Can’t find it? Search the guides <kbd>/</kbd></button>
     </div>
