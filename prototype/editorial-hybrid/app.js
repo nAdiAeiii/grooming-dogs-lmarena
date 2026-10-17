@@ -110,13 +110,12 @@
   /* ---------- hero: highlighter, questions, browse by dog ---------- */
   /* hero: lift the text in, then let the photo settle (one-time entrance) */
   document.documentElement.classList.add('hero-go');
-  /* footer wordmark rises once when it scrolls into view */
-  var fw = $('.foot-close');
-  if (fw && 'IntersectionObserver' in window && !reduced) {
-    fw.classList.add('pre');
-    var fo = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { fw.classList.remove('pre'); fo.disconnect(); } }, { threshold: 0.3 });
-    fo.observe(fw);
-  }
+  /* footer photo settles once when it scrolls into view */
+  var fb = $('.foot-band');
+  if (fb && 'IntersectionObserver' in window && !reduced) {
+    var fo = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { fb.classList.add('seen'); fo.disconnect(); } }, { threshold: 0.3 });
+    fo.observe(fb);
+  } else if (fb) { fb.classList.add('seen'); }
   (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { setTimeout(function () { $('#hl').classList.add('drawn'); }, reduced ? 0 : 200); });
   var faq = function (pid, i) { return { pid: pid, i: i, q: BY[pid].faqs[i].q }; };
   var QS = [faq('GD-07', 2), faq('GD-02', 0), faq('GD-08', 2), faq('GD-04', 0)];
