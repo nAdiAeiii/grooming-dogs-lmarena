@@ -28,9 +28,9 @@
 
   /* ---------- masthead menu: the live menu, with each guide's first published line ---------- */
   var MENU = [
+    { label: 'Start here', items: [['GD-01', 'The full grooming routine'], ['GD-03', 'Dog coat types'], ['GD-02', 'Grooming schedule'], ['GD-17', 'Grooming glossary']] },
     { label: 'Grooming tasks', items: [['GD-04', 'Bathing'], ['GD-07', 'Nail trimming'], ['GD-05', 'Brushing'], ['GD-08', 'Ear cleaning'], ['GD-06', 'Haircuts & trimming'], ['GD-09', 'Teeth brushing']] },
-    { label: 'Your dog', items: [['GD-11', 'Puppy grooming'], ['GD-13', 'Senior dogs'], ['GD-12', 'Anxious dogs']] },
-    { label: 'Problems', pid: 'GD-14' },
+    { label: 'Your dog', items: [['GD-11', 'Puppy grooming'], ['GD-13', 'Senior dogs'], ['GD-12', 'Anxious dogs'], ['GD-14', 'Problems after grooming']] },
     { label: 'Tools & groomers', items: [['GD-10', 'Grooming tools'], ['GD-15', 'Choosing a groomer'], ['GD-16', 'Grooming cost']] }
   ];
   $('#nav-list').innerHTML = MENU.map(function (m, i) {
@@ -77,6 +77,15 @@
   }
 
   /* ---------- hero: highlighter, questions, browse by dog ---------- */
+  /* hero: lift the text in, then let the photo settle (one-time entrance) */
+  document.documentElement.classList.add('hero-go');
+  /* footer wordmark rises once when it scrolls into view */
+  var fw = $('.foot-close');
+  if (fw && 'IntersectionObserver' in window && !reduced) {
+    fw.classList.add('pre');
+    var fo = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { fw.classList.remove('pre'); fo.disconnect(); } }, { threshold: 0.3 });
+    fo.observe(fw);
+  }
   (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { setTimeout(function () { $('#hl').classList.add('drawn'); }, reduced ? 0 : 200); });
   var faq = function (pid, i) { return { pid: pid, i: i, q: BY[pid].faqs[i].q }; };
   var QS = [faq('GD-07', 2), faq('GD-02', 0), faq('GD-08', 2), faq('GD-04', 0)];
