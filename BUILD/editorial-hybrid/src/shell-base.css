@@ -1,0 +1,24 @@
+/* Base styles for the header and footer only, so the guide pages keep their own styles.
+   body.gd-site :where(...) element rules (0,1,2) beat Elementor kit rules (0,1,1) and lose to the component rules (body.gd-site .x, 0,2,1). */
+.gd-site #masthead { position: sticky; top: 0; z-index: 50; }
+.admin-bar.gd-site #masthead { top: 32px; }
+@media (max-width: 782px) { .admin-bar.gd-site #masthead { top: 0; } }
+body.gd-site :where(.mast, .foot) { font: 400 var(--t-body)/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+body.gd-site :where(.mast, .foot) *, body.gd-site :where(.mast, .foot) *::before, body.gd-site :where(.mast, .foot) *::after { box-sizing: border-box; }
+body.gd-site :where(.mast, .foot) :is(h2, h3, p, ul, ol, figure) { margin: 0; }
+body.gd-site :where(.mast, .foot) :is(ul, ol) { list-style: none; padding: 0; }
+body.gd-site :where(.mast, .foot) :is(h2, h3) { font-family: var(--serif); font-weight: 600; letter-spacing: -0.015em; text-wrap: balance; }
+body.gd-site :where(.mast, .foot) img { display: block; max-width: 100%; height: auto; border: 0; box-shadow: none; }
+body.gd-site :where(.mast, .foot) button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; text-align: left; text-transform: none; letter-spacing: normal; box-shadow: none; }
+body.gd-site :where(.mast, .foot) a { text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+body.gd-site :where(.mast, .foot) :focus-visible { outline: 3px solid var(--shine); outline-offset: 2px; border-radius: 4px; }
+body.gd-site :where(.mast, .foot) kbd { font: 600 0.8125rem/1 var(--sans); padding: 4px 7px; border-radius: 6px; background: var(--soft); color: var(--muted); }
+body.gd-site :where(.mast, .foot) .ic { width: 1.15em; height: 1.15em; fill: currentColor; flex: none; }
+body.gd-site :where(.mast, .foot) [hidden] { display: none !important; }
+body.gd-site :where(.mast, .foot) .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+body.gd-site .foot .wrap { width: 100%; max-width: 1200px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+@media (min-width: 900px) { body.gd-site .foot .wrap { padding-left: 40px; padding-right: 72px; } }
+/* Elementor wrappers around the header and footer HTML widgets */
+body.gd-site .gd-sec.e-con { --padding-top: 0px; --padding-right: 0px; --padding-bottom: 0px; --padding-left: 0px; --gap: 0px; padding: 0; }
+body.gd-site .gd-sec > .elementor-element { width: 100%; }
+body.gd-site .gd-sec .elementor-widget-container { padding: 0; margin: 0; }

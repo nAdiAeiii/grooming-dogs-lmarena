@@ -1,0 +1,132 @@
+{
+ "title": "How to Clean Dog Ears Safely, and When Not To",
+ "description": "Clean the visible part of your dog&#039;s ear without pushing into the canal, what never goes in a dog&#039;s ear, and the signs that mean you should see a vet instead.",
+ "canonical": "https://grooming-dogs.com/cleaning-dog-ears/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "How to Clean Dog Ears Safely, and When Not To",
+ "breadcrumb": "Home › Ear cleaning",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>We don&#8217;t recommend it. The American Kennel Club advises against it: it can irritate healthy skin cells, and repeated use could eventually damage the ear <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. Use a dog ear-cleaning solution your vet recommends instead <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>.</p>\\n<p>You may see older guidance that lists hydrogen peroxide as an option for wiping the ear flap. That same guidance notes that the skin inside the ear is delicate, and advises talking to your vet about the best way to clean it <sup><a href=\\\"#s5\\\" aria-label=\\\"Source 5\\\">[5]</a></sup>.</p>\"}, \"name\": \"Can I use hydrogen peroxide to clean my dog's ears?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>A mild change in smell can mean it&#8217;s time for a clean <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. A strong or yeasty smell is different, especially with redness, swelling, discharge or pain. Don&#8217;t clean the ear in that case; see your vet <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>.</p>\"}, \"name\": \"My dog's ears smell but aren't red. Should I clean them?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Pain is a reason to stop, not to keep going. If your dog seems to be in pain when you touch or clean the ear, stop and contact your vet <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. Don&#8217;t try to clean a painful ear yourself.</p>\"}, \"name\": \"Why does my dog yelp when I touch its ear?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/\", \"name\": \"Ear cleaning\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"description\": \"Clean the visible part of your dog&#039;s ear without pushing into the canal, what never goes in a dog&#039;s ear, and the signs that mean you should see a vet instead.\", \"headline\": \"How to Clean Dog Ears Safely, and When Not To\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#webpage\"}, \"keywords\": \"how to clean dog ears\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#webpage\"}, \"name\": \"How to Clean Dog Ears Safely, and When Not To\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/cleaning-dog-ears/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"How to Clean Dog Ears Safely, and When Not To\", \"url\": \"https://grooming-dogs.com/cleaning-dog-ears/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "How to clean your dog's ears safely"
+  ],
+  [
+   "2",
+   "What you're cleaning, and what you're not"
+  ],
+  [
+   "2",
+   "Cleaning your dog's ears, step by step"
+  ],
+  [
+   "2",
+   "What never goes in a dog's ear"
+  ],
+  [
+   "2",
+   "Signs it's time to stop and see a vet"
+  ],
+  [
+   "2",
+   "Should you pluck ear hair?"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Can I use hydrogen peroxide to clean my dog's ears?"
+  ],
+  [
+   "3",
+   "My dog's ears smell but aren't red. Should I clean them?"
+  ],
+  [
+   "3",
+   "Why does my dog yelp when I touch its ear?"
+  ]
+ ],
+ "copy": [
+  "Home › Ear cleaning",
+  "You want to clean the part of your dog’s ear you can see without pushing anything into the canal, and to know when cleaning is the wrong move.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How often to check and clean: depends on your dog. See how often to check and clean ears .",
+  "Head shaking after a trip to the groomer: see head shaking after a groom .",
+  "Short answer:",
+  "Clean when you can see dirt or wax build-up. A healthy ear is pink, odor-free and comfortable to touch [1] .",
+  "Use a dog ear-cleaning solution your vet recommends [1] [2] . Fill the ear canal with it and massage the base of the ear [1] [2] .",
+  "Let your dog shake, then wipe away the loosened dirt you can see with a cotton ball [1] [2] .",
+  "Don’t use cotton swabs, and don’t push anything into the ear [1] [2] [4] . We don’t recommend hydrogen peroxide [1] .",
+  "If the ear is red, swollen, smelly, has discharge or hurts, don’t clean it. See a vet [1] [3] .",
+  "What a healthy ear looks like: pink, without a strong smell, not dirty or inflamed, and comfortable for your dog when you touch it [1] . A small amount of wax is normal [1] . Your dog’s ears don’t need cleaning just because they have some.",
+  "What you clean: the parts you can see, meaning the inside of the ear flap and the entrance to the ear [3] [5] .",
+  "What you don’t clean: the canal deeper inside. Never push anything into it [4] . Cotton swabs and pointed objects can push dirt further in and can injure the ear [1] [2] .",
+  "Why not to over-clean: cleaning ears that don’t need it can cause irritation and infection [1] .",
+  "After swimming or a bath: moisture left in the ears can contribute to ear problems, so dry your dog’s ears thoroughly afterward [3] . When bathing, keep shampoo and water out of the ears [4] . See bathing your dog .",
+  "If you can’t see the dirt, leave it. Never chase it down into the ear canal.",
+  "What you’ll need [1] [2]",
+  "A dog ear-cleaning solution, ideally one your vet recommends",
+  "Cotton balls (real cotton) or gauze",
+  "A towel",
+  "Treats",
+  "Choosing a cleaner? Ask your vet, or see grooming supplies .",
+  "Choose a calm moment and an easy-to-clean spot, such as a bathroom. Your dog may shake their head and spray cleaner [1] . Have treats ready.",
+  "Look at and sniff the ear first. If it’s red, swollen, painful, smells strongly or has discharge, stop here and see the signs to see a vet .",
+  "Hold the ear flap up gently and squeeze the cleaning solution into the ear canal, enough to fill it [1] [2] . Follow the product’s directions. Don’t let the bottle tip touch the ear, because that can contaminate the solution [1] .",
+  "Massage the base of the ear gently until you hear the solution squish [2] . That helps loosen wax and dirt [1] .",
+  "Let your dog shake their head [1] . Use the towel to protect yourself and wipe their face.",
+  "Wipe away the loosened dirt and wax you can see with a cotton ball or gauze. Lift it away rather than rubbing it back into the ear [5] . Don’t push the cotton down into the canal.",
+  "If your dog seems to be in pain at any point, stop and contact your vet [1] .",
+  "Just wiping the ear flap? For a light clean of the visible outer ear, a damp cloth or a cotton ball lightly moistened with mineral oil is enough [3] [4] .",
+  "If your dog won’t let you handle their ears, don’t force it. See if your dog won’t let you handle its ears .",
+  "Cotton swabs, or anything with a pointed tip. They can push debris deeper and injure the ear [1] [2] .",
+  "Anything pushed into the ear canal [3] [4] .",
+  "Hydrogen peroxide. The American Kennel Club advises against it: it can irritate healthy skin, and repeated use could damage the ear [1] . See the FAQ below.",
+  "Homemade ear-cleaning mixtures. Some contain harmful or irritating ingredients [1] .",
+  "Over-the-counter wax removers, unless your vet approves [2] .",
+  "Medicated ear drops, unless your vet has prescribed them.",
+  "Don’t clean the ear. Contact your vet if you notice any of these [1] [3] [4] :",
+  "redness or inflammation;",
+  "swelling;",
+  "discharge, or debris that’s more than ordinary wax;",
+  "a strong or yeasty smell;",
+  "pain when you touch the ear, or during cleaning;",
+  "your dog pawing at their ears.",
+  "These signs need a vet to examine the ear. Cleaning won’t fix them, and it can make an ear more uncomfortable.",
+  "Some dogs grow hair inside their ears, and whether to remove it is debated. Even a board-certified veterinary dermatologist, asked whether to pluck the hair in a dog’s ear, answered that it depends [6] .",
+  "Plucking isn’t a routine home job. If you’re wondering about your dog’s ear hair, ask your vet or groomer whether your dog needs it, and if so, let them do it.",
+  "Can I use hydrogen peroxide to clean my dog's ears?",
+  "We don’t recommend it. The American Kennel Club advises against it: it can irritate healthy skin cells, and repeated use could eventually damage the ear [1] . Use a dog ear-cleaning solution your vet recommends instead [1] [2] .",
+  "You may see older guidance that lists hydrogen peroxide as an option for wiping the ear flap. That same guidance notes that the skin inside the ear is delicate, and advises talking to your vet about the best way to clean it [5] .",
+  "My dog's ears smell but aren't red. Should I clean them?",
+  "A mild change in smell can mean it’s time for a clean [1] . A strong or yeasty smell is different, especially with redness, swelling, discharge or pain. Don’t clean the ear in that case; see your vet [1] [3] .",
+  "Why does my dog yelp when I touch its ear?",
+  "Pain is a reason to stop, not to keep going. If your dog seems to be in pain when you touch or clean the ear, stop and contact your vet [1] . Don’t try to clean a painful ear yourself.",
+  "Where to go next",
+  "How often to groom your dog",
+  "How often to check and clean your dog’s ears.",
+  "Bathing your dog",
+  "Keeping water and shampoo out of the ears.",
+  "Grooming a dog who hates being groomed",
+  "If your dog won’t let you handle their ears.",
+  "Problems after grooming",
+  "Head shaking or scratching after a groom.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog’s ear is red, swollen, smelly, has discharge or seems painful, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] Anna Burke, American Kennel Club: “How to Clean a Dog’s Ears”, published July 9, 2019, updated June 1, 2026. https://www.akc.org/expert-advice/health/how-to-clean-dogs-ears/",
+  "[2] MSD Veterinary Manual (Merck & Co.), Pet Owner Version: table “How to Clean Your Dog’s Ears” (accessed October 5, 2026). https://www.msdvetmanual.com/multimedia/table/how-to-clean-your-dogs-ears",
+  "[3] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[4] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[5] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, April 9, 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations",
+  "[6] dvm360: “Otitis quandary: To pluck or not to pluck hair in the ear?”, September 21, 2018 (Laura Wilson, DVM, DACVD). https://www.dvm360.com/view/otitis-quandary-pluck-or-not-pluck-hair-ear"
+ ]
+}

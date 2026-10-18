@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page Not Found</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Grooming Dogs">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<meta name="theme-color" content="#3A2318">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Source+Sans+3:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .nf { padding: var(--s8) 0 var(--s9); }
+  .nf-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: var(--s7); align-items: start; }
+  .nf h1 { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.4rem); margin-bottom: var(--s3); }
+  .nf .lede { margin-bottom: var(--s5); }
+  .nf-path { font: 500 0.95rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); overflow-wrap: anywhere; }
+  .nf-res { display: grid; gap: 2px; margin-top: var(--s4); }
+  .nf-res a { display: grid; gap: 1px; padding: 12px 14px; border-radius: 12px; text-decoration: none; color: var(--ink); }
+  .nf-res a::after { display: none !important; }
+  .nf-res a:first-child { background: var(--soft); }
+  .nf-res b { font: 600 1.05rem/1.3 var(--serif); }
+  .nf-res span { font-size: var(--t-small); color: var(--muted); }
+  @media (hover: hover) and (pointer: fine) { .nf-res a:hover { background: var(--soft); } }
+  .shelf { display: grid; gap: 8px; }
+  .shelf h2 { font: 600 1.1rem/1.2 var(--serif); margin-bottom: var(--s2); }
+  .shelf a { display: flex; gap: 12px; align-items: center; padding: 14px 16px; border-radius: 12px; background: var(--c-bg); color: var(--c); text-decoration: none; font-weight: 600; }
+  .shelf a::after { margin-left: auto; }
+  .shelf .home { background: none; color: var(--action); padding-left: 0; font-weight: 500; }
+  .shelf .home::after { display: none; }
+  @media (max-width: 800px) { .nf-grid { grid-template-columns: minmax(0, 1fr); } .nf { padding: var(--s6) 0 var(--s8); } }
+</style>
+</head>
+<body>
+<!--SPRITE-->
+<header class="mast"><div class="mast-in"><a class="wordmark" href="./"><svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><use href="#brand-comb"/></svg>Grooming Dogs</a></div></header>
+<main class="nf">
+  <div class="wrap nf-grid">
+    <div>
+      <h1>This page isn’t here</h1>
+      <p class="lede">The link may be old or mistyped. We searched the guides for the words in it.</p>
+      <p class="nf-path" id="nf-path"></p>
+      <div class="search" style="margin-top:var(--s4)">
+        <label for="nf-input" class="sr-only">Search the guides</label>
+        <div class="field"><svg class="ic" aria-hidden="true"><use href="#ph-magnifying-glass"/></svg><input id="nf-input" type="search" autocomplete="off" enterkeyhint="search"></div>
+      </div>
+      <div class="nf-res" id="nf-res" aria-live="polite"></div>
+    </div>
+    <nav class="shelf" aria-labelledby="shelf-h">
+      <h2 id="shelf-h">Or start from a chapter</h2>
+      <a style="--c:var(--sage);--c-bg:var(--sage-bg)" href="https://grooming-dogs.com/dog-coat-types/" target="_blank" rel="noopener">Dog coat types</a>
+      <a style="--c:var(--honey);--c-bg:var(--honey-bg)" href="https://grooming-dogs.com/dog-grooming-tools/" target="_blank" rel="noopener">Grooming tools</a>
+      <a style="--c:var(--slate);--c-bg:var(--slate-bg)" href="https://grooming-dogs.com/dog-grooming-problems/" target="_blank" rel="noopener">Problems after grooming</a>
+      <a style="--c:var(--heather);--c-bg:var(--heather-bg)" href="https://grooming-dogs.com/choosing-a-dog-groomer/" target="_blank" rel="noopener">Choosing a groomer</a>
+      <a class="home" href="./">Back to the homepage</a>
+    </nav>
+  </div>
+</main>
+<script src="content.js"></script>
+<script>
+(function () {
+  'use strict';
+  var P = window.GD_PAGES.filter(function (p) { return p.pid !== 'GD-00' && p.pid !== 'GD-21'; });
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var STOP = /^(the|and|for|how|to|your|dog|dogs|a|of|in|my)$/;
+  var SYN = { trimming: 'trim', nail: 'nails', nails: 'nail', groomer: 'groomer', cost: 'cost', bath: 'bathe bathing' };
+  var items = [];
+  P.forEach(function (p) {
+    items.push({ t: p.h1, s: p.url, h: 'https://grooming-dogs.com' + p.url, x: [p.title, p.crumb, p.meta].join(' ') });
+    p.sections.forEach(function (s) { if (s.id !== 'common-questions') { items.push({ t: s.title, s: 'Section · ' + p.crumb, h: 'https://grooming-dogs.com' + p.url + '#' + s.id, x: p.h1 }); } });
+  });
+  function run(q) {
+    var ws = q.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(function (w) { return w.length > 1 && !STOP.test(w); });
+    var forms = ws.map(function (w) { return [w].concat((SYN[w] || '').split(' ').filter(Boolean)); });
+    var rs = items.map(function (it) {
+      var t = it.t.toLowerCase(), x = it.x.toLowerCase(), sc = 0;
+      forms.forEach(function (f) { var b = 0; f.forEach(function (w) { if (t.indexOf(w) !== -1) { b = Math.max(b, 3); } else if (x.indexOf(w) !== -1) { b = Math.max(b, 1); } }); sc += b; });
+      return { it: it, sc: sc };
+    }).filter(function (r) { return r.sc > 0; }).sort(function (a, b) { return b.sc - a.sc; }).slice(0, 4);
+    document.getElementById('nf-res').innerHTML = rs.length ? rs.map(function (r) {
+      return '<a href="' + r.it.h + '" target="_blank" rel="noopener"><span>' + (r.it.s.indexOf('Section') === 0 ? esc(r.it.s) : 'Guide') + '</span><b>' + esc(r.it.t) + '</b></a>';
+    }).join('') : '<p class="lede">No published guide matches that. Try the chapters on the right.</p>';
+  }
+  /* In production the words come from the broken URL. The prototype shows a sample one. */
+  var path = '/dog-nail-trimming-tips/';
+  document.getElementById('nf-path').textContent = 'grooming-dogs.com' + path;
+  var input = document.getElementById('nf-input');
+  input.value = path.replace(/[\/-]+/g, ' ').replace(/\btips\b/, '').trim();
+  run(input.value);
+  input.addEventListener('input', function () { run(input.value); });
+})();
+</script>
+</body>
+</html>

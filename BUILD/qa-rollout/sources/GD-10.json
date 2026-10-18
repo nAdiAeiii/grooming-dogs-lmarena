@@ -1,0 +1,237 @@
+{
+ "title": "Dog Grooming Tools: What You Need for Your Dog&#039;s Coat",
+ "description": "What each grooming tool does, which coats need it, and the starter kit for your dog&#039;s coat type, from brushes and rakes to clippers, nail tools and dryers.",
+ "canonical": "https://grooming-dogs.com/dog-grooming-tools/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Dog Grooming Tools: What You Need for Your Dog&#039;s Coat",
+ "breadcrumb": "Home › Grooming tools",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Only if your dog has a double coat. For double coats, an undercoat rake or de-shedding tool works alongside regular brushing <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>, and a slicker helps in the densest areas <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Most other coats need a slicker or a rubber brush plus a comb, but not a rake <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>.</p>\"}, \"name\": \"Do I need a slicker brush and an undercoat rake?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>A dryer is optional <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Towel-drying and a warm room are often enough. If you do use a dryer, choose one with a cool or low setting, because hot dryers can burn a dog&#8217;s skin <sup><a href=\\\"#s9\\\" aria-label=\\\"Source 9\\\">[9]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Dryers made for dogs are used for some coat types <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. See <a href=\\\"/bathing-your-dog/\\\">how to bathe your dog</a> for drying technique.</p>\"}, \"name\": \"Is a dog grooming dryer worth it?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Start with:</p>\\n<ul><li>a brush that suits your dog&#8217;s coat;</li><li>a comb;</li><li>dog nail clippers or a grinder, with styptic powder;</li><li>dog shampoo and a towel;</li><li>a soft toothbrush with pet toothpaste <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a><a href=\\\"#s5\\\" aria-label=\\\"Source 5\\\">[5]</a><a href=\\\"#s12\\\" aria-label=\\\"Source 12\\\">[12]</a></sup>.</li></ul>\\n<p>Add other tools only when you have a job for them.</p>\"}, \"name\": \"What should a beginner buy first?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/\", \"name\": \"Grooming tools\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:35+00:00\", \"description\": \"What each grooming tool does, which coats need it, and the starter kit for your dog&#039;s coat type, from brushes and rakes to clippers, nail tools and dryers.\", \"headline\": \"Dog Grooming Tools: What You Need for Your Dog&#039;s Coat\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-4432261-1024x683.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#webpage\"}, \"keywords\": \"dog grooming tools\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#webpage\"}, \"name\": \"Dog Grooming Tools: What You Need for Your Dog&#039;s Coat\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/dog-grooming-tools/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:35+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Dog Grooming Tools: What You Need for Your Dog&#039;s Coat\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-4432261-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/dog-grooming-tools/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-4432261-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-4432261-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Grooming tools : what each one does and which you need"
+  ],
+  [
+   "2",
+   "How to choose grooming tools"
+  ],
+  [
+   "2",
+   "Brushes and combs"
+  ],
+  [
+   "3",
+   "Slicker brush"
+  ],
+  [
+   "3",
+   "Pin brush"
+  ],
+  [
+   "3",
+   "Bristle brush"
+  ],
+  [
+   "3",
+   "Rubber curry brush"
+  ],
+  [
+   "3",
+   "Undercoat rake"
+  ],
+  [
+   "3",
+   "Comb"
+  ],
+  [
+   "2",
+   "De-shedding tools"
+  ],
+  [
+   "2",
+   "Bathing and drying equipment"
+  ],
+  [
+   "2",
+   "Nail tools"
+  ],
+  [
+   "2",
+   "Clippers, blades and scissors"
+  ],
+  [
+   "2",
+   "Ear and dental supplies"
+  ],
+  [
+   "2",
+   "Starter kits by coat type"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Do I need a slicker brush and an undercoat rake?"
+  ],
+  [
+   "3",
+   "Is a dog grooming dryer worth it?"
+  ],
+  [
+   "3",
+   "What should a beginner buy first?"
+  ]
+ ],
+ "copy": [
+  "Home › Grooming tools",
+  "You want to buy the few tools your dog’s coat actually needs, not a drawer full of gadgets, and to know which ones need extra care.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "This page is about choosing tools. How to use each one is covered in its own guide, linked in each section. Not sure what coat your dog has? Identify your dog’s coat first .",
+  "Photo: Mathew Coulton / Pexels",
+  "Short answer: Most dogs need a short list of tools:",
+  "A brush that suits their coat, plus a comb to check your work [3] [4] ;",
+  "dog nail clippers or a grinder, with styptic powder [3] [5] ;",
+  "a dog shampoo and a towel [1] [3] ;",
+  "a soft toothbrush and pet toothpaste [3] [12] .",
+  "Add an undercoat rake for double coats [3] , and blunt-ended scissors or small clippers with guide combs only if you’ll do trims at home [3] . A dryer is optional [3] . Your vet or groomer can suggest the right tools for your dog’s coat [1] .",
+  "Start from your dog, not the shop shelf:",
+  "Coat type decides the brush. The right brushing tools depend on the coat [1] [4] . Find your dog’s coat group in identify your dog’s coat first , then use the starter kits at the bottom of this page.",
+  "Buy for the jobs you’ll actually do. If a groomer handles haircuts, you don’t need clippers.",
+  "Choose tools that fit comfortably in your hand so you can work gently and safely [2] .",
+  "Buy tools made for dogs where it matters, especially nail clippers, toothpaste and shampoo [1] [3] [5] [12] .",
+  "Ask for advice. Your vet or groomer can recommend tools for your dog’s coat type [1] .",
+  "Most dogs need one main brush and a comb. Which brush depends on the coat. How to use them: see how to brush your dog properly .",
+  "What it does: fine wire bristles for working out tangles and removing loose, dead hair [1] [4] . Suits: long, silky and curly coats [3] , dense coats that tangle [4] , and the densest areas of double coats [2] . Limitation: use it gently, especially near the skin. A slicker is for small tangles, not tight mats. Tight mats need a groomer (see dealing with mats ).",
+  "What it does: a brush with spaced pins, used on longer coats [1] . Suits: many long-haired dogs [1] . Limitation: on its own it doesn’t check down to the skin. Follow with a comb.",
+  "What it does: removes loose, dead hair and smooths the coat [4] . Suits: short and medium coats, and some long coats [1] . It’s often used after a slicker or rubber brush [4] . Limitation: it works on the surface, so it won’t get through tangles in a long or double coat.",
+  "What it does: a rubber brush that loosens dead hair, dirt and dead skin, and polishes smooth coats [1] [4] . It also helps spread the coat’s natural oils [3] . Suits: short and smooth coats [1] [4] . It’s also used on wiry coats [3] . Limitation: it isn’t designed to get through long or tangled coats.",
+  "What it does: reaches into a thick undercoat to remove loose undercoat hair [2] [3] . Suits: double coats, alongside your regular brush [2] [3] . Limitation: it’s for double coats. Smooth, single-layer coats don’t have an undercoat for it to work on.",
+  "What it does: a steel comb lets you check your brushing has reached the skin, finish the coat and remove debris [2] [3] . A wide-toothed steel comb helps work gently through tangles [2] . Suits: most coats that are long enough to tangle, especially long, silky, curly and double coats [2] [3] . Limitation: avoid combs with bent teeth, which can snag or damage the coat [2] .",
+  "What they do: de-shedding tools, like undercoat rakes, remove loose undercoat. They’re used for double coats, gently, in addition to regular brushing [3] .",
+  "Are they safe? Used gently and as directed, they’re part of normal home care for double coats [3] . Like any tool that works close to the skin, they can irritate it if pressed hard or used for too long on one spot.",
+  "Use light pressure.",
+  "Follow the manufacturer’s instructions.",
+  "Stop if the skin looks red or your dog seems uncomfortable. If the skin stays irritated, see problems after grooming .",
+  "Not for: short and smooth coats, which don’t have an undercoat to remove. A rubber curry brush is the usual tool for those coats [1] [4] .",
+  "What you need (how to bathe: see how to bathe your dog ):",
+  "Shampoo made for dogs. Human hair products aren’t designed for pets [9] , and dog care organizations recommend dog-specific products [1] [3] .",
+  "A towel. A microfiber towel absorbs well [3] .",
+  "A non-slip mat for the tub or shower, so your dog feels steady.",
+  "Is a dryer worth it? A dryer is optional [3] .",
+  "Many dogs dry well enough with towels and a warm room.",
+  "If you use one, choose a dryer with a cool or low setting. Hot settings can burn a dog’s skin [9] [3] .",
+  "Dryers made for dogs are used for some coat types [1] .",
+  "High-powered professional dryers are a groomer’s tool. They’re not needed for home bathing.",
+  "How to trim: see how to trim your dog’s nails .",
+  "Tool",
+  "What it does",
+  "Often suits",
+  "Caveat",
+  "Scissor- or plier-style clippers",
+  "Two blades cross to cut the nail [7]",
+  "Plier styles for larger, thicker nails; scissor styles for small dogs [6]",
+  "Use clippers made for dogs [5]",
+  "Guillotine-style clippers",
+  "The nail goes through a hole and a single blade cuts it [6]",
+  "Some owners prefer them [5]",
+  "Some veterinary guidance advises against them because they can crush the nail [7] . Other dog organizations list them as a normal option [5] [6] .",
+  "Grinder",
+  "Wears the nail down gradually [6]",
+  "Thicker nails, or dogs that dislike the feel of clippers [6]",
+  "Noisy, which some dogs find frightening [6] . Keep clippers too, for spots a grinder can’t reach [7] .",
+  "Styptic powder",
+  "Helps stop bleeding if you cut a nail too short [5]",
+  "Every nail kit [5]",
+  "—",
+  "Both clippers and grinders are safe when used correctly. Choose the one you’re most comfortable with and that your dog tolerates best [5] .",
+  "You only need these if you’ll do trims at home. What’s realistic, and how: see trimming at home .",
+  "Scissors: choose blunt-ended (round-tip) scissors for home trims around the face, feet and sanitary area [3] . Pointed grooming shears are a professional’s tool.",
+  "Clippers:",
+  "For home tidy-ups, choose small clippers with guide combs [3] . Guide combs clip onto the blade to control how long the hair is left [8] .",
+  "Detachable blades let you swap in a cool blade if one gets hot [8] .",
+  "Comfort: choose clippers that feel comfortable in your hand [2] .",
+  "Blades heat up: clipper blades can get hot during use. Check them often [8] .",
+  "Damaged equipment: never use a damaged or broken blade or comb, because it can injure the skin [8] .",
+  "Tight mats: don’t buy clippers or scissors to deal with tight mats yourself. That’s a job for a groomer (see dealing with mats ).",
+  "For ears (how to clean: see cleaning your dog’s ears ):",
+  "A dog ear-cleaning solution, ideally one your vet recommends [10] [11] .",
+  "Real cotton balls or gauze [10] [11] .",
+  "No cotton swabs or pointed tools. They can push debris deeper and injure the ear [10] [11] .",
+  "No hydrogen peroxide. The American Kennel Club advises against using it in dogs’ ears [10] .",
+  "For teeth (how to brush: see brushing your dog’s teeth ):",
+  "A soft-bristled toothbrush. Many owners start with a finger before moving to a brush [12] .",
+  "A toothpaste made for pets, without added fluoride, never human toothpaste [12] .",
+  "Not needed: dental scrapers or scaling tools. Hardened tartar is a job for your vet.",
+  "Everything below builds on a basic kit for every dog :",
+  "nail clippers or a grinder, plus styptic powder [3] [5] ;",
+  "dog shampoo and a towel [1] [3] ;",
+  "a soft toothbrush and pet toothpaste [3] [12] ;",
+  "a vet-recommended ear cleaner and cotton balls [10] [11] .",
+  "Then add the brushing tools for your dog’s coat. These are typical starting points, not rules. Individual dogs vary, and your groomer may suggest something different.",
+  "Coat group",
+  "Brushing tools to start with",
+  "Optional extras",
+  "Short and smooth",
+  "Rubber curry brush [1] [3] [4] ; bristle brush [1] [4]",
+  "—",
+  "Wiry",
+  "Rubber-bristled brush [3] ; comb",
+  "Ask a groomer how the coat is best kept",
+  "Double",
+  "Undercoat rake or de-shedding tool [3] ; slicker brush for dense areas [2] ; steel comb [2]",
+  "Wide-toothed comb for tangles [2]",
+  "Long and silky",
+  "Slicker or rubber-bristled brush, plus a steel comb [3] ; a pin brush suits many long coats [1]",
+  "Blunt-ended scissors or small clippers with guide combs for home tidy-ups [3]",
+  "Curly",
+  "Slicker or rubber-bristled brush, plus a steel comb [3]",
+  "Blunt-ended scissors or small clippers with guide combs for home tidy-ups [3]",
+  "Not sure which row is your dog? See identify your dog’s coat first . Comparing the cost of home tools with professional grooming? See what grooming costs .",
+  "If your dog is frightened of a tool, especially clippers or a grinder, see if your dog is scared of grooming tools .",
+  "Do I need a slicker brush and an undercoat rake?",
+  "Only if your dog has a double coat. For double coats, an undercoat rake or de-shedding tool works alongside regular brushing [3] , and a slicker helps in the densest areas [2] . Most other coats need a slicker or a rubber brush plus a comb, but not a rake [3] .",
+  "Is a dog grooming dryer worth it?",
+  "A dryer is optional [3] . Towel-drying and a warm room are often enough. If you do use a dryer, choose one with a cool or low setting, because hot dryers can burn a dog’s skin [9] [3] . Dryers made for dogs are used for some coat types [1] . See how to bathe your dog for drying technique.",
+  "What should a beginner buy first?",
+  "Start with:",
+  "a brush that suits your dog’s coat;",
+  "a comb;",
+  "dog nail clippers or a grinder, with styptic powder;",
+  "dog shampoo and a towel;",
+  "a soft toothbrush with pet toothpaste [3] [5] [12] .",
+  "Add other tools only when you have a job for them.",
+  "Where to go next",
+  "Dog coat types",
+  "Find your dog’s coat group before you buy.",
+  "How to brush your dog properly",
+  "Getting the most from your brush and comb.",
+  "How to trim your dog’s nails",
+  "Using clippers or a grinder safely.",
+  "Trimming and haircuts at home",
+  "What’s realistic with scissors and clippers.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If grooming leaves your dog’s skin sore or red, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[2] Elaine Waldorf Gewirtz, American Kennel Club: “What Is a Double-Coated Dog? Coat Types, Grooming, and Care”, updated September 14, 2026. https://www.akc.org/expert-advice/health/double-coated-dog-breeds/",
+  "[3] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[4] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, April 9, 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations",
+  "[5] Harriet Meyers, American Kennel Club: “How to Trim Your Dog’s Nails Safely”, updated June 1, 2026. https://www.akc.org/expert-advice/health/how-to-trim-dogs-nails-safely/",
+  "[6] Toronto Humane Society: “Trimming your Dog’s Nails” (PDF, June 2021). https://www.torontohumanesociety.com/wp-content/uploads/2021/10/Trimming-Your-Dogs-Nails.pdf",
+  "[7] VCA Animal Hospitals (content by LifeLearn Animal Health): “Handling Exercises for Trimming Nails and Brushing Teeth”, © 2023. https://vcahospitals.com/know-your-pet/handling-exercises-for-trimming-nails-and-brushing-teeth",
+  "[8] Andis Company: Model RACA clipper “Use and Care” instructions (Form #60222). https://image.chewy.com/is/content/catalog/69074_UseAndCareInstructions._V1503496534_.pdf",
+  "[9] Ann Hohenhaus, DVM, The Animal Medical Center: “Can Bath Time be Dangerous for Pets?”, November 30, 2016. https://www.amcny.org/blog/2016/11/30/can-bath-time-dangerous-pets/",
+  "[10] Anna Burke, American Kennel Club: “How to Clean a Dog’s Ears”, updated June 1, 2026. https://www.akc.org/expert-advice/health/how-to-clean-dogs-ears/",
+  "[11] MSD Veterinary Manual, Pet Owner Version: “How to Clean Your Dog’s Ears” (accessed October 5, 2026). https://www.msdvetmanual.com/multimedia/table/how-to-clean-your-dogs-ears",
+  "[12] University of Wisconsin School of Veterinary Medicine: “Protect Your Pet’s Teeth: Top Tips from a Veterinary Dentist”, updated February 11, 2022. https://www.vetmed.wisc.edu/protect-pets-teeth/"
+ ]
+}

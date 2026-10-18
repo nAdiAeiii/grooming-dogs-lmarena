@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Sources band",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00005",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-cites"
+   },
+   "elements": [
+    {
+     "id": "gd00006",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<div class=\"cites-band\"><div class=\"wrap\">\n    <div class=\"cites\">\n      <p class=\"cites-label\">Our guides cite sources including</p>\n      <ul class=\"cites-list\"><li>American Kennel Club</li><li>ASPCA</li><li>Humane World for Animals</li><li>Animal Medical Center</li><li>University of Wisconsin School of Veterinary Medicine</li></ul>\n      <a class=\"cites-link\" href=\"/editorial-policy/\">How we source our guides</a>\n    </div>\n  </div></div>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

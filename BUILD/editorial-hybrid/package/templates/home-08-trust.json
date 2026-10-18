@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Trust",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd0000f",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-trust"
+   },
+   "elements": [
+    {
+     "id": "gd00010",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<section class=\"trust\" aria-labelledby=\"h-trust\">\n    <div class=\"wrap\">\n      <h2 id=\"h-trust\">How this guide works</h2>\n      <ul class=\"trust-list\">\n        <li><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-book-open\"/></svg><p><b>Sourced.</b> Health and safety statements in our guides are checked against named sources, such as veterinary and animal-welfare organizations, and the sources are listed on each guide.</p></li>\n        <li><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-stethoscope\"/></svg><p><b>Your vet comes first.</b> We help you recognize when something may be wrong and send you to your vet. We don’t diagnose or recommend treatments.</p></li>\n        <li><svg class=\"ic\" aria-hidden=\"true\"><use href=\"#ph-pencil-simple-line\"/></svg><p><b>Corrections welcome.</b> Spotted a mistake? <a href=\"/contact/\">Send a correction</a>.</p></li>\n      </ul>\n      <p class=\"trust-links\"><a href=\"/editorial-policy/\">How our guides are written and funded</a><a href=\"/dog-grooming-glossary/\">New to grooming words? See the grooming glossary</a></p>\n    </div>\n  </section>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

@@ -1,0 +1,103 @@
+{
+ "title": "Privacy Policy, Grooming Dogs",
+ "description": "What personal information Grooming Dogs collects, mainly through its contact form, how it&#039;s used and shared, how long it&#039;s kept, and how to ask about it.",
+ "canonical": "https://grooming-dogs.com/privacy-policy/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Privacy Policy, Grooming Dogs",
+ "breadcrumb": "Home › Privacy policy",
+ "schema": [
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/privacy-policy/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/privacy-policy/\", \"name\": \"Privacy policy\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/privacy-policy/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/privacy-policy/#breadcrumb\"}, \"datePublished\": \"2026-10-04T23:50:40+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Privacy Policy, Grooming Dogs\", \"url\": \"https://grooming-dogs.com/privacy-policy/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Privacy policy"
+  ],
+  [
+   "2",
+   "What we collect"
+  ],
+  [
+   "2",
+   "How we use it"
+  ],
+  [
+   "2",
+   "Cookies, analytics and advertising"
+  ],
+  [
+   "2",
+   "Affiliate links"
+  ],
+  [
+   "2",
+   "Who we share data with"
+  ],
+  [
+   "2",
+   "How long we keep it"
+  ],
+  [
+   "2",
+   "Your rights"
+  ],
+  [
+   "2",
+   "Contact"
+  ],
+  [
+   "2",
+   "Changes to this policy"
+  ]
+ ],
+ "copy": [
+  "Home › Privacy policy",
+  "Effective date: October 5, 2026 · Last updated: October 5, 2026",
+  "This policy explains what personal information Grooming Dogs (grooming-dogs.com) collects, why, and what you can do about it. It covers this website only.",
+  "Information you choose to send us. Our contact form asks for:",
+  "what your message is about (a correction, a question about a guide, a missing topic or a site problem);",
+  "the page you’re writing about, if you want to tell us;",
+  "your message;",
+  "your email address, only if you want a reply ;",
+  "a tick to confirm you’ve seen this policy.",
+  "We don’t ask for your name, phone number or address, and we don’t accept file uploads. Please don’t include health information about yourself, or other personal details we don’t need. A question about your dog only needs the grooming detail, not medical records.",
+  "Information collected automatically. When you send the form, it doesn’t record extra technical details about you, such as your IP address, and the form doesn’t save messages on our website.",
+  "Separately, our hosting provider, Hostinger, automatically records each request made to the site in its server and content delivery network (CDN) logs. According to Hostinger, these logs include your IP address, the time of the request, the page requested, your browser and device type (from your browser’s user-agent), your approximate country (worked out from your IP address), and the size and response time of the request. Hostinger keeps these logs to deliver the site and keep it secure.",
+  "What we don’t collect. The site has no user accounts, newsletter, shop or online orders.",
+  "We use what you send us to:",
+  "read and review your message, including checking any correction against our sources;",
+  "update a page, if your message shows that something needs changing;",
+  "reply to you, if you gave an email address and a reply is needed;",
+  "keep the form and the site working and secure, for example by filtering spam.",
+  "We don’t use contact messages for marketing, and we don’t sell the information you send us.",
+  "A cookie is a small file a website stores in your browser.",
+  "WordPress cookies: the software that runs this site sets cookies for people who log in to manage the site. Readers don’t need to log in, and comments aren’t open on our pages, so ordinary visits don’t receive those cookies.",
+  "Other cookies: ordinary visits don’t set any other cookies.",
+  "Analytics: we don’t currently use analytics services.",
+  "Advertising: we don’t currently show advertising. If we add it, we’ll update this policy first (see “Changes to this policy”).",
+  "Tracking across other websites: we don’t track you across other websites, and we don’t allow other companies to collect information about your browsing across websites through our site. Because there’s no cross-site tracking, our site doesn’t change its behavior in response to a browser’s “Do Not Track” signal.",
+  "Our editorial, sourcing and disclosure policy explains that some pages may include affiliate links. At the moment, the site doesn’t use affiliate links or affiliate tracking.",
+  "If we add them, clicking an affiliate link would take you to another company’s website, and that company may use cookies to record that you came from our site. We’ll update this policy before affiliate links go live, and name the companies involved.",
+  "We don’t sell or rent personal information, and we don’t share contact messages with advertisers or affiliate partners.",
+  "Information is handled by the services that run the site for us:",
+  "Hosting: our web hosting provider, Hostinger, which stores the site, delivers its pages through its content delivery network and processes page requests.",
+  "The contact form: is handled on our own website software.",
+  "Email: form messages are sent to our inbox by email through Hostinger’s mail system. If you give an email address, it’s used as the reply-to address of that email, so it appears in the email’s headers. Hostinger’s mail logs record who each email is sent to and its headers, including the reply-to address, but not the message itself. The email service that hosts our inbox also receives the message.",
+  "We may also disclose information if the law requires it.",
+  "Links to other websites. Our guides link to other websites, such as veterinary and animal-welfare organizations. Those sites have their own privacy practices, which we don’t control. Following a link doesn’t send them the information you gave us.",
+  "Contact messages and email addresses: we keep messages you send us, including your email address if you gave one, for 30 days, and then delete them.",
+  "Hostinger’s mail logs: the email header details described above, including your email address if you gave one, are kept by Hostinger. We don’t control how long Hostinger keeps them, and the exact period isn’t documented in the information currently available to us.",
+  "Server and CDN logs: Hostinger decides how long its server and CDN access logs are kept. We don’t control that period, and the exact retention period isn’t documented in the information currently available to us.",
+  "You can ask us:",
+  "what information we hold from messages you’ve sent;",
+  "to correct it;",
+  "to delete a message you sent.",
+  "Send your request through the contact page . If you’d like an answer, include the email address you used, so we can find your message and reply.",
+  "Depending on where you live, you may have other rights under privacy laws.",
+  "For questions about this policy or your information, use our contact page . We don’t currently offer a separate privacy email address.",
+  "We’ll update this policy when the way we handle information changes. For example, that includes adding analytics, advertising or affiliate links, changing the contact form or how long we keep messages, or using a new outside service. When we make a change, we’ll update this page and the “Last updated” date at the top. The effective date shows when the current version took effect."
+ ]
+}

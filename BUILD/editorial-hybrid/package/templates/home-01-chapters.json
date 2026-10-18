@@ -1,0 +1,44 @@
+{
+ "version": "0.4",
+ "title": "GD Editorial · Chapter index",
+ "type": "section",
+ "content": [
+  {
+   "id": "gd00001",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": true
+    },
+    "css_classes": "gd-sec gd-sec-chapters"
+   },
+   "elements": [
+    {
+     "id": "gd00002",
+     "elType": "widget",
+     "widgetType": "html",
+     "isInner": false,
+     "settings": {
+      "html": "<div class=\"chapter-bar\" id=\"chapter-bar\" aria-label=\"Chapters\"></div>\n<nav class=\"thumb\" id=\"thumb\" aria-label=\"Chapters\"></nav>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": []
+}

@@ -1,0 +1,167 @@
+{
+ "title": "How to Brush Your Dog&#039;s Teeth, and What Else Helps",
+ "description": "Get your dog used to tooth brushing, brush with a dog-safe toothpaste, see what chews and additives can and can&#039;t do, and know when the vet should take over.",
+ "canonical": "https://grooming-dogs.com/brushing-dog-teeth/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "How to Brush Your Dog&#039;s Teeth, and What Else Helps",
+ "breadcrumb": "Home › Teeth brushing",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>No. Dogs swallow toothpaste rather than spitting it out. Fluoride swallowed regularly can build up to toxic levels <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a><a href=\\\"#s4\\\" aria-label=\\\"Source 4\\\">[4]</a></sup>, and some toothpastes contain xylitol, which is dangerous to dogs even in small amounts <sup><a href=\\\"#s4\\\" aria-label=\\\"Source 4\\\">[4]</a></sup>. Use a toothpaste made for pets <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>, or simply brush without toothpaste. The brushing itself is what cleans the teeth.</p>\"}, \"name\": \"Can I use human toothpaste on my dog?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>You can&#8217;t safely remove hardened tartar at home. Brushing helps prevent plaque and new tartar from building up, but removing established tartar needs professional scaling by your vet, done under general anesthesia <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Don&#8217;t scrape your dog&#8217;s teeth with tools.</p>\"}, \"name\": \"How do I get tartar off my dog's teeth at home?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Veterinary dentists advise against them. Bones, antlers and other hard chews commonly cause painful tooth fractures <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a><a href=\\\"#s4\\\" aria-label=\\\"Source 4\\\">[4]</a></sup>. If you can&#8217;t bend or flex a chew, it&#8217;s more likely to break a tooth <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Choose softer, appropriately sized chews, and supervise your dog while they chew <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>.</p>\"}, \"name\": \"Are bones good for my dog's teeth?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/\", \"name\": \"Teeth brushing\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"description\": \"Get your dog used to tooth brushing, brush with a dog-safe toothpaste, see what chews and additives can and can&#039;t do, and know when the vet should take over.\", \"headline\": \"How to Brush Your Dog&#039;s Teeth, and What Else Helps\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#webpage\"}, \"keywords\": \"how to brush dog teeth\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#webpage\"}, \"name\": \"How to Brush Your Dog&#039;s Teeth, and What Else Helps\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/brushing-dog-teeth/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:34+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"How to Brush Your Dog&#039;s Teeth, and What Else Helps\", \"url\": \"https://grooming-dogs.com/brushing-dog-teeth/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "How to brush your dog's teeth"
+  ],
+  [
+   "2",
+   "Why home dental care matters"
+  ],
+  [
+   "2",
+   "Getting your dog used to it"
+  ],
+  [
+   "2",
+   "Brushing step by step"
+  ],
+  [
+   "2",
+   "Choosing a toothpaste and brush"
+  ],
+  [
+   "2",
+   "Do the alternatives work?"
+  ],
+  [
+   "3",
+   "Dental chews"
+  ],
+  [
+   "3",
+   "Water additives and gels"
+  ],
+  [
+   "3",
+   "What an accepted-product seal means"
+  ],
+  [
+   "2",
+   "When it's a job for the vet"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Can I use human toothpaste on my dog?"
+  ],
+  [
+   "3",
+   "How do I get tartar off my dog's teeth at home?"
+  ],
+  [
+   "3",
+   "Are bones good for my dog's teeth?"
+  ]
+ ],
+ "copy": [
+  "Home › Teeth brushing",
+  "You want to do something genuinely useful for your dog’s teeth at home, and to know which shortcuts work and which don’t.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How tooth brushing fits into your dog’s overall routine: see how often to brush teeth .",
+  "If your dog won’t let you near their mouth: start with if your dog won’t let you .",
+  "Short answer:",
+  "Start slowly. Begin with short sessions rubbing your dog’s gums with a finger, then move up to a soft-bristled toothbrush [3] .",
+  "Focus on the outside of the teeth, especially the cheek side of the upper teeth, where plaque builds up fastest [1] [3] .",
+  "Use a toothpaste made for pets, never human toothpaste [3] [4] .",
+  "Brush daily if you can. That’s the gold standard, but any regular brushing is better than none [1] [2] .",
+  "Chews and other products can help, but brushing comes first [2] [3] .",
+  "Leave tartar, broken teeth and sore gums to your vet [2] [3] .",
+  "Plaque builds up on teeth constantly. Keeping the tooth surfaces clean is the key to keeping gums healthy, and brushing is the most effective way to do it [2] .",
+  "The mouth also matters beyond the teeth. A veterinary dentist explains that poor oral health has been linked to poor health elsewhere in the body, in both human and veterinary research [3] .",
+  "Home brushing works alongside your vet’s care, not instead of it. Veterinary dental organizations recommend regular veterinary checks of the mouth and teeth [2] [3] .",
+  "Dogs accept tooth brushing more readily when it doesn’t hurt and comes with a reward [3] .",
+  "Start with your finger. Gently rub your dog’s gums for short periods, and reward them afterward [3] .",
+  "Move up to a soft-bristled toothbrush once your dog is relaxed with your finger in their mouth [3] .",
+  "Keep sessions short and positive, and stop before your dog becomes uncomfortable.",
+  "Some dogs won’t accept a full brushing routine, and that’s recognized by veterinary dental organizations [1] . A partial, regular brush is still worthwhile (see the next section).",
+  "If your dog is fearful or won’t let you handle their mouth at all, see if your dog won’t let you . If you’re starting with a puppy, see starting with a puppy .",
+  "What you’ll need",
+  "A soft-bristled toothbrush [3]",
+  "Toothpaste made for pets, if you use toothpaste [3]",
+  "Treats",
+  "Choosing a toothbrush? See grooming supplies .",
+  "Choose a calm moment when your dog is relaxed, and have a reward ready [3] .",
+  "Gently lift your dog’s lip to see the outside surfaces of the teeth.",
+  "Brush the outside (cheek side) of the teeth, working gently along the gumline. Give the cheek side of the upper teeth particular attention, because that’s where plaque and tartar build up fastest [1] [3] .",
+  "If your dog allows it, brush the inside surfaces too [1] .",
+  "Reward your dog at the end of every session [3] .",
+  "How often? Daily brushing is the gold standard [1] [2] , and any brushing done regularly is better than none [1] . See how often to brush teeth for how it fits into your dog’s routine.",
+  "Does your vet want a different technique? Some dental conditions call for a different brush or technique. Ask your vet whether the standard approach suits your dog [1] .",
+  "Don’t use human toothpaste. Dogs swallow toothpaste rather than spitting it out [4] :",
+  "Fluoride: swallowing fluoride regularly can let it build up to toxic levels [3] [4] .",
+  "Xylitol: some toothpastes contain xylitol, a sweetener dogs are extremely sensitive to. Even a small amount can cause dangerously low blood sugar and liver damage [4] .",
+  "Use a toothpaste made for pets. A veterinary dentist recommends a pet toothpaste without added fluoride [3] .",
+  "The brushing does the work. Toothpaste is optional: a veterinary dentist’s advice applies “if toothpaste is used” [3] . Don’t make your own toothpaste from household ingredients.",
+  "The brush: start with a finger, then move to a soft-bristled toothbrush [3] . Choose one sized so you can reach the back teeth comfortably. For specific options, see grooming supplies .",
+  "Brushing remains the gold standard [2] . Some other products can help alongside it, but dental wipes, for example, are no replacement for regular brushing with a soft-bristled toothbrush [3] .",
+  "Option",
+  "What the evidence says",
+  "Caveat",
+  "Dental chews and treats",
+  "Daily chewing can help maintain oral health [2]",
+  "Hard objects can break teeth (see “Bones” in the FAQ). Choose the right size for your dog, and supervise chewing [2] [3] .",
+  "Water additives, gels and other products",
+  "Products with the VOHC seal have submitted evidence that they help control plaque, tartar or both when used as directed [2]",
+  "Look for the seal. A product without it hasn’t been reviewed by VOHC.",
+  "Dental wipes",
+  "May offer some benefit [3]",
+  "No replacement for brushing [3]",
+  "Daily chewing activities can help keep teeth clean [2] , but the chew itself matters:",
+  "Hard is a risk: chews that are too hard can fracture teeth [3] [4] .",
+  "The flex test: if you can bend or flex a chew, it’s less likely to break a tooth [3] .",
+  "Size and supervision: to reduce the risk of a dog swallowing a chew whole, give the right size for your dog’s weight, and only give chews when you can watch your dog chewing [2] .",
+  "These are added to drinking water or applied to the teeth. Their effect varies from product to product. If you use one, choose a product with the VOHC seal (see below) and follow its directions [2] .",
+  "The Veterinary Oral Health Council (VOHC) is a council of veterinary dentists and dental scientists [2] . Here’s what its seal does and doesn’t mean [2] :",
+  "No testing by VOHC: it doesn’t test products itself.",
+  "A review of the maker’s data: it reviews data submitted by manufacturers against its standards for plaque and tartar control.",
+  "What the seal covers: a product earns the seal for plaque, tartar, or both, when used as directed.",
+  "What it doesn’t mean: it isn’t a ranking, and it doesn’t mean a product suits every dog.",
+  "The council’s list of accepted products is at vohc.org.",
+  "Home brushing helps prevent plaque from building up. It can’t treat dental disease, and you shouldn’t try to remove hardened tartar yourself.",
+  "See your vet if you notice any of these [3] :",
+  "swollen or bleeding gums;",
+  "a broken or fractured tooth;",
+  "bad breath;",
+  "heavy plaque or tartar on the teeth.",
+  "Professional cleaning: many dogs, especially middle-aged and older dogs, need professional scaling as well as ongoing home care [2] . Veterinary dentists advise that dental cleaning be done under general anesthesia supervised by a veterinarian, and they discourage “anesthesia-free” cleaning [3] [4] .",
+  "Can I use human toothpaste on my dog?",
+  "No. Dogs swallow toothpaste rather than spitting it out. Fluoride swallowed regularly can build up to toxic levels [3] [4] , and some toothpastes contain xylitol, which is dangerous to dogs even in small amounts [4] . Use a toothpaste made for pets [3] , or simply brush without toothpaste. The brushing itself is what cleans the teeth.",
+  "How do I get tartar off my dog's teeth at home?",
+  "You can’t safely remove hardened tartar at home. Brushing helps prevent plaque and new tartar from building up, but removing established tartar needs professional scaling by your vet, done under general anesthesia [2] [3] . Don’t scrape your dog’s teeth with tools.",
+  "Are bones good for my dog's teeth?",
+  "Veterinary dentists advise against them. Bones, antlers and other hard chews commonly cause painful tooth fractures [3] [4] . If you can’t bend or flex a chew, it’s more likely to break a tooth [3] . Choose softer, appropriately sized chews, and supervise your dog while they chew [2] .",
+  "Where to go next",
+  "How often to groom your dog",
+  "Where tooth brushing fits in your dog’s routine.",
+  "Grooming a dog who hates being groomed",
+  "If your dog won’t let you near their mouth.",
+  "Puppy grooming",
+  "Starting good habits early.",
+  "How to groom your dog at home",
+  "The full routine, with teeth in the right place.",
+  "This is general information about home care for healthy dogs, not veterinary advice. If your dog has sore or bleeding gums, a broken tooth, bad breath or trouble eating, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] Veterinary Oral Health Council (VOHC): “Brushing”, including the American Veterinary Dental College’s additional comments (accessed October 5, 2026). https://vohc.org/brushing/",
+  "[2] Veterinary Oral Health Council (VOHC): home page, “What does the VOHC do?” and “How Can I Prevent Dental Disease in My Pet?” (accessed October 5, 2026). https://vohc.org/",
+  "[3] University of Wisconsin School of Veterinary Medicine: “Protect Your Pet’s Teeth: Top Tips from a Veterinary Dentist” (Graham Thatcher), published February 13, 2019, updated February 11, 2022. https://www.vetmed.wisc.edu/protect-pets-teeth/",
+  "[4] Ann Hohenhaus, DVM, The Animal Medical Center: “Dental Don’ts in Celebration of National Pet Dental Month”, February 6, 2019 (updated October 28, 2025). https://www.amcny.org/blog/2019/02/06/dental-donts-in-celebration-of-national-pet-dental-month/"
+ ]
+}

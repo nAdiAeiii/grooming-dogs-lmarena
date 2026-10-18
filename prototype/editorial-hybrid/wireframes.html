@@ -1,0 +1,628 @@
+<title>Editorial Desk Wireframes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: "Ask first". Search is the hero; below it a reference shelf of four chapters, each with its own ground and accent, tied together by a field-guide thumb index. */
+:root {
+  --paper: #fffcf7;      /* live Surface */
+  --soft: #f7efe4;       /* live Surface Soft */
+  --ink: #2b2420;        /* live Text */
+  --muted: #6b5e55;      /* live Text Muted */
+  --brand: #3a2318;      /* live Brand, espresso */
+  --action: #a84a24;     /* live Action, copper */
+  --shine: #e3a33b;      /* live Shine, highlight only */
+  --line: #e6d8c8;       /* live Border */
+  --alert: #a33a32;      /* live Error: vet lines only */
+  /* chapter accents (new): ink for text and tabs, ground for the band */
+  --sage: #3d5a3a;    --sage-bg: #e7efe2;
+  --honey: #7a4d0a;   --honey-bg: #fbe7cf;
+  --slate: #30505f;   --slate-bg: #e4ebf0;
+  --heather: #5b4260; --heather-bg: #efe6ee;
+  --on-dark: #fffcf7;
+  --box: #eadfd2;        /* wireframe placeholder */
+  --note: #6b5e55;
+  --serif: "Literata", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #1c1714; --soft: #251e1a; --ink: #f1e8de; --muted: #bdaea1; --brand: #120c09; --action: #e5916a; --shine: #e3a33b; --line: #42352c; --alert: #f08f86;
+  --sage: #a9c9a3; --sage-bg: #1f2a1e; --honey: #f0c27a; --honey-bg: #33261a; --slate: #a5c3d3; --slate-bg: #1b252b; --heather: #d6b5d9; --heather-bg: #2a1f2b;
+  --on-dark: #f1e8de; --box: #3a2f28; --note: #bdaea1; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --paper: #1c1714; --soft: #251e1a; --ink: #f1e8de; --muted: #bdaea1; --brand: #120c09; --action: #e5916a; --shine: #e3a33b; --line: #42352c; --alert: #f08f86;
+  --sage: #a9c9a3; --sage-bg: #1f2a1e; --honey: #f0c27a; --honey-bg: #33261a; --slate: #a5c3d3; --slate-bg: #1b252b; --heather: #d6b5d9; --heather-bg: #2a1f2b;
+  --on-dark: #f1e8de; --box: #3a2f28; --note: #bdaea1; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+::selection { background: color-mix(in srgb, var(--shine) 45%, transparent); }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 16px/1.55 var(--sans); }
+.wrap { max-width: 1280px; margin: 0 auto; padding-block: 48px 112px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+p { margin: 0; text-wrap: pretty; }
+a { color: var(--action); text-underline-offset: 3px; }
+code { font: 0.82em/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--action); overflow-wrap: anywhere; }
+
+.doc-head { display: grid; gap: 14px; max-width: 74ch; }
+.doc-head h1 { font-size: clamp(1.9rem, 1.3rem + 2vw, 2.7rem); line-height: 1.1; }
+.doc-head p { color: var(--muted); font-size: 1.06rem; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .88rem; color: var(--muted); margin-top: 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.sw { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+
+.board-title { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin: 56px 0 14px; }
+.board-title h2 { font-size: 1.35rem; }
+.board-title span { color: var(--muted); font-size: .9rem; }
+
+/* ---------- desktop board: page on the left, notes on the right ---------- */
+.desk-board { display: grid; grid-template-columns: minmax(0, 1fr) 290px; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--paper); } /* taste-skill-ignore: wireframe frame, not part of the design */
+.page { position: relative; min-width: 0; }
+.notes { border-left: 1px solid var(--line); display: grid; align-content: start; } /* taste-skill-ignore: wireframe annotation column */
+.n { padding: 20px 20px 22px; font-size: .86rem; color: var(--note); display: grid; gap: 7px; border-bottom: 1px solid var(--line); } /* taste-skill-ignore: wireframe annotation divider */
+.n:last-child { border-bottom: 0; }
+.n h3 { font: 600 .95rem/1.25 var(--serif); color: var(--ink); display: flex; gap: 8px; align-items: center; }
+.n b { color: var(--ink); font-weight: 600; }
+
+/* thumb index: the signature move */
+.thumb { position: absolute; right: 0; top: 150px; display: grid; gap: 4px; z-index: 2; }
+.thumb span { display: block; padding: 8px 9px 8px 11px; border-radius: 8px 0 0 8px; color: #fffcf7; font: 600 .68rem/1 var(--sans); letter-spacing: .02em; writing-mode: vertical-rl; transform: rotate(180deg); }
+:root:not([data-theme="light"]) .thumb span { color: var(--paper); }
+
+/* page bands */
+.band { padding: 36px 64px 40px 40px; display: grid; gap: 18px; }
+.mast { background: var(--brand); color: var(--on-dark); display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding: 15px 40px; font-size: .86rem; }
+.mast .wm { font: 600 1.05rem/1 var(--serif); }
+.mast nav { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.mast .sbtn { display: inline-flex; gap: 7px; align-items: center; padding: 6px 11px; border-radius: 8px; background: color-mix(in srgb, var(--on-dark) 14%, transparent); }
+.ic { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.h2 { font: 600 clamp(1.35rem, 1rem + 1vw, 1.75rem)/1.15 var(--serif); }
+.lede { color: var(--muted); max-width: 60ch; }
+.bar { height: 9px; border-radius: 4px; background: var(--box); }
+.w30 { width: 30%; } .w50 { width: 50%; } .w70 { width: 70%; } .w90 { width: 90%; }
+.btn { display: inline-flex; align-items: center; background: var(--action); color: var(--paper); font: 600 .86rem/1 var(--sans); padding: 11px 16px; border-radius: 8px; }
+.lnk { color: var(--action); text-decoration: underline; text-underline-offset: 3px; font-size: .9rem; }
+.photo { position: relative; background: var(--box); border-radius: 12px; display: grid; place-items: center; text-align: center; color: var(--muted); font-size: .76rem; padding: 12px; aspect-ratio: 4 / 3; max-width: 100%; }
+.photo::after { content: ""; position: absolute; inset: 10px; border: 1.5px dashed color-mix(in srgb, var(--muted) 40%, transparent); border-radius: 8px; }
+.photo span { position: relative; z-index: 1; max-width: 26ch; }
+.photo code { color: var(--ink); }
+.credit { font-size: .8rem; color: var(--muted); font-style: italic; }
+
+/* 1 · ask */
+.ask { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 36px; align-items: start; }
+.ask h1 { font-size: clamp(1.7rem, 1.1rem + 1.9vw, 2.55rem); line-height: 1.08; letter-spacing: -0.015em; }
+.hl { background: linear-gradient(transparent 60%, color-mix(in srgb, var(--shine) 42%, transparent) 60%); } /* taste-skill-ignore: the live site's honey highlight under the H1 (BUILD/h1-highlight.json) */
+.field { display: flex; align-items: center; gap: 10px; background: var(--paper); border: 2px solid var(--brand); border-radius: 12px; padding: 14px 16px; color: var(--muted); font-size: 1rem; }
+:root:not([data-theme="light"]) .field { border-color: var(--muted); }
+.field kbd { margin-left: auto; font: 600 .74rem/1 var(--sans); color: var(--muted); padding: 4px 7px; border-radius: 5px; background: var(--soft); }
+.qs { display: grid; gap: 2px; padding: 0; margin: 0; list-style: none; }
+.qs li { display: flex; gap: 10px; align-items: baseline; padding: 7px 0; font-size: .95rem; }
+.qs li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--action); flex: none; transform: translateY(-2px); }
+.qs li span { color: var(--muted); font-size: .8rem; }
+.dogs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; padding-top: 10px; }
+.dog { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 14px; align-items: center; }
+.dog .photo { aspect-ratio: 1; padding: 6px; font-size: .72rem; }
+.dog b { font: 600 1rem/1.25 var(--serif); color: var(--action); display: block; }
+.dog p { color: var(--muted); font-size: .86rem; }
+
+/* chapter bands */
+.ch { position: relative; }
+.ch-sage { background: var(--sage-bg); }  .ch-sage .h2, .ch-sage .acc { color: var(--sage); }
+.ch-honey { background: var(--honey-bg); } .ch-honey .h2, .ch-honey .acc { color: var(--honey); }
+.ch-slate { background: var(--slate-bg); } .ch-slate .h2, .ch-slate .acc { color: var(--slate); }
+.ch-heather { background: var(--heather-bg); } .ch-heather .h2, .ch-heather .acc { color: var(--heather); }
+.ch-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: end; }
+
+/* 2 · coat sheet */
+.coats { display: flex; flex-wrap: wrap; gap: 8px; }
+.coat { padding: 8px 14px; border-radius: 999px; background: var(--paper); font-size: .88rem; }
+.coat.on { background: var(--sage); color: var(--paper); }
+.sheet { display: grid; grid-template-columns: minmax(0, 1fr) 230px; background: var(--paper); border-radius: 14px; overflow: hidden; }
+.sheet-main { padding: 22px 24px; display: grid; gap: 16px; min-width: 0; }
+.sheet-main h3 { font-size: 1.3rem; }
+.srow { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 12px; }
+.sn { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font: 600 .8rem/1 var(--serif); background: var(--sage); color: var(--paper); }
+.sk { font: 600 .95rem/1.3 var(--serif); margin-bottom: 3px; }
+.srow p, .sched { font-size: .9rem; }
+.sched { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 5px 14px; margin: 0; }
+.sched dt { font-weight: 600; } .sched dd { margin: 0; color: var(--ink); }
+.sched .all { color: var(--muted); }
+.side { background: color-mix(in srgb, var(--sage-bg) 55%, var(--paper)); padding: 22px 18px; display: grid; gap: 20px; align-content: start; }
+.side h4 { margin: 0 0 6px; font: 600 .9rem/1.2 var(--serif); }
+.tl { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 10px; align-items: center; font-size: .84rem; padding: 3px 0; }
+.tl svg { width: 52px; height: 26px; color: var(--brand); }
+:root:not([data-theme="light"]) .tl svg { color: var(--ink); }
+.vet { color: var(--alert); font-weight: 600; font-size: .86rem; }
+
+/* 3 · plate */
+.plate { background: var(--paper); border-radius: 14px; padding: 6px 22px 18px; display: grid; }
+.prow { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 16px; align-items: center; padding: 12px 14px; border-radius: 10px; }
+.prow:nth-child(odd) { background: color-mix(in srgb, var(--honey-bg) 45%, var(--paper)); }
+.task { font: 600 .98rem/1.2 var(--serif); color: var(--action); }
+.pegs { display: flex; flex-wrap: wrap; gap: 12px 22px; }
+.peg { display: grid; justify-items: center; gap: 4px; font-size: .8rem; width: 92px; text-align: center; }
+.peg svg { width: 84px; height: 42px; color: var(--brand); }
+:root:not([data-theme="light"]) .peg svg { color: var(--ink); }
+.peg.dim { color: var(--muted); } .peg.dim svg { opacity: .25; }
+.peg.on span { border-bottom: 2px solid var(--action); }
+.todo { width: 84px; height: 42px; display: grid; place-items: center; border: 1.5px dashed var(--line); border-radius: 8px; font-size: .74rem; color: var(--muted); }
+
+/* 4 · problems */
+.prob { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 0; background: var(--paper); border-radius: 14px; overflow: hidden; }
+.sym { list-style: none; margin: 0; padding: 10px; display: grid; gap: 2px; font-size: .88rem; background: color-mix(in srgb, var(--slate-bg) 55%, var(--paper)); }
+.sym li { padding: 8px 12px; border-radius: 8px; }
+.sym li.on { background: var(--slate); color: var(--paper); }
+.sym-d { padding: 20px 22px; display: grid; gap: 10px; align-content: start; font-size: .9rem; }
+.sym-d dt { font-size: .8rem; color: var(--muted); font-weight: 600; }
+.sym-d dd { margin: 0 0 6px; }
+.rule { font: 500 1.08rem/1.4 var(--serif); max-width: 52ch; }
+
+/* 5 · groomers */
+.pro { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 28px; align-items: start; }
+.pro-list { display: grid; gap: 18px; }
+.pro-list b { font: 600 1.02rem/1.25 var(--serif); color: var(--action); display: block; }
+.pro-list p { font-size: .88rem; color: var(--muted); }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.tab { font-size: .8rem; padding: 6px 12px; border-radius: 999px; background: var(--paper); }
+.tab.on { background: var(--heather); color: var(--paper); }
+.tbl { width: 100%; border-collapse: collapse; font-size: .84rem; background: var(--paper); border-radius: 12px; overflow: hidden; }
+.tbl th, .tbl td { text-align: left; padding: 8px 10px; vertical-align: top; }
+.tbl thead th { background: color-mix(in srgb, var(--heather-bg) 60%, var(--paper)); }
+.tbl tbody tr + tr td, .tbl tbody tr + tr th { border-top: 1px solid var(--line); }
+.tbl tbody th { color: var(--muted); font-weight: 600; }
+
+/* 6 · trust, footer */
+.trust { background: var(--soft); }
+.trust-cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; font-size: .88rem; }
+.trust-cols b { display: block; font-family: var(--serif); }
+.foot { background: var(--brand); color: color-mix(in srgb, var(--on-dark) 78%, transparent); padding: 28px 40px; display: grid; grid-template-columns: 1.3fr repeat(3, 1fr); gap: 18px; font-size: .8rem; }
+.foot b { color: var(--on-dark); font-family: var(--serif); display: block; margin-bottom: 4px; }
+
+/* ---------- states ---------- */
+.states { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 22px; }
+.state { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--paper); min-width: 0; } /* taste-skill-ignore: wireframe frame */
+.state-cap { padding: 12px 16px; font-size: .86rem; color: var(--muted); background: var(--soft); border-top: 1px solid var(--line); } /* taste-skill-ignore: wireframe caption */
+.state-cap b { color: var(--ink); }
+.search-state { display: grid; grid-template-columns: minmax(0, 1fr) 300px; min-height: 360px; }
+.results { padding: 22px; display: grid; gap: 4px; align-content: start; }
+.res { display: grid; gap: 2px; padding: 10px 12px; border-radius: 10px; font-size: .86rem; }
+.res.on { background: var(--soft); }
+.res i { font-style: normal; font-size: .8rem; color: var(--muted); }
+.res b { font: 600 .98rem/1.3 var(--serif); }
+.slip { background: var(--paper); border-left: 1px solid var(--line); box-shadow: -18px 0 36px -26px rgba(40, 23, 15, .6); padding: 22px 20px; display: grid; gap: 10px; align-content: start; font-size: .86rem; } /* taste-skill-ignore: the slip is a real overlay over the page */
+.slip h3 { font-size: 1.15rem; }
+.slip h4 { margin: 6px 0 0; font: 600 .82rem/1 var(--sans); color: var(--muted); }
+.slip ol { margin: 0; padding-left: 1.2rem; display: grid; gap: 3px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font-size: .78rem; padding: 4px 10px; border-radius: 999px; background: var(--soft); }
+.entry { padding: 22px; display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 18px; align-items: start; }
+.entry svg { width: 170px; height: 85px; color: var(--brand); }
+:root:not([data-theme="light"]) .entry svg { color: var(--ink); }
+.entry h3 { font-size: 1.15rem; margin-bottom: 4px; }
+.entry p { font-size: .86rem; margin-top: 4px; }
+.fit { color: var(--sage); font-weight: 600; font-size: .82rem; }
+
+/* ---------- phones ---------- */
+.phones { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; align-items: start; }
+.phone { border: 1px solid var(--line); border-radius: 26px; overflow: hidden; background: var(--paper); min-width: 0; } /* taste-skill-ignore: phone frame */
+.p-mast { background: var(--brand); color: var(--on-dark); display: flex; justify-content: space-between; align-items: center; padding: 13px 16px; font: 600 .92rem/1 var(--serif); }
+.p-mast span:last-child { display: flex; gap: 14px; }
+.pb { padding: 16px; display: grid; gap: 12px; font-size: .84rem; }
+.pb h1 { font-size: 1.35rem; line-height: 1.12; }
+.pb .h2 { font-size: 1.15rem; }
+.pb .field { padding: 11px 12px; font-size: .86rem; }
+.pb .dog { grid-template-columns: 60px minmax(0, 1fr); }
+.pb .sheet, .pb .prob { grid-template-columns: minmax(0, 1fr); }
+.pb .side { padding: 14px; }
+.p-index { display: flex; gap: 6px; padding: 10px 16px; overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--line); } /* taste-skill-ignore: sticky chapter bar edge */
+.p-index span { font-size: .8rem; padding: 5px 10px; border-radius: 999px; color: #fffcf7; white-space: nowrap; }
+:root:not([data-theme="light"]) .p-index span { color: var(--paper); }
+.p-sheet { background: color-mix(in srgb, var(--ink) 40%, var(--paper)); padding-top: 90px; }
+.p-sheet .sheet-in { background: var(--paper); border-radius: 18px 18px 0 0; padding: 12px 16px 20px; display: grid; gap: 10px; font-size: .84rem; }
+.grip { width: 38px; height: 4px; border-radius: 2px; background: var(--line); justify-self: center; }
+.p-cap { padding: 12px 16px; font-size: .84rem; color: var(--muted); background: var(--soft); border-top: 1px solid var(--line); } /* taste-skill-ignore: wireframe caption */
+.p-cap b { color: var(--ink); }
+
+/* ---------- decisions ---------- */
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 40px; margin-top: 18px; }
+.cols h3 { font-size: 1.02rem; margin-bottom: 6px; }
+.cols p, .cols li { color: var(--muted); font-size: .94rem; }
+.htable { width: 100%; border-collapse: collapse; font-size: .9rem; margin-top: 16px; }
+.htable th, .htable td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.htable th { font-family: var(--serif); font-weight: 600; }
+.htable td:first-child { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--muted) 55%, transparent); }
+.palette { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 16px; }
+.pal { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); font-size: .8rem; } /* taste-skill-ignore: palette swatch frame */
+.pal div:first-child { height: 46px; }
+.pal div:last-child { padding: 8px 10px; }
+.pal b { display: block; font-family: var(--serif); }
+.scroll-x { overflow-x: auto; }
+ul.plain { margin: 12px 0 0; padding-left: 20px; display: grid; gap: 6px; color: var(--muted); max-width: 82ch; }
+ul.plain b { color: var(--ink); }
+
+@media (max-width: 1080px) {
+  .desk-board { grid-template-columns: minmax(0, 1fr); }
+  .notes { border-left: 0; border-top: 1px solid var(--line); grid-template-columns: repeat(2, minmax(0, 1fr)); } /* taste-skill-ignore: wireframe annotation column */
+  .phones { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .states { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .band { padding: 24px 40px 28px 18px; }
+  .mast, .foot { padding-inline: 18px; }
+  .ask, .dogs, .sheet, .prob, .pro, .trust-cols, .foot, .cols, .search-state, .entry, .notes { grid-template-columns: minmax(0, 1fr); }
+  .palette { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .prow { grid-template-columns: minmax(0, 1fr); }
+  .sched { grid-template-columns: minmax(0, 1fr); }
+  .slip { border-left: 0; border-top: 1px solid var(--line); } /* taste-skill-ignore: overlay edge on phones */
+  .phones { grid-template-columns: minmax(0, 1fr); max-width: 360px; }
+  .ch-head { grid-template-columns: minmax(0, 1fr); }
+}
+.lib { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 2px; }
+.lib span { font-size: .8rem; padding: 3px 9px; border-radius: 999px; background: var(--soft); color: var(--ink); }
+.foot-s { display: flex; gap: 7px; align-items: center; margin-top: 12px; color: var(--on-dark); }
+.foot-s kbd, .menu-k kbd { font: 600 .74rem/1 var(--sans); padding: 3px 6px; border-radius: 5px; background: color-mix(in srgb, var(--on-dark) 16%, transparent); }
+/* open navigation menu state */
+.navstate { background: var(--paper); }
+.navstate .mast { border-radius: 0; }
+.menu-panel { margin: 0 40px 0 auto; width: min(760px, 100%); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 190px; gap: 6px 22px; padding: 18px 22px; background: var(--paper); border-radius: 0 0 14px 14px; box-shadow: 0 18px 36px -24px rgba(40, 23, 15, .55); } /* taste-skill-ignore: the open menu is a real overlay */
+.mi b { font: 600 .95rem/1.25 var(--serif); color: var(--action); display: block; }
+.mi p { font-size: .84rem; color: var(--muted); }
+.mi { padding: 8px 10px; border-radius: 10px; }
+.mi.on { background: var(--soft); }
+.menu-k { grid-row: span 3; background: color-mix(in srgb, var(--soft) 70%, var(--paper)); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; font-size: .84rem; }
+.menu-k kbd { background: var(--paper); color: var(--ink); }
+/* 404 */
+.nf { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 32px; padding: 36px 40px 40px; align-items: start; }
+.nf h2 { font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.1rem); line-height: 1.1; }
+.nf .shelf { display: grid; gap: 8px; }
+.nf .shelf a { display: flex; gap: 10px; align-items: center; text-decoration: none; color: var(--ink); padding: 10px 12px; border-radius: 10px; background: var(--soft); font-size: .9rem; }
+.picks { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: 16px; }
+.picks th, .picks td { text-align: left; padding: 10px 12px; vertical-align: top; border-bottom: 1px solid var(--line); } /* taste-skill-ignore: a real data table */
+.picks th { font-family: var(--serif); font-weight: 600; }
+.picks td:first-child { font-weight: 600; white-space: nowrap; }
+.picks td:nth-child(2) { color: var(--muted); white-space: nowrap; }
+@media (max-width: 720px) { .menu-panel { grid-template-columns: minmax(0, 1fr); margin: 0; } .menu-k { grid-row: auto; } .nf { grid-template-columns: minmax(0, 1fr); padding: 22px 18px; } }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- Line icons follow the Lucide set (ISC licence). Tool drawings come from Hybrid V1 (art.js). -->
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="t-slicker" viewBox="0 0 240 120"><g fill="currentColor"><rect x="36" y="52" width="120" height="16" rx="8"/><rect x="150" y="30" width="58" height="60" rx="10"/><g><rect x="154" y="24" width="3" height="10" rx="1.5"/><rect x="161" y="24" width="3" height="10" rx="1.5"/><rect x="168" y="24" width="3" height="10" rx="1.5"/><rect x="175" y="24" width="3" height="10" rx="1.5"/><rect x="182" y="24" width="3" height="10" rx="1.5"/><rect x="189" y="24" width="3" height="10" rx="1.5"/><rect x="196" y="24" width="3" height="10" rx="1.5"/><rect x="203" y="24" width="3" height="10" rx="1.5"/></g></g></symbol>
+<symbol id="t-pin" viewBox="0 0 240 120"><g fill="currentColor"><rect x="30" y="54" width="110" height="14" rx="7"/><ellipse cx="176" cy="61" rx="44" ry="34"/></g></symbol>
+<symbol id="t-bristle" viewBox="0 0 240 120"><g fill="currentColor"><rect x="30" y="54" width="104" height="14" rx="7"/><rect x="132" y="36" width="84" height="50" rx="14"/></g></symbol>
+<symbol id="t-curry" viewBox="0 0 240 120"><g fill="currentColor"><ellipse cx="120" cy="60" rx="74" ry="40"/><rect x="60" y="14" width="120" height="14" rx="7"/></g></symbol>
+<symbol id="t-rake" viewBox="0 0 240 120"><g fill="currentColor"><rect x="30" y="54" width="132" height="14" rx="7"/><rect x="160" y="30" width="16" height="62" rx="4"/><rect x="176" y="33" width="22" height="3.5" rx="1.5"/><rect x="176" y="40.5" width="22" height="3.5" rx="1.5"/><rect x="176" y="48" width="22" height="3.5" rx="1.5"/><rect x="176" y="55.5" width="22" height="3.5" rx="1.5"/><rect x="176" y="63" width="22" height="3.5" rx="1.5"/><rect x="176" y="70.5" width="22" height="3.5" rx="1.5"/><rect x="176" y="78" width="22" height="3.5" rx="1.5"/><rect x="176" y="85.5" width="22" height="3.5" rx="1.5"/></g></symbol>
+<symbol id="t-comb" viewBox="0 0 240 120"><g fill="currentColor"><rect x="24" y="44" width="192" height="16" rx="3"/><rect x="30" y="60" width="3.5" height="30" rx="1.5"/><rect x="37.8" y="60" width="3.5" height="30" rx="1.5"/><rect x="45.6" y="60" width="3.5" height="30" rx="1.5"/><rect x="53.4" y="60" width="3.5" height="30" rx="1.5"/><rect x="61.2" y="60" width="3.5" height="30" rx="1.5"/><rect x="69" y="60" width="3.5" height="30" rx="1.5"/><rect x="76.8" y="60" width="3.5" height="30" rx="1.5"/><rect x="84.6" y="60" width="3.5" height="30" rx="1.5"/><rect x="92.4" y="60" width="3.5" height="30" rx="1.5"/><rect x="100.2" y="60" width="3.5" height="30" rx="1.5"/><rect x="108" y="60" width="3.5" height="30" rx="1.5"/><rect x="115.8" y="60" width="3.5" height="30" rx="1.5"/><rect x="123.6" y="60" width="3.5" height="30" rx="1.5"/><rect x="131.39999999999998" y="60" width="3.5" height="30" rx="1.5"/><rect x="139.2" y="60" width="3.5" height="30" rx="1.5"/><rect x="147" y="60" width="3.5" height="30" rx="1.5"/><rect x="154.8" y="60" width="3.5" height="30" rx="1.5"/><rect x="162.6" y="60" width="3.5" height="30" rx="1.5"/><rect x="170.4" y="60" width="3.5" height="30" rx="1.5"/><rect x="178.2" y="60" width="3.5" height="30" rx="1.5"/><rect x="186" y="60" width="3.5" height="30" rx="1.5"/><rect x="193.79999999999998" y="60" width="3.5" height="30" rx="1.5"/><rect x="201.6" y="60" width="3.5" height="30" rx="1.5"/><rect x="209.4" y="60" width="3.5" height="30" rx="1.5"/></g></symbol>
+<symbol id="t-clipper" viewBox="0 0 240 120"><g fill="currentColor"><path d="M40 40q40 -8 84 16l-6 10q-40 -18 -76 -12z"/><path d="M40 82q40 8 84 -16l-6 -10q-40 18 -76 12z"/><path d="M118 52l72 -6q12 6 0 16l-72 4z"/><circle cx="122" cy="61" r="9"/></g></symbol>
+<symbol id="t-grinder" viewBox="0 0 240 120"><g fill="currentColor"><rect x="40" y="42" width="130" height="38" rx="19"/><rect x="168" y="50" width="22" height="22" rx="3"/><rect x="190" y="44" width="22" height="34" rx="6"/></g></symbol>
+<symbol id="t-styptic" viewBox="0 0 240 120"><g fill="currentColor"><rect x="88" y="48" width="64" height="62" rx="8"/><rect x="82" y="34" width="76" height="18" rx="5"/></g></symbol>
+<symbol id="t-dryer" viewBox="0 0 240 120"><g fill="currentColor"><rect x="60" y="34" width="120" height="44" rx="22"/><rect x="176" y="40" width="28" height="32" rx="4"/><rect x="88" y="74" width="26" height="40" rx="8"/></g></symbol>
+<symbol id="t-earclean" viewBox="0 0 240 120"><g fill="currentColor"><rect x="96" y="40" width="48" height="74" rx="10"/><rect x="108" y="22" width="24" height="20" rx="3"/><rect x="116" y="8" width="8" height="16" rx="3"/><circle cx="62" cy="92" r="16"/><circle cx="178" cy="96" r="12"/></g></symbol>
+<symbol id="t-toothbrush" viewBox="0 0 240 120"><g fill="currentColor"><rect x="20" y="56" width="170" height="10" rx="5"/><rect x="186" y="48" width="34" height="14" rx="3"/></g></symbol>
+</svg>
+
+<div class="wrap">
+  <header class="doc-head">
+    <h1>Homepage wireframes: Ask first</h1>
+    <p>The visitor’s question leads. Search is the hero, and the rest of the page is a reference shelf of four chapters, each with its own colour. The live Editorial identity stays: espresso, copper, honey, Literata and the credited photos. Every link is a published URL or a real section anchor.</p>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--sage)"></i>Coat</span>
+      <span><i class="sw" style="background:var(--honey)"></i>Tools</span>
+      <span><i class="sw" style="background:var(--slate)"></i>Problems</span>
+      <span><i class="sw" style="background:var(--heather)"></i>Groomers</span>
+      <span><i class="sw" style="background:var(--action)"></i>Actions and links</span>
+    </div>
+  </header>
+
+  <!-- ===================== DESKTOP ===================== -->
+  <div class="board-title"><h2>Desktop, 1366px</h2><span>The page on the left, what each part does on the right</span></div>
+  <div class="desk-board">
+    <div class="page">
+      <div class="thumb" aria-hidden="true">
+        <span style="background:var(--sage)">Coat</span><span style="background:var(--honey)">Tools</span><span style="background:var(--slate)">Problems</span><span style="background:var(--heather)">Groomers</span>
+      </div>
+
+      <div class="mast"><span class="wm"><span style="color:var(--shine)">●</span> Grooming Dogs</span>
+        <nav><span>Grooming tasks ▾</span><span>Your dog ▾</span><span>Problems</span><span>Tools &amp; groomers ▾</span><span class="sbtn"><svg class="ic"><use href="#i-search"/></svg>Search</span></nav></div>
+
+      <section class="band">
+        <div class="ask">
+          <div style="display:grid;gap:18px;min-width:0">
+            <h1>Practical <span class="hl">dog grooming</span>, explained for owners</h1>
+            <p class="lede">Clear, step-by-step guides to grooming your dog at home: brushing, bathing, nails, ears, teeth and trims. They also help you know when a groomer or your vet should take over.</p>
+            <div class="field"><svg class="ic"><use href="#i-search"/></svg>What do you need to do?<kbd>/</kbd></div>
+            <ul class="qs" aria-label="Questions owners ask">
+              <li>Can I use human nail clippers on my dog? <span>Nails</span></li>
+              <li>Can I bathe my dog every week? <span>Schedule</span></li>
+              <li>Should you shave a double-coated dog? <span>Coat types</span></li>
+              <li>My dog’s ears smell but aren’t red. Should I clean them? <span>Ears</span></li>
+            </ul>
+            <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap"><span class="btn">Start with the full routine</span><span class="lnk">More about us</span></div>
+          </div>
+          <div style="display:grid;gap:6px">
+            <div class="photo"><span>Photo <code>lead-brushing</code>: an owner brushing a calm, shaggy dog</span></div>
+            <span class="credit">Photo: Yaroslav Shuraev / Pexels</span>
+          </div>
+        </div>
+        <div class="dogs">
+          <div class="dog"><div class="photo"><span><code>lead-puppy</code></span></div><div><b>Grooming a puppy</b><p>Start early, gently and briefly.</p></div></div>
+          <div class="dog"><div class="photo"><span><code>lead-senior</code></span></div><div><b>Grooming an older dog</b><p>Old age isn’t a disease.</p></div></div>
+          <div class="dog"><div class="photo"><span><code>lead-anxious</code></span></div><div><b>A dog who hates grooming</b><p>Don’t force it.</p></div></div>
+        </div>
+      </section>
+
+      <section class="band ch ch-sage">
+        <div class="ch-head"><div style="display:grid;gap:6px"><h2 class="h2">What your dog’s coat needs</h2><p class="lede">Coat changes how often you brush and bathe, and which tools to start with.</p></div></div>
+        <div class="coats"><span class="coat">Short and smooth</span><span class="coat">Wiry</span><span class="coat on">Double</span><span class="coat">Long and silky</span><span class="coat">Curly</span><span class="lnk" style="align-self:center">Not sure? Identify the coat</span></div>
+        <div class="sheet">
+          <div class="sheet-main">
+            <h3>A <span class="hl">double</span> coat</h3>
+            <div class="srow"><span class="sn">1</span><div><p class="sk">The coat</p><p>Two layers. Outer layer: longer, coarser guard hairs. Underneath: a soft, dense undercoat. Labrador Retriever, both Corgis, Border Collie.</p></div></div>
+            <div class="srow"><span class="sn">2</span><div><p class="sk">Its schedule</p>
+              <dl class="sched"><dt>Brushing</dt><dd>De-shed once a week with an undercoat rake; a few brushing sessions a week suit many dogs</dd><dt>Bathing</dt><dd>Occasional. Roughly every month to every three months.</dd><dt>Groomer</dt><dd>Not essential. A groomer can help with de-shedding.</dd><dt class="all">Every coat</dt><dd class="all">Nails every three to four weeks, ears at each groom, teeth daily if you can</dd></dl></div></div>
+            <div class="srow"><span class="sn">3</span><div><p class="sk">The routine</p><span class="lnk">The full grooming routine, in order</span></div></div>
+          </div>
+          <aside class="side">
+            <div><h4>Start with</h4>
+              <div class="tl"><svg><use href="#t-rake"/></svg>Undercoat rake or de-shedding tool</div>
+              <div class="tl"><svg><use href="#t-slicker"/></svg>Slicker brush for dense areas</div>
+              <div class="tl"><svg><use href="#t-comb"/></svg>Steel comb</div></div>
+            <div><h4>Stop and check</h4><p style="font-size:.86rem">Don’t shave a double coat.</p><p class="vet">Sudden hair loss, bald patches, or shedding with itchy or sore skin: see a vet.</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="band ch ch-honey">
+        <div class="ch-head"><div style="display:grid;gap:6px"><h2 class="h2">The grooming plate</h2><p class="lede">Every tool the guides recommend, by job. Tools in full colour are where to start with a <b class="acc">double</b> coat.</p></div><span class="lnk">All grooming tools</span></div>
+        <div class="plate">
+          <div class="prow"><span class="task">Brushing</span><div class="pegs">
+            <span class="peg"><svg><use href="#t-rake"/></svg><span>Undercoat rake</span></span><span class="peg on"><svg><use href="#t-slicker"/></svg><span>Slicker brush</span></span><span class="peg"><svg><use href="#t-comb"/></svg><span>Comb</span></span><span class="peg dim"><svg><use href="#t-pin"/></svg><span>Pin brush</span></span><span class="peg dim"><svg><use href="#t-bristle"/></svg><span>Bristle brush</span></span><span class="peg dim"><svg><use href="#t-curry"/></svg><span>Rubber curry</span></span></div></div>
+          <div class="prow"><span class="task">Nails</span><div class="pegs"><span class="peg"><svg><use href="#t-clipper"/></svg><span>Clippers</span></span><span class="peg"><svg><use href="#t-grinder"/></svg><span>Grinder</span></span><span class="peg"><svg><use href="#t-styptic"/></svg><span>Styptic powder</span></span><span class="lnk" style="align-self:center">Clippers or grinder?</span></div></div>
+          <div class="prow"><span class="task">Bathing</span><div class="pegs"><span class="peg"><svg><use href="#t-dryer"/></svg><span>Dryer, optional</span></span></div></div>
+          <div class="prow"><span class="task">Ears and teeth</span><div class="pegs"><span class="peg"><svg><use href="#t-earclean"/></svg><span>Ear cleaner</span></span><span class="peg"><svg><use href="#t-toothbrush"/></svg><span>Soft toothbrush</span></span></div></div>
+          <div class="prow"><span class="task">Haircuts</span><div class="pegs"><span class="peg"><span class="todo">new drawing</span><span>Blunt-ended scissors</span></span><span class="peg"><span class="todo">new drawing</span><span>Small clippers</span></span></div></div>
+        </div>
+      </section>
+
+      <section class="band ch ch-slate">
+        <div class="ch-head"><div style="display:grid;gap:8px"><h2 class="h2">Something wrong after grooming?</h2><p class="rule">Stop the grooming task that seems to be causing the problem. Don’t push on to finish.</p></div><span class="lnk">The full problems guide</span></div>
+        <div class="prob">
+          <ol class="sym">
+            <li class="on">Itching, scratching or licking after a bath</li><li>Redness after clipping</li><li>Bumps, scabs or sores after grooming</li><li>Head shaking or ear scratching</li><li>Smell soon after a bath</li><li>Dry, flaky skin</li><li>Tear staining</li><li>Coat not growing back after clipping</li><li>Cut, nick, burn or limping after grooming</li>
+          </ol>
+          <dl class="sym-d">
+            <dt>Possible grooming factor</dt><dd>Shampoo left in the coat; a product that isn’t made for dogs</dd>
+            <dt>What to change</dt><dd>Rinse until no shampoo is left; use dog products only</dd>
+            <dt>See a vet if</dt><dd class="vet">It’s still itchy after a better rinse, or there’s redness, sores or hair loss</dd>
+            <dd><span class="lnk">Itching, redness and bumps after grooming</span></dd>
+          </dl>
+        </div>
+      </section>
+
+      <section class="band ch ch-heather">
+        <div class="ch-head"><h2 class="h2">When a groomer takes over</h2></div>
+        <div class="pro">
+          <div class="pro-list">
+            <div><b>Choosing a groomer</b><p>What to ask, what to look for, and what to do if something goes wrong.</p></div>
+            <div><b>What grooming costs</b><p>Example US prices, and what makes a quote higher or lower.</p></div>
+          </div>
+          <div>
+            <div class="tabs"><span class="tab on">Salon, mobile, self-wash or home visit</span><span class="tab">Home or professional</span></div>
+            <div class="scroll-x"><table class="tbl"><thead><tr><th></th><th>Salon</th><th>Mobile</th><th>Self-wash</th><th>Home visit</th></tr></thead><tbody><tr><th>Row</th><td colspan="4"><div class="bar w90"></div></td></tr><tr><th>Row</th><td colspan="4"><div class="bar w70"></div></td></tr><tr><th>Row</th><td colspan="4"><div class="bar w50"></div></td></tr></tbody></table></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band trust">
+        <h2 class="h2">How this guide works</h2>
+        <div class="trust-cols"><div><b>Sourced.</b><div class="bar w90"></div></div><div><b>Your vet comes first.</b><div class="bar w90"></div></div><div><b>Corrections welcome.</b><div class="bar w70"></div></div></div>
+        <div style="display:flex;gap:22px;flex-wrap:wrap"><span class="lnk">How our guides are written and funded</span><span class="lnk">Grooming glossary</span></div>
+      </section>
+
+      <div class="foot"><div><b>Grooming Dogs</b>Site line and salon line<span class="foot-s"><svg class="ic"><use href="#i-search"/></svg>Can’t find it? Search the guides <kbd>/</kbd></span></div><div><b>Grooming guides</b>Full routine, coat types…</div><div><b>Help &amp; tools</b>Problems, tools, groomer…</div><div><b>About the site</b>About, editorial, contact, privacy</div></div>
+    </div>
+
+    <div class="notes">
+      <div class="n"><h3>Masthead</h3><p>The live menu, unchanged, plus Search at the end. <code>/</code> focuses search from anywhere.</p><p class="lib"><span>shadcn Navigation Menu</span><span>shadcn Kbd</span></p></div>
+      <div class="n"><h3>1 · Ask</h3><p>The H1, intro and photo stay. The question field is the largest control on the page. The four questions are real published FAQs.</p>
+        <p>The browse-by-dog row has three real photos: <code>/puppy-grooming/</code>, <code>/senior-dog-grooming/</code>, <code>/grooming-an-anxious-dog/</code>.</p>
+        <p>The button goes to <code>/how-to-groom-your-dog-at-home/</code>.</p><p class="lib"><span>shadcn Command</span><span>motion-primitives Text Loop</span><span>Magic UI Highlighter</span></p></div>
+      <div class="n"><h3><i class="sw" style="background:var(--sage)"></i>Coat</h3><p>V1’s coat sheet, on real tables. The owner’s 1 → 2 → 3 path (coat, schedule, routine) runs as numbered rows inside it.</p>
+        <p>Sources: <code>/dog-coat-types/</code>, <code>/how-often-should-you-groom-your-dog/</code>, <code>/dog-grooming-tools/#starter-kits-by-coat-type</code>.</p><p class="lib"><span>shadcn Toggle Group</span><span>motion-primitives Animated Background</span><span>motion-primitives Transition Panel</span></p></div>
+      <div class="n"><h3><i class="sw" style="background:var(--honey)"></i>Tools</h3><p>V1’s plate. Task names link to the six guides. Each entry is quoted from <code>/dog-grooming-tools/</code>.</p>
+        <p>Full and faded colour follow the coat picked above. “Clippers or grinder?” opens <code>/trimming-dog-nails/#grinder-or-clipper</code>.</p><p class="lib"><span>shadcn Hover Card</span><span>motion-primitives Morphing Dialog</span></p></div>
+      <div class="n"><h3><i class="sw" style="background:var(--slate)"></i>Problems</h3><p>The core of <code>/dog-grooming-problems/</code>: its first-step rule and the 9 rows of <code>#symptoms-at-a-glance</code>, each with its vet line and a link to its section. The detail and sources stay on that page.</p><p class="lib"><span>motion-primitives Animated Background</span><span>shadcn Accordion (phones)</span></p></div>
+      <div class="n"><h3><i class="sw" style="background:var(--heather)"></i>Groomers</h3><p>Two entries and the two published comparisons: <code>/choosing-a-dog-groomer/#salon-mobile-self-wash-or-home-visit</code> and <code>/dog-grooming-cost/#home-grooming-vs-professional-grooming</code>.</p><p class="lib"><span>shadcn Tabs</span><span>shadcn Table</span></p></div>
+      <div class="n"><h3>Trust and footer</h3><p>Verbatim. <code>/editorial-policy/</code>, <code>/contact/</code>, <code>/dog-grooming-glossary/</code>. No badges or counts.</p><p class="lib"><span>Footer search line, shadcn Kbd</span></p></div>
+    </div>
+  </div>
+
+  <!-- ===================== STATES ===================== -->
+  <div class="board-title"><h2>The two interactions</h2><span>Search with the reading slip, and the plate entry</span></div>
+  <div class="states">
+    <div class="state">
+      <div class="search-state">
+        <div class="results">
+          <div class="field" style="margin-bottom:10px"><svg class="ic"><use href="#i-search"/></svg><span style="color:var(--ink)">dog smells after a bath</span></div>
+          <div class="res on"><i>Section · How to bathe your dog</i><b>Rinsing thoroughly</b></div>
+          <div class="res"><i>Section · How to bathe your dog</i><b>Drying your dog</b></div>
+          <div class="res"><i>Problems after grooming</i><b>Smell soon after a bath</b></div>
+          <div class="res"><i>Question · Cleaning your dog’s ears</i><b>My dog’s ears smell but aren’t red. Should I clean them?</b></div>
+        </div>
+        <div class="slip">
+          <h3>How to bathe your dog</h3>
+          <h4>The short answer, as published</h4>
+          <ol><li>Brush your dog first, because water makes mats worse.</li><li><div class="bar w90"></div></li><li><div class="bar w70"></div></li></ol>
+          <h4>In this guide</h4>
+          <span class="lnk">Rinsing thoroughly</span><span class="lnk">Drying your dog</span>
+          <h4>Readers go next</h4>
+          <div class="chips"><span class="chip">Brushing</span><span class="chip">Coat types</span><span class="chip">Problems</span></div>
+          <span class="btn" style="justify-self:start;margin-top:4px">Open the guide</span>
+        </div>
+      </div>
+      <div class="state-cap"><b>Search.</b> Results print under the field as guides, sections and answered questions. Choosing one slides in the reading slip from the right edge. On phones it is a bottom sheet.</div>
+    </div>
+    <div class="state">
+      <div class="entry">
+        <svg><use href="#t-slicker"/></svg>
+        <div>
+          <h3>Slicker brush</h3>
+          <p class="fit">A starting tool for a double coat, for dense areas</p>
+          <p><b>What it does:</b> fine wire bristles for working out tangles and removing loose, dead hair.</p>
+          <p><b>Suits:</b> long, silky and curly coats, dense coats that tangle, and the densest areas of double coats.</p>
+          <p><b>Limitation:</b> use it gently, especially near the skin. A slicker is for small tangles, not tight mats.</p>
+          <div class="chips" style="margin-top:10px"><span class="chip">Brushing guide</span><span class="chip">Dealing with mats</span></div>
+        </div>
+      </div>
+      <div class="state-cap"><b>Plate entry.</b> Choosing a tool opens its entry under the plate. Changing the coat in the chapter above re-lights the plate.</div>
+    </div>
+  </div>
+
+  <!-- ===================== MENU + 404 ===================== -->
+  <div class="board-title"><h2>Header menu and the 404 page</h2><span>Navigation states drawn from shadcn Navigation Menu and Command</span></div>
+  <div class="states" style="grid-template-columns:minmax(0,1fr)">
+    <div class="state navstate">
+      <div class="mast"><span class="wm"><span style="color:var(--shine)">●</span> Grooming Dogs</span>
+        <nav><span style="color:var(--shine)">Grooming tasks ▴</span><span>Your dog ▾</span><span>Problems</span><span>Tools &amp; groomers ▾</span><span class="sbtn"><svg class="ic"><use href="#i-search"/></svg>Search</span></nav></div>
+      <div class="menu-panel">
+        <div class="mi on"><b>Bathing</b><p>Brush your dog first, because water makes mats worse.</p></div>
+        <div class="mi"><b>Nail trimming</b><p>Hold the toe gently so the nail extends.</p></div>
+        <div class="menu-k"><b style="font-family:var(--serif)">Not in the list?</b><span>Search all 22 guides, their sections and answered questions.</span><span><kbd>/</kbd> or <kbd>⌘</kbd> <kbd>K</kbd></span></div>
+        <div class="mi"><b>Brushing</b><p>Brush to the skin, a small section at a time.</p></div>
+        <div class="mi"><b>Ear cleaning</b><p>Clean when you can see dirt or wax build-up.</p></div>
+        <div class="mi"><b>Haircuts &amp; trimming</b><p>Stick to small, careful trims.</p></div>
+        <div class="mi"><b>Teeth brushing</b><p>Start slowly.</p></div>
+      </div>
+      <div style="height:26px"></div>
+      <div class="state-cap"><b>Menu.</b> The same four menu items as the live site. Each open menu shows its guides with the first line of their published short answer, so a reader can pick without guessing. A search hint closes every panel. Arrow keys move through it and Escape closes it.</div>
+    </div>
+    <div class="state">
+      <div class="nf">
+        <div style="display:grid;gap:14px;min-width:0">
+          <h2>This page isn’t here</h2>
+          <p class="lede">The link may be old or mistyped. We searched for the words in it:</p>
+          <div class="field"><svg class="ic"><use href="#i-search"/></svg><span style="color:var(--ink)">dog nail trimming</span></div>
+          <div class="res on" style="padding:10px 12px"><i>Guide</i><b>How to trim your dog’s nails</b></div>
+          <div class="res" style="padding:10px 12px"><i>Section · Grooming tools</i><b>Nail tools</b></div>
+        </div>
+        <div class="shelf">
+          <a><i class="sw" style="background:var(--sage)"></i>Dog coat types</a>
+          <a><i class="sw" style="background:var(--honey)"></i>Grooming tools</a>
+          <a><i class="sw" style="background:var(--slate)"></i>Problems after grooming</a>
+          <a><i class="sw" style="background:var(--heather)"></i>Choosing a groomer</a>
+          <span class="lnk" style="margin-top:6px">Back to the homepage</span>
+        </div>
+      </div>
+      <div class="state-cap"><b>404.</b> No joke and no illustration. The page turns the broken URL into a search, shows the best published match, and lists the four chapter guides in their colours.</div>
+    </div>
+  </div>
+
+  <!-- ===================== MOBILE ===================== -->
+  <div class="board-title"><h2>Mobile, 390px</h2><span>Same order; the thumb index becomes a chapter bar under the masthead</span></div>
+  <div class="phones">
+    <div class="phone">
+      <div class="p-mast"><span><span style="color:var(--shine)">●</span> Grooming Dogs</span><span><svg class="ic"><use href="#i-search"/></svg><svg class="ic"><use href="#i-menu"/></svg></span></div>
+      <div class="pb">
+        <h1>Practical <span class="hl">dog grooming</span>, explained for owners</h1>
+        <div class="field"><svg class="ic"><use href="#i-search"/></svg>What do you need to do?</div>
+        <ul class="qs"><li>Human nail clippers on my dog?</li><li>Bathe my dog every week?</li><li>Shave a double coat?</li></ul>
+        <span class="btn" style="justify-self:start">Start with the full routine</span>
+        <div class="photo"><span><code>lead-brushing</code></span></div>
+      </div>
+      <div class="p-cap"><b>Fold.</b> The question field is above the fold; the photo follows the actions.</div>
+    </div>
+    <div class="phone">
+      <div class="p-index"><span style="background:var(--sage)">Coat</span><span style="background:var(--honey)">Tools</span><span style="background:var(--slate)">Problems</span><span style="background:var(--heather)">Groomers</span></div>
+      <div class="pb ch-sage" style="background:var(--sage-bg)">
+        <h2 class="h2" style="color:var(--sage)">What your dog’s coat needs</h2>
+        <div class="coats"><span class="coat">Smooth</span><span class="coat on">Double</span><span class="coat">Silky</span><span class="coat">…</span></div>
+        <div class="sheet"><div class="sheet-main" style="padding:14px"><h3 style="font-size:1.05rem">A double coat</h3><div class="bar w90"></div><div class="bar w70"></div></div><aside class="side"><div class="tl"><svg><use href="#t-rake"/></svg>Undercoat rake</div><p class="vet">Don’t shave a double coat.</p></aside></div>
+      </div>
+      <div class="p-cap"><b>Chapter bar.</b> It sticks under the masthead once the visitor scrolls past the hero and marks the current chapter.</div>
+    </div>
+    <div class="phone">
+      <div class="pb" style="background:var(--honey-bg)">
+        <h2 class="h2" style="color:var(--honey)">The grooming plate</h2>
+        <div class="plate" style="padding:4px 12px 10px"><div class="prow" style="grid-template-columns:minmax(0,1fr);gap:8px"><span class="task">Brushing</span><div class="pegs" style="flex-wrap:nowrap;overflow:hidden;gap:10px"><span class="peg" style="width:64px"><svg style="width:60px;height:30px"><use href="#t-rake"/></svg></span><span class="peg on" style="width:64px"><svg style="width:60px;height:30px"><use href="#t-slicker"/></svg></span><span class="peg" style="width:64px"><svg style="width:60px;height:30px"><use href="#t-comb"/></svg></span><span class="peg dim" style="width:64px"><svg style="width:60px;height:30px"><use href="#t-pin"/></svg></span></div></div></div>
+      </div>
+      <div class="pb" style="background:var(--slate-bg)">
+        <h2 class="h2" style="color:var(--slate)">Something wrong after grooming?</h2>
+        <div class="prob"><ol class="sym"><li class="on">Itching after a bath ▾</li><li>Redness after clipping</li><li>Head shaking</li></ol></div>
+      </div>
+      <div class="p-cap"><b>Plate and problems.</b> Plate rows scroll sideways. The symptoms open one at a time, each with its vet line.</div>
+    </div>
+    <div class="phone">
+      <div class="p-sheet"><div class="sheet-in">
+        <span class="grip"></span>
+        <h3 style="font-size:1.08rem">How to trim your dog’s nails</h3>
+        <ol style="margin:0;padding-left:1.1rem"><li>Hold the toe gently so the nail extends.</li><li><div class="bar w90"></div></li></ol>
+        <span class="lnk">Grinder or clipper?</span><span class="lnk">If you cut the quick</span>
+        <div class="chips"><span class="chip">Tools</span><span class="chip">Anxious dogs</span></div>
+        <span class="btn" style="justify-self:start">Open the guide</span>
+      </div></div>
+      <div class="p-cap"><b>Reading slip.</b> A bottom sheet. Swipe down, Close or Escape returns to the same scroll position.</div>
+    </div>
+  </div>
+
+  <div class="board-title"><h2>Components and motion picked from the libraries</h2><span>Read from the shadcn/ui, Magic UI and Motion Primitives source</span></div>
+  <div class="scroll-x"><table class="picks">
+    <thead><tr><th>Component</th><th>Library</th><th>Where it goes</th><th>Why it fits, and how it moves</th></tr></thead>
+    <tbody>
+      <tr><td>Command</td><td>shadcn (cmdk)</td><td>Hero search, <code>/</code> and <code>⌘K</code>, 404</td><td>Results grouped as Guides, Sections and Questions, with arrow-key navigation and Enter to open. It works inline under the hero field instead of in a dialog, so the page doesn’t jump.</td></tr>
+      <tr><td>Sheet / Drawer</td><td>shadcn (Radix, vaul)</td><td>Reading slip</td><td>Right sheet on desktop, bottom drawer with drag-to-close on phones. vaul’s curve <code>cubic-bezier(.32,.72,0,1)</code> is the same drawer curve Emil recommends, run at 300ms.</td></tr>
+      <tr><td>Navigation Menu</td><td>shadcn (Radix)</td><td>Masthead</td><td>One shared panel that resizes between menus, with keyboard support built in. Panels carry real short-answer lines.</td></tr>
+      <tr><td>Animated Background</td><td>Motion Primitives</td><td>Coat picker, problem list, groomer tabs</td><td>One shared “pill” (<code>layoutId</code>) slides to the chosen option, so the reader sees where the choice moved. 220ms, no bounce. It stays on the same option under reduced motion and just doesn’t slide.</td></tr>
+      <tr><td>Transition Panel</td><td>Motion Primitives</td><td>Coat sheet contents</td><td>Changing the coat cross-fades the sheet with an 8px shift in the direction of the choice. 180ms ease-out.</td></tr>
+      <tr><td>Morphing Dialog</td><td>Motion Primitives</td><td>Plate entry</td><td>The chosen tool’s drawing grows into its entry and shrinks back to the plate when closed. It is the plate’s one signature moment.</td></tr>
+      <tr><td>Hover Card</td><td>shadcn (Radix)</td><td>Plate, mouse only</td><td>Hovering a tool previews its “What it does” line. There is no hover card on touch screens; tapping opens the entry.</td></tr>
+      <tr><td>Text Loop</td><td>Motion Primitives</td><td>Search placeholder</td><td>Cycles four real questions every 3.5s (the default is 2s, too fast to read). It stops when the field is focused, and under reduced motion it shows one static question.</td></tr>
+      <tr><td>Highlighter</td><td>Magic UI (rough-notation)</td><td>The H1’s “dog grooming”</td><td>Draws the live site’s honey highlight once on load, one pass of 600ms. The library default of two passes reads as a scribble. Under reduced motion the highlight is drawn already.</td></tr>
+      <tr><td>Tabs, Table, Accordion, Toggle Group, Kbd</td><td>shadcn</td><td>Comparisons, symptoms, coat picker, shortcut hints</td><td>Standard, accessible parts restyled in the chapter colours. Tables restack into label and value pairs on phones.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede" style="margin-top:12px;font-size:.92rem"><b style="color:var(--ink)">Left out on purpose:</b> Magic Card, Glow, Spotlight, Tilt, Particles, Meteors, Confetti, Marquee, Globe, Number Ticker, Bento Grid, Carousel, and device mockups. Each is decoration or a stat pattern. None helps an owner with a wet dog find an answer, and the stats patterns would need counts the site doesn’t have.</p>
+  <p class="lede" style="margin-top:8px;font-size:.92rem"><b style="color:var(--ink)">Galleries:</b> refero, component.gallery, navbar.gallery, footer.design, cta.gallery, supahero and 404s.design are blocked from this environment, so the menu, footer, hero, call to action and 404 here follow the libraries above and the site’s own content, not specific gallery examples. Send screenshots of examples you like and I’ll match them.</p>
+
+  <!-- ===================== DECISIONS ===================== -->
+  <div class="board-title"><h2>What changed and why</h2><span>Structure, headings, palette</span></div>
+  <div class="cols">
+    <div><h3>Structure</h3><p>The old wireframe stacked eight live sections and attached a Desk feature to each. Now the page has three parts: ask, browse by dog, and a four-chapter reference shelf. Cards, the carousel and icon tiles are gone. Each chapter has one job and one interactive piece.</p></div>
+    <div><h3>One thread</h3><p>The coat picked in the Coat chapter re-lights the plate in the Tools chapter. That is the only place coat changes the advice, so it is the only place the page reacts to it.</p></div>
+  </div>
+
+  <div class="scroll-x"><table class="htable">
+    <thead><tr><th>Before</th><th>After</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>“New to grooming at home?” label above “Start here”</td><td>No label</td><td>Labels above headings repeat the heading. The heading carries itself.</td></tr>
+      <tr><td>Start here</td><td>What your dog’s coat needs</td><td>Says what the reader gets, not where they are.</td></tr>
+      <tr><td>What does a double coat need? (as the H2)</td><td>H2 stays fixed; “A double coat” is the sheet’s own title</td><td>A heading whose words change with a control confuses screen readers and search engines.</td></tr>
+      <tr><td>Grooming tasks</td><td>The grooming plate, with a plain line under it</td><td>Your choice of name. The line under it explains it in plain words.</td></tr>
+      <tr><td>Grooming for your dog’s situation</td><td>Browse-by-dog row in the hero</td><td>Three photos and three titles don’t need a section. They sit where browsers look first.</td></tr>
+      <tr><td>Using a professional groomer</td><td>When a groomer takes over</td><td>Answers when, the reader’s actual question.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede" style="margin-top:10px;font-size:.88rem">The old H2 IDs (<code>#start-here</code> and the others) stay as extra anchors, so existing links don’t break.</p>
+
+  <div class="palette">
+    <div class="pal"><div style="background:var(--brand)"></div><div><b>Espresso</b>Masthead, footer</div></div>
+    <div class="pal"><div style="background:var(--action)"></div><div><b>Copper</b>Every action and link</div></div>
+    <div class="pal"><div style="background:var(--shine)"></div><div><b>Honey</b>Highlight only</div></div>
+    <div class="pal"><div style="background:var(--sage)"></div><div><b>Sage</b>Coat chapter</div></div>
+    <div class="pal"><div style="background:var(--honey)"></div><div><b>Honey-brown</b>Tools chapter</div></div>
+    <div class="pal"><div style="background:var(--slate)"></div><div><b>Slate</b>Problems chapter</div></div>
+    <div class="pal"><div style="background:var(--heather)"></div><div><b>Heather</b>Groomers chapter</div></div>
+    <div class="pal"><div style="background:var(--alert)"></div><div><b>Vet red</b>“See a vet” lines only</div></div>
+  </div>
+  <p class="lede" style="margin-top:10px;font-size:.88rem">Each accent colours only its chapter’s heading, controls and thumb tab, on a light ground of the same hue. Copper stays the only action colour, and red stays reserved for vet lines. Every text pair passes WCAG AA, from 5.4:1 to 8.8:1.</p>
+
+  <div class="cols" style="margin-top:30px">
+    <div><h3>Motion (Emil Kowalski rules)</h3><p>Results appear in under 150ms. The slip slides in on a drawer curve. Plate tools change colour in 180ms when the coat changes, buttons press to 0.97, and hover applies only to fine pointers. All of it stops under reduced motion.</p></div>
+    <div><h3>Open points</h3><ul class="plain" style="margin-top:0">
+      <li><b>Photos</b> load from their live URLs in your browser; I can’t view them from here.</li>
+      <li><b>Search</b> uses a built-in index of the 22 pages; production needs a publish-time index or WordPress search.</li>
+      <li><b>Two new tool drawings</b> for haircuts, and the H2 rename, need your approval for the real site.</li>
+    </ul></div>
+  </div>
+</div>

@@ -1,0 +1,202 @@
+{
+ "title": "How Often Should You Groom Your Dog? A Schedule by Coat Type",
+ "description": "How often to brush, bathe, trim nails, check ears and brush teeth, set by your dog&#039;s coat type, with the signs that a task is due and when to book a groomer.",
+ "canonical": "https://grooming-dogs.com/how-often-should-you-groom-your-dog/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "How Often Should You Groom Your Dog? A Schedule by Coat Type",
+ "breadcrumb": "Home › Grooming schedule",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Many dogs need only occasional baths rather than frequent washing <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Unless your vet has recommended a bathing routine for a skin condition, the coat-type table is a better guide than a weekly habit. If your dog gets dirty, a rinse and a thorough dry is often enough.</p>\"}, \"name\": \"Can I bathe my dog every week?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Yes. Even dogs that rarely get dirty benefit from a bath at least once every three months <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. Dogs that spend a lot of time outdoors, or have skin problems, may need baths more often <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. For skin problems, follow your vet&#8217;s advice.</p>\"}, \"name\": \"Is it bad never to bathe my dog?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Brush once a week <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Bathe occasionally, roughly every month to every three months <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. Check nails and ears as in the table above. Short-haired dogs rarely need a regular professional groom <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>.</p>\"}, \"name\": \"How often should a short-haired dog be groomed?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/\", \"name\": \"Grooming schedule\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:36+00:00\", \"description\": \"How often to brush, bathe, trim nails, check ears and brush teeth, set by your dog&#039;s coat type, with the signs that a task is due and when to book a groomer.\", \"headline\": \"How Often Should You Groom Your Dog? A Schedule by Coat Type\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-9986360-1024x683.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#webpage\"}, \"keywords\": \"how often should you groom your dog\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#webpage\"}, \"name\": \"How Often Should You Groom Your Dog? A Schedule by Coat Type\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:36+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"How Often Should You Groom Your Dog? A Schedule by Coat Type\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-9986360-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/how-often-should-you-groom-your-dog/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-9986360-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-9986360-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "How often to groom your dog, by coat type"
+  ],
+  [
+   "2",
+   "Why coat type sets the schedule"
+  ],
+  [
+   "2",
+   "The grooming schedule by coat type"
+  ],
+  [
+   "3",
+   "By coat type"
+  ],
+  [
+   "3",
+   "For every dog"
+  ],
+  [
+   "2",
+   "Adjusting the schedule for your dog"
+  ],
+  [
+   "3",
+   "Puppies"
+  ],
+  [
+   "3",
+   "Older dogs"
+  ],
+  [
+   "3",
+   "Active, outdoor and swimming dogs"
+  ],
+  [
+   "3",
+   "Dogs with skin, ear or coat problems"
+  ],
+  [
+   "2",
+   "Signs it's time"
+  ],
+  [
+   "2",
+   "How often to see a professional groomer"
+  ],
+  [
+   "2",
+   "Putting it into a calendar"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Can I bathe my dog every week?"
+  ],
+  [
+   "3",
+   "Is it bad never to bathe my dog?"
+  ],
+  [
+   "3",
+   "How often should a short-haired dog be groomed?"
+  ]
+ ],
+ "copy": [
+  "Home › Grooming schedule",
+  "You’re working out a routine, not learning a technique. How often your dog needs each grooming job depends mostly on the coat, then on your dog’s lifestyle and condition. This page turns that into a schedule you can keep.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "This page covers how often . For how to , each task links to its own guide. Not sure what coat your dog has? Identify your dog’s coat type first.",
+  "Photo: Ron Lach / Pexels",
+  "Short answer: There’s no single schedule that suits every dog. How often to brush, bathe, trim nails, clean ears and brush teeth depends on your dog’s coat, the task itself, how your dog lives, and their health. Coat type makes the biggest difference to brushing, and to whether your dog needs regular professional grooming. Use the tables below as a starting point, then adjust for your dog.",
+  "Grooming needs vary by breed, coat type and lifestyle [2] . Brushing is where the coat makes the biggest difference.",
+  "Short, smooth coats need very little.",
+  "Long, silky and curly coats tangle and mat easily, so they need attention every day [1] [3] .",
+  "Coats that keep growing need regular haircuts, so they have professional grooming on a cycle.",
+  "Other jobs, such as nails, ears and teeth, depend less on the coat and more on the individual dog. They have their own table below.",
+  "Where these figures come from: These intervals come from published guidance by animal-welfare and dog organizations, listed under Sources. Where they differ, we show the range. They are starting points for a healthy adult dog, not rules. Your vet or groomer may advise differently for your dog.",
+  "Coat type",
+  "Brushing",
+  "Bathing",
+  "Professional grooming",
+  "Short and smooth (e.g. Beagle, Boxer)",
+  "Once a week [1] [3]",
+  "Occasional. Roughly every month to every three months [1] [3]",
+  "Usually not needed on a regular cycle. These breeds generally need less extensive grooming [2] .",
+  "Wiry (many terriers)",
+  "Once a week [3]",
+  "Occasional [2] . No coat-specific interval is given by our sources.",
+  "Depends on how the coat is kept (clipped or hand-stripped). Ask a groomer.",
+  "Double coat (e.g. many shepherds, huskies)",
+  "De-shed once a week with an undercoat rake [3] ; a few brushing sessions a week suit many dogs [2]",
+  "Occasional [2] . Roughly every month to every three months [1] [3] .",
+  "Not essential. A groomer can help with de-shedding.",
+  "Long and silky",
+  "Every day [1] [2] [3]",
+  "Usually as part of a full groom (bath and haircut) every four to eight weeks [3]",
+  "Every four to eight weeks [1] [3]",
+  "Curly (e.g. Poodle)",
+  "Every day [3]",
+  "Usually as part of each professional groom",
+  "Regular. Curly breeds such as Poodles need frequent coat maintenance [2] . Your groomer will suggest an interval based on how short the coat is kept.",
+  "Breed examples are typical only. Individual dogs, and mixed breeds, can differ. Go by the coat your dog actually has.",
+  "Task",
+  "How often",
+  "How to tell it’s due",
+  "Nails",
+  "Many dogs need a trim every three to four weeks [3]",
+  "Nails nearly touch the ground when your dog walks [1] , or you hear them clicking on hard floors [2]",
+  "Ears",
+  "Look at them each time you groom. Many dogs benefit from cleaning about once a month, and some need it more often [2] .",
+  "Visible dirt or wax on the parts you can see",
+  "Teeth",
+  "Every day is ideal [2] [4] . A few times a week still helps [2] .",
+  "Not a “when it looks dirty” task. Consistency is what counts.",
+  "How to do each task: bathing · brushing · nails · ears · teeth .",
+  "The tables describe a healthy adult dog. Adjust them for yours.",
+  "Puppies don’t need a full adult schedule yet. What matters more is getting them used to being handled and groomed, little and often. See grooming a puppy .",
+  "Older dogs often cope better with shorter, more frequent sessions than one long one. They may also need closer attention to nails. See grooming an older dog .",
+  "Dogs that spend a lot of time outdoors may need baths more often than the table suggests [1] . Muddy walks and swimming mean more frequent rinsing and drying, and more checks for tangles.",
+  "Some dogs with skin problems need a different bathing routine [1] , sometimes with medicated products. Follow your vet’s instructions rather than the table. Never treat a skin or ear problem by simply grooming more often. If you notice redness, sores, a bad smell, heavy scratching or painful mats, stop and ask your vet.",
+  "The calendar is a guide. These signs mean a job is due now, whatever the date:",
+  "Nails clicking on hard floors [2] , or nearly touching the ground as your dog walks [1] .",
+  "Tangles or knots forming, especially behind the ears, under the legs and around the collar. Brush before they become mats.",
+  "A dirty or smelly coat after outdoor activity.",
+  "Dirt or wax on the visible part of the ears.",
+  "Hair growing into the eyes or between the paw pads, on coats that keep growing.",
+  "If a sign looks more like a health problem than a grooming job, see problems after grooming or contact your vet. Examples: a red or painful ear, broken skin, or a sudden change in the coat.",
+  "How often depends on the coat:",
+  "Long-coated dogs: a professional groom (bath and haircut) every four to eight weeks is typical [1] [3] .",
+  "Curly coats: regular professional care. Your groomer will set the interval by how short the coat is kept [2] .",
+  "Short, smooth coats: these dogs generally need less extensive grooming [2] , and many never need a regular professional appointment.",
+  "Double and wiry coats: often managed at home, with a groomer for de-shedding or coat work when needed.",
+  "Daily or weekly brushing at home between appointments keeps a long coat manageable. It doesn’t replace the haircut, though.",
+  "Choosing a groomer and what to expect: choosing a groomer . What to budget: what grooming costs .",
+  "Two examples, built from the tables above. Adapt them to your dog.",
+  "Short, smooth coat",
+  "Long or curly coat",
+  "Daily",
+  "Teeth (ideal)",
+  "Brushing; teeth (ideal)",
+  "Weekly",
+  "Brushing",
+  "Check nails and ears while brushing",
+  "About monthly",
+  "Ear cleaning if needed; nail check",
+  "Ear cleaning if needed",
+  "Every three to four weeks",
+  "Nail trim",
+  "Nail trim (if not done at the groomer)",
+  "Every month to three months",
+  "Bath",
+  "—",
+  "Every four to eight weeks",
+  "—",
+  "Professional groom, including the bath",
+  "Teeth: if daily isn’t realistic, a few times a week still helps [2] .",
+  "A practical tip: pair jobs with something you already do. For example, brush after the evening walk, and do nails and ears on the first weekend of the month. A routine you can keep is better than a perfect one you can’t.",
+  "Can I bathe my dog every week?",
+  "Many dogs need only occasional baths rather than frequent washing [2] . Unless your vet has recommended a bathing routine for a skin condition, the coat-type table is a better guide than a weekly habit. If your dog gets dirty, a rinse and a thorough dry is often enough.",
+  "Is it bad never to bathe my dog?",
+  "Yes. Even dogs that rarely get dirty benefit from a bath at least once every three months [1] . Dogs that spend a lot of time outdoors, or have skin problems, may need baths more often [1] . For skin problems, follow your vet’s advice.",
+  "How often should a short-haired dog be groomed?",
+  "Brush once a week [1] [3] . Bathe occasionally, roughly every month to every three months [1] [3] . Check nails and ears as in the table above. Short-haired dogs rarely need a regular professional groom [2] .",
+  "Where to go next",
+  "Dog coat types",
+  "Not sure which row is your dog? Identify the coat first.",
+  "How to groom your dog at home",
+  "The full routine, in the right order.",
+  "How to brush your dog properly",
+  "The job your schedule depends on most.",
+  "Choosing a dog groomer",
+  "For professional appointments.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog has a skin, ear, eye or mouth problem, or is in pain, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, 9 April 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations",
+  "[2] American Kennel Club (AKC Staff): “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, updated 2 September 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[3] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[4] Veterinary Oral Health Council (VOHC): home page guidance on daily oral hygiene (accessed 5 October 2026). https://www.vohc.org/"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "title": "About Grooming Dogs",
+ "description": "What Grooming Dogs is and isn&#039;t: an editorial-first guide to grooming your dog at home, how the guides are written and funded, and how to send corrections.",
+ "canonical": "https://grooming-dogs.com/about/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "About Grooming Dogs",
+ "breadcrumb": "Home › About",
+ "schema": [
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/about/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/about/\", \"name\": \"About\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/about/#webpage\", \"@type\": \"AboutPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/about/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:42+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"About Grooming Dogs\", \"url\": \"https://grooming-dogs.com/about/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "About Grooming Dogs"
+  ],
+  [
+   "2",
+   "What Grooming Dogs is"
+  ],
+  [
+   "2",
+   "What this site is not"
+  ],
+  [
+   "2",
+   "Who runs the site"
+  ],
+  [
+   "2",
+   "How the site is funded"
+  ],
+  [
+   "2",
+   "How the guides are organized"
+  ],
+  [
+   "2",
+   "Corrections and feedback"
+  ]
+ ],
+ "copy": [
+  "Home › About",
+  "Grooming Dogs is a guide to looking after your dog’s coat, skin, nails, ears and teeth at home. It also helps you decide when to hand a job over to a professional groomer or your vet. This page explains what the site is, who’s behind it, how it’s paid for, and how to tell us if we’ve got something wrong.",
+  "Practical guides for dog owners: an editorial site covering bathing, brushing, haircuts and trimming, nails, ears and teeth, plus how often to do each job, which tools you need, and how to adapt grooming for puppies, older dogs and nervous dogs.",
+  "One task per guide: each guide covers one job and starts with a short answer. Where another guide already covers something, we link to it instead of repeating it.",
+  "Named sources: health and safety statements are backed by named sources, such as veterinary organizations and animal-welfare groups, and cited on the page.",
+  "Dated prices: prices come from published price lists, with the date we checked them.",
+  "Not a grooming salon or grooming business. We don’t groom dogs, take bookings, or list or recommend individual groomers. If you’re looking for one, our guide to choosing a groomer explains what to look for.",
+  "Not veterinary advice. Our guides are general information. They point you to your vet whenever a sign could mean pain, injury or illness, and they don’t diagnose or recommend treatments.",
+  "Not vet-reviewed unless a page says so. If a qualified expert reviews a guide, that page will show their name, their credential and the date they reviewed it.",
+  "Grooming Dogs publishes its guides under the name Grooming Dogs , so the guides carry the byline “Grooming Dogs” rather than an individual’s name. If a guide is written, edited or reviewed by a named person, the page will say so, with their real name and role.",
+  "Grooming Dogs is editorial first. Our guides are planned around what dog owners need to know, not around what earns money. To pay for the site:",
+  "Affiliate links: some pages may include affiliate links. A page with affiliate links says so before the first one.",
+  "Ads: some pages may show clearly labelled advertisements.",
+  "Commercial content doesn’t decide which topics we cover or what our guides recommend. The details are in our editorial, sourcing and disclosure policy .",
+  "The guides are grouped the way you’d look for them:",
+  "Start here: the full grooming routine , how often to groom, and coat types.",
+  "Grooming tasks: one guide each for bathing, brushing, haircuts and trimming, nails, ears and teeth.",
+  "Your dog: puppies, senior dogs and anxious dogs.",
+  "Problems: what to do if something looks wrong after grooming.",
+  "Tools and groomers: choosing tools, choosing a groomer, and what grooming costs.",
+  "A glossary explains grooming terms, and the guides link to it.",
+  "How this guide works",
+  "Sourced. Health and safety statements in our guides are checked against named sources, such as veterinary and animal-welfare organizations, and the sources are listed on each guide.",
+  "Your vet comes first. We help you recognize when something may be wrong and send you to your vet. We don’t diagnose or recommend treatments.",
+  "Corrections welcome. Spotted a mistake? Send a correction .",
+  "How our guides are written and funded",
+  "If you spot a mistake, an out-of-date source or a broken link, please send a correction . How we handle corrections is described in our editorial, sourcing and disclosure policy .",
+  "Where to go next",
+  "Editorial & sourcing policy",
+  "How we write, source and fund our guides.",
+  "Contact & corrections",
+  "Send a correction or a question.",
+  "How to groom your dog at home",
+  "Start with the full routine."
+ ]
+}

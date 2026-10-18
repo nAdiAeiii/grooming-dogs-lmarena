@@ -1,0 +1,54 @@
+{
+ "title": "Contact and Corrections, Grooming Dogs",
+ "description": "Send a correction, a question about a guide, or a topic suggestion to Grooming Dogs. We can&#039;t book grooming appointments or give veterinary advice.",
+ "canonical": "https://grooming-dogs.com/contact/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Contact and Corrections, Grooming Dogs",
+ "breadcrumb": "Home › Contact",
+ "schema": [
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/contact/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/contact/\", \"name\": \"Contact\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/contact/#webpage\", \"@type\": \"ContactPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/contact/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:44+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Contact and Corrections, Grooming Dogs\", \"url\": \"https://grooming-dogs.com/contact/\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Contact and corrections"
+  ],
+  [
+   "2",
+   "What you can contact us about"
+  ],
+  [
+   "2",
+   "What we can't help with"
+  ],
+  [
+   "2",
+   "Send a message"
+  ]
+ ],
+ "copy": [
+  "Home › Contact",
+  "Use this page to tell us about a mistake, ask a question about one of our guides, suggest a topic we haven’t covered, or report a problem with the site.",
+  "A correction: something in a guide looks wrong, out of date or misleading, or a source doesn’t support what the page says.",
+  "A question about a guide: something on a page isn’t clear.",
+  "A missing topic: a grooming question you couldn’t find an answer to.",
+  "A site problem: a broken link, something that doesn’t work, or something hard to use or read, including accessibility problems.",
+  "For corrections, it helps to include:",
+  "the page;",
+  "the sentence or section you mean;",
+  "what you think is wrong;",
+  "if you have one, a source we can check.",
+  "How we approach corrections is explained in our editorial, sourcing and disclosure policy .",
+  "Booking grooming: we aren’t a grooming business. We can’t book appointments, groom your dog, or recommend or list individual groomers. Our guide to choosing a groomer explains what to look for.",
+  "Veterinary advice: we can’t diagnose problems or advise on treatment, medication or supplements for your dog. If you’re worried about your dog’s health, contact your vet.",
+  "Products: we can’t answer questions about orders, deliveries or returns for products sold by other businesses.",
+  "Please don’t include health details about yourself, or personal information you don’t need to share.",
+  "I understand how what I send is handled, as described in the privacy policy.",
+  "Read the privacy policy",
+  "If you include an email address, we may reply. If you leave it out, we won’t be able to.",
+  "What you send through this form is handled as described in our privacy policy ."
+ ]
+}

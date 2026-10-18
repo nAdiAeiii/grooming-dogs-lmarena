@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grooming Dogs Prototype</title>
+<meta name="description" content="Prototype of the grooming-dogs.com homepage: the Editorial Concept with search first, the coat sheet, the grooming plate, problems after grooming and groomers.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg">
+<link rel="shortcut icon" href="assets/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Grooming Dogs">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<meta name="theme-color" content="#3A2318">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Source+Sans+3:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<!--SPRITE-->
+<a class="skip" href="#ask-input">Skip to search</a>
+
+<header class="mast" id="mast">
+  <div class="mast-in">
+    <a class="wordmark" href="#top"><svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><use href="#brand-comb"/></svg>Grooming Dogs</a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <ul class="nav-list" id="nav-list"></ul>
+    </nav>
+    <button type="button" class="mast-search" id="mast-search" aria-label="Search the guides"><svg class="ic" aria-hidden="true"><use href="#ph-magnifying-glass"/></svg><span class="lbl">Search</span><kbd>/</kbd></button>
+    <button type="button" class="mast-menu" id="mast-menu" aria-expanded="false" aria-controls="nav"><svg class="ic" aria-hidden="true"><use href="#ph-list"/></svg><span class="sr-only">Menu</span></button>
+  </div>
+</header>
+
+<div class="chapter-bar" id="chapter-bar" aria-label="Chapters"></div>
+<nav class="thumb" id="thumb" aria-label="Chapters"></nav>
+
+<main id="top">
+  <!-- ask -->
+  <section class="ask hero" aria-labelledby="h-title">
+    <div class="hero-bg" aria-hidden="true"><img src="assets/img/lead-brushing-home.jpg" width="1400" height="934" alt="" fetchpriority="high"></div>
+    <div class="wrap hero-in">
+      <h1 id="h-title" class="rise">Practical <span class="hl" id="hl">dog grooming</span>, explained for owners</h1>
+      <p class="lede rise">Clear, step-by-step guides to grooming your dog at home: brushing, bathing, nails, ears, teeth and trims. They also help you know when a groomer or your vet should take over.</p>
+      <div class="search rise" id="search">
+        <label for="ask-input" class="sr-only">Search the guides</label>
+        <div class="field">
+          <svg class="ic" aria-hidden="true"><use href="#ph-magnifying-glass"/></svg>
+          <input id="ask-input" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search"
+            role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list" aria-describedby="ask-hint">
+          <span class="loop" id="loop" aria-hidden="true"></span>
+          <button type="button" class="field-go" id="field-go">Search</button>
+        </div>
+        <p class="sr-only" id="ask-hint">Searches the 22 published guides, their sections and their answered questions.</p>
+        <div class="results" id="results" role="listbox" aria-label="Search results" hidden></div>
+      </div>
+      <ul class="qs rise" id="qs" aria-label="Questions owners ask"></ul>
+      <div class="actions rise">
+        <a class="btn" href="https://grooming-dogs.com/how-to-groom-your-dog-at-home/" target="_blank" rel="noopener">Start with the full routine</a>
+        <p class="salon">We’re a guide, not a grooming salon, and we don’t give veterinary advice. <a href="https://grooming-dogs.com/about/" target="_blank" rel="noopener">More about us</a></p>
+      </div>
+    </div>
+    <p class="hero-credit">Photo: Yaroslav Shuraev / Pexels</p>
+  </section>
+  <div class="cites-band"><div class="wrap">
+    <div class="cites">
+      <p class="cites-label">Our guides cite sources including</p>
+      <ul class="cites-list"><li>American Kennel Club</li><li>ASPCA</li><li>Humane World for Animals</li><li>Animal Medical Center</li><li>University of Wisconsin School of Veterinary Medicine</li></ul>
+      <a class="cites-link" href="https://grooming-dogs.com/editorial-policy/" target="_blank" rel="noopener">How we source our guides</a>
+    </div>
+  </div></div>
+
+  <!-- coat -->
+  <section class="ch ch-sage" id="coat" data-ch="coat" aria-labelledby="h-coat">
+    <span class="anchor" id="start-here" aria-hidden="true"></span>
+    <div class="wrap">
+      <div class="ch-head">
+        <h2 id="h-coat">What your dog’s coat needs</h2>
+        <p class="lede">Coat changes how often you brush and bathe, and which tools to start with.</p>
+      </div>
+      <div class="coat-pick">
+        <div class="seg" id="coat-seg" role="radiogroup" aria-label="Coat type"><span class="pill" aria-hidden="true"></span></div>
+        <a class="quiet" href="https://grooming-dogs.com/dog-coat-types/#how-to-identify-your-dogs-coat" target="_blank" rel="noopener">Not sure? Identify the coat</a>
+      </div>
+      <article class="sheet" id="sheet" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <!-- plate -->
+  <section class="ch ch-honey" id="plate" data-ch="tools" aria-labelledby="h-plate">
+    <span class="anchor" id="grooming-tasks" aria-hidden="true"></span>
+    <div class="wrap">
+      <div class="ch-head ch-head-row">
+        <div>
+          <h2 id="h-plate">The grooming plate</h2>
+          <p class="lede">Every tool the guides recommend, four for each job. Choose a tool to see what it does and where it stops being useful.</p>
+        </div>
+        <a class="quiet" href="https://grooming-dogs.com/dog-grooming-tools/" target="_blank" rel="noopener">All grooming tools</a>
+      </div>
+      <div class="plate-filter">
+        <span class="pf-label" id="pf-label">Starting brushes and combs for</span>
+        <div class="seg seg-sm" id="plate-seg" role="radiogroup" aria-labelledby="pf-label"><span class="pill" aria-hidden="true"></span></div>
+      </div>
+      <div class="plate" id="plate-rows"></div>
+      <div class="hovercard" id="hovercard" role="tooltip" hidden></div>
+    </div>
+  </section>
+
+  <!-- problems -->
+  <section class="ch ch-slate" id="problems" data-ch="problems" aria-labelledby="h-prob">
+    <div class="wrap">
+      <div class="ch-head ch-head-row">
+        <div>
+          <h2 id="h-prob">Something wrong after grooming?</h2>
+          <p class="rule" id="prob-rule"></p>
+        </div>
+        <a class="quiet" href="https://grooming-dogs.com/dog-grooming-problems/" target="_blank" rel="noopener">The full problems guide</a>
+      </div>
+      <div class="prob">
+        <div class="sym" id="sym" role="tablist" aria-orientation="vertical" aria-label="What you see"><span class="pill" aria-hidden="true"></span></div>
+        <div class="sym-d" id="sym-d" role="tabpanel" tabindex="0"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- groomers -->
+  <section class="ch ch-heather" id="groomers" data-ch="groomers" aria-labelledby="h-pro">
+    <span class="anchor" id="using-a-professional-groomer" aria-hidden="true"></span>
+    <div class="wrap">
+      <div class="ch-head"><h2 id="h-pro">When a groomer takes over</h2></div>
+      <p class="lede pro-lede">Four questions, in the order owners usually face them.</p>
+      <div class="pro">
+        <div class="pro-side">
+          <figure class="pro-photo"><img src="assets/img/lead-groomer.jpg" width="800" height="534" loading="lazy" alt=""><figcaption id="pro-credit"></figcaption></figure>
+          <div class="steps" id="pro-steps" role="tablist" aria-orientation="vertical" aria-label="Using a groomer"><span class="pill" aria-hidden="true"></span></div>
+        </div>
+        <div class="pro-main" id="pro-panel" role="tabpanel" tabindex="0"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- trust -->
+  <section class="trust" aria-labelledby="h-trust">
+    <div class="wrap">
+      <h2 id="h-trust">How this guide works</h2>
+      <ul class="trust-list">
+        <li><svg class="ic" aria-hidden="true"><use href="#ph-book-open"/></svg><p><b>Sourced.</b> Health and safety statements in our guides are checked against named sources, such as veterinary and animal-welfare organizations, and the sources are listed on each guide.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#ph-stethoscope"/></svg><p><b>Your vet comes first.</b> We help you recognize when something may be wrong and send you to your vet. We don’t diagnose or recommend treatments.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#ph-pencil-simple-line"/></svg><p><b>Corrections welcome.</b> Spotted a mistake? <a href="https://grooming-dogs.com/contact/" target="_blank" rel="noopener">Send a correction</a>.</p></li>
+      </ul>
+      <p class="trust-links"><a href="https://grooming-dogs.com/editorial-policy/" target="_blank" rel="noopener">How our guides are written and funded</a><a href="https://grooming-dogs.com/dog-grooming-glossary/" target="_blank" rel="noopener">New to grooming words? See the grooming glossary</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-band">
+      <img src="assets/img/lead-senior.jpg" alt="" loading="lazy" width="1400" height="934">
+      <div class="foot-band-in">
+        <p class="foot-ask">Still have a grooming question?</p>
+        <p class="foot-sub">Search the 22 guides, or jump back to a chapter.</p>
+        <button type="button" class="foot-search" data-search><svg class="ic" aria-hidden="true"><use href="#ph-magnifying-glass"/></svg><span>Search the guides</span><kbd>/</kbd></button>
+        <nav class="foot-ch" aria-label="Chapters on this page">
+          <a href="#coat" style="--c:var(--sage-bg)">Coat</a><a href="#plate" style="--c:var(--honey-bg)">Tools</a><a href="#problems" style="--c:var(--slate-bg)">Problems</a><a href="#groomers" style="--c:var(--heather-bg)">Groomers</a>
+        </nav>
+      </div>
+      <p class="foot-credit">Photo: Samson Katt / Pexels</p>
+    </div>
+  </div>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <p class="wordmark"><svg class="mark" viewBox="0 0 512 512" aria-hidden="true"><use href="#brand-comb"/></svg>Grooming Dogs</p>
+      <p>Clear, step-by-step guides to grooming your dog at home. We’re a guide, not a grooming salon, and we don’t give veterinary advice.</p>
+    </div>
+    <div><h2>Grooming guides</h2><ul id="foot-guides"></ul></div>
+    <div><h2>Your dog</h2><ul id="foot-dog"></ul><h2 class="foot-h2b">Help &amp; tools</h2><ul id="foot-help"></ul></div>
+    <div><h2>About the site</h2><ul id="foot-about"></ul></div>
+  </div>
+  <div class="wrap foot-bar">
+    <p>© 2026 Grooming Dogs</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- tool dialog: grows out of the chosen tool (Motion Primitives Morphing Dialog pattern) -->
+<div class="tool-scrim" id="tool-scrim" hidden></div>
+<div class="tool-dialog" id="tool-dialog" role="dialog" aria-modal="true" aria-labelledby="td-title" hidden>
+  <button type="button" class="td-close" id="td-close"><svg class="ic" aria-hidden="true"><use href="#ph-x"/></svg><span class="sr-only">Close</span></button>
+  <div class="td-body" id="td-body"></div>
+</div>
+
+<!-- reading slip: right sheet on desktop, bottom drawer on phones -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="slip" id="slip" role="dialog" aria-modal="true" aria-labelledby="slip-title" hidden>
+  <div class="slip-bar"><span class="grip" aria-hidden="true"></span><button type="button" class="slip-close" id="slip-close"><svg class="ic" aria-hidden="true"><use href="#ph-x"/></svg><span>Close</span></button></div>
+  <div class="slip-body" id="slip-body"></div>
+</aside>
+
+<script src="content.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="shell.js"></script>
+</body>
+</html>

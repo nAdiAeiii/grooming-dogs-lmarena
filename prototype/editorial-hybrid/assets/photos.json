@@ -1,0 +1,142 @@
+[
+ {
+  "key": "lead-brushing-home",
+  "pexels_id": 8498547,
+  "credit": "Yaroslav Shuraev",
+  "alt": "A relaxed, shaggy, light-coated dog lying on a wooden floor while someone brushes the coat at its shoulder.",
+  "slot": "Hero",
+  "file": "photos/lead-brushing-home.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/8498547/"
+ },
+ {
+  "key": "coat-smooth",
+  "pexels_id": 28802002,
+  "credit": "Doğan Alpaslan Demir",
+  "alt": "A Beagle standing side-on, showing a short coat that lies close to the body.",
+  "slot": "Coat sheet: short and smooth",
+  "file": "photos/coat-smooth.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/28802002/"
+ },
+ {
+  "key": "coat-wire",
+  "pexels_id": 3655387,
+  "credit": "Sebastian Coman Travel",
+  "alt": "A Schnauzer lying on a rug, showing its rough, textured coat and bushy eyebrows.",
+  "slot": "Coat sheet: wiry",
+  "file": "photos/coat-wire.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/3655387/"
+ },
+ {
+  "key": "coat-double",
+  "pexels_id": 29192690,
+  "credit": "Sergei Starostin",
+  "alt": "A Siberian Husky outdoors with a thick, fluffy coat.",
+  "slot": "Coat sheet: double",
+  "file": "photos/coat-double.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/29192690/"
+ },
+ {
+  "key": "coat-silky",
+  "pexels_id": 12495815,
+  "credit": "Mirko Fabian",
+  "alt": "A Yorkshire Terrier with long, fine hair falling either side of its face.",
+  "slot": "Coat sheet: long and silky",
+  "file": "photos/coat-silky.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/12495815/"
+ },
+ {
+  "key": "coat-curly",
+  "pexels_id": 8819909,
+  "credit": "Afif Ramdhasuma",
+  "alt": "A brown Poodle standing on a wooden floor, showing its dense, curly coat.",
+  "slot": "Coat sheet: curly",
+  "file": "photos/coat-curly.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/8819909/"
+ },
+ {
+  "key": "lead-bathing",
+  "pexels_id": 20741414,
+  "credit": "David Kanigan",
+  "alt": "A French Bulldog standing in a kitchen sink while its owner steadies it, with its head kept dry.",
+  "slot": "Reading slip: bathing",
+  "file": "photos/lead-bathing.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/20741414/"
+ },
+ {
+  "key": "fig-nail-cut",
+  "pexels_id": 19145872,
+  "credit": "Goochie Poochie Grooming",
+  "alt": "A groomer gently supporting a dog's front paw while holding a pair of dog nail clippers.",
+  "slot": "Plate entry: nails",
+  "file": "photos/fig-nail-cut.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/19145872/"
+ },
+ {
+  "key": "lead-tools",
+  "pexels_id": 4432261,
+  "credit": "Mathew Coulton",
+  "alt": "A dog's paws on a towel beside a rubber grooming brush and a bottle of shampoo.",
+  "slot": "Grooming plate opener",
+  "file": "photos/lead-tools.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/4432261/"
+ },
+ {
+  "key": "lead-puppy",
+  "pexels_id": 32378664,
+  "credit": "JacLou- DL",
+  "alt": "A relaxed Golden Retriever puppy being gently held by its owner in a meadow.",
+  "slot": "Browse by dog: puppy",
+  "file": "photos/lead-puppy.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/32378664/"
+ },
+ {
+  "key": "lead-anxious",
+  "pexels_id": 7114115,
+  "credit": "cottonbro studio",
+  "alt": "A dog lying on a wooden floor, peeking out from behind a sofa and curtain.",
+  "slot": "Browse by dog: nervous dog",
+  "file": "photos/lead-anxious.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/7114115/"
+ },
+ {
+  "key": "lead-senior",
+  "pexels_id": 5255270,
+  "credit": "Samson Katt",
+  "alt": "A relaxed dog with its eyes closed being gently stroked under the chin.",
+  "slot": "Browse by dog: older dog",
+  "file": "photos/lead-senior.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/5255270/"
+ },
+ {
+  "key": "lead-groomer",
+  "pexels_id": 19145895,
+  "credit": "Goochie Poochie Grooming",
+  "alt": "A groomer washing a small curly-coated dog in a salon bathtub.",
+  "slot": "Groomers chapter",
+  "file": "photos/lead-groomer.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/19145895/"
+ },
+ {
+  "key": "lead-cost",
+  "pexels_id": 19145897,
+  "credit": "Goochie Poochie Grooming",
+  "alt": "A groomer washing a curly-coated dog in a salon bathtub.",
+  "slot": "Groomers chapter: cost",
+  "file": "photos/lead-cost.jpg",
+  "license": "Pexels License",
+  "source": "https://www.pexels.com/photo/19145897/"
+ }
+]

@@ -1,0 +1,156 @@
+{
+ "title": "Puppy Grooming: First Baths, Handling and First Groom",
+ "description": "Make grooming normal from puppyhood: gentle handling practice, the first bath, first nail trims and brushing, the first professional groom and the coat change.",
+ "canonical": "https://grooming-dogs.com/puppy-grooming/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Puppy Grooming: First Baths, Handling and First Groom",
+ "breadcrumb": "Home › Puppy grooming",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>There&#8217;s no single official age. One certified master groomer suggests gentle bathing can begin as early as two months, using only a warm, damp washcloth until three or four months <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Keep the water lukewarm <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. If you&#8217;re unsure whether your puppy is ready, ask your vet.</p>\"}, \"name\": \"When can I give my puppy their first bath?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Puppies explore with their mouths, so it&#8217;s common for a brush to look like a toy. Give your puppy a chew toy to work on while you brush, let them sniff the brush first, keep sessions short, and reward them at the end <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. If biting comes with fear or snapping, see <a href=\\\"/grooming-an-anxious-dog/\\\">if your puppy becomes fearful</a>.</p>\"}, \"name\": \"My puppy bites the brush. Is that normal?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>There&#8217;s no universal age. A first professional visit can simply be about getting used to grooming, rather than a full haircut <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. Groomers may require vaccinations first, so ask your vet when your puppy will be ready, and ask the groomer what they need.</p>\"}, \"name\": \"When should my puppy have their first haircut?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/puppy-grooming/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/puppy-grooming/\", \"name\": \"Puppy grooming\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/puppy-grooming/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:35+00:00\", \"description\": \"Make grooming normal from puppyhood: gentle handling practice, the first bath, first nail trims and brushing, the first professional groom and the coat change.\", \"headline\": \"Puppy Grooming: First Baths, Handling and First Groom\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-32378664-1024x684.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/puppy-grooming/#webpage\"}, \"keywords\": \"puppy grooming\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/puppy-grooming/#webpage\"}, \"name\": \"Puppy Grooming: First Baths, Handling and First Groom\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/puppy-grooming/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/puppy-grooming/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:35+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Puppy Grooming: First Baths, Handling and First Groom\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-32378664-1024x684.jpeg\"}, \"url\": \"https://grooming-dogs.com/puppy-grooming/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-32378664-1024x684.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-32378664-1024x684.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Grooming a puppy: building a calm routine for life"
+  ],
+  [
+   "2",
+   "Why puppyhood matters for grooming"
+  ],
+  [
+   "2",
+   "A handling program, step by step"
+  ],
+  [
+   "2",
+   "Your puppy's first bath"
+  ],
+  [
+   "2",
+   "First nail trims and brushing"
+  ],
+  [
+   "2",
+   "The first professional groom"
+  ],
+  [
+   "2",
+   "When the puppy coat changes"
+  ],
+  [
+   "2",
+   "What not to do"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "When can I give my puppy their first bath?"
+  ],
+  [
+   "3",
+   "My puppy bites the brush. Is that normal?"
+  ],
+  [
+   "3",
+   "When should my puppy have their first haircut?"
+  ]
+ ],
+ "copy": [
+  "Home › Puppy grooming",
+  "You have a puppy, and a chance to make brushing, bathing and nail trims feel normal before they ever become a battle.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How often to groom a puppy: see the grooming schedule .",
+  "If your puppy is already frightened of grooming: see if your puppy becomes fearful .",
+  "Photo: JacLou- DL / Pexels",
+  "Short answer:",
+  "Start early, gently and briefly. A puppy’s first three months are the main window for getting used to new experiences [1] .",
+  "Get your puppy used to being handled all over: paws, ears, mouth and tail [1] [4] .",
+  "Introduce the brush gently, with treats [3] .",
+  "Keep first baths simple and lukewarm [2] .",
+  "Stop before your puppy gets frightened. The goal is a puppy who expects grooming to be easy, not one who gets through it.",
+  "The window: the first three months of life are the most important time for puppy socialization. During that window, puppies adapt to new people, animals and experiences more readily, because sociability outweighs fear [1] .",
+  "What’s at stake: puppies who miss out on safe, positive experiences then face a higher risk of fear, avoidance or aggression later in life [1] .",
+  "For grooming, that means handling your puppy, and letting them meet brushes and bath time calmly, while they’re young [1] [3] . The aim isn’t a full groom. It’s a puppy who learns that being handled is ordinary.",
+  "What you’ll need",
+  "A soft brush suited to your puppy’s coat. Puppy coats often need a softer brush than the adult coat will [3] .",
+  "Plenty of small treats",
+  "A chew toy",
+  "Which brush? See choosing grooming tools .",
+  "Handle your puppy all over, gently and often. Practice touching and holding the paws, ears, mouth and tail, so your puppy learns to accept being handled everywhere [1] [4] . Give a treat as you go.",
+  "Let your puppy sniff the brush first, then brush gently for a short time and finish with a treat [3] .",
+  "If your puppy will need clippers later, get them used to the sound and vibration. Holding an electric toothbrush near the coat while giving treats is one way to do it [3] .",
+  "Keep sessions short and calm. Introduce new experiences safely, without overwhelming your puppy: stop before they show fear, try to withdraw or start avoiding you [1] .",
+  "Repeat little and often. A puppy learns about grooming gently and gradually, over many short sessions [2] .",
+  "If your puppy is frightened (trembling, panicking, snapping or struggling hard), stop. Don’t push through. See if your puppy becomes fearful .",
+  "Keep it simple. The water should be lukewarm, so the experience is pleasant [2] .",
+  "When to start, and with what: there’s no single official age. One certified master groomer, interviewed by the American Kennel Club, suggests [2] :",
+  "starting gentle bathing as early as two months;",
+  "using only a warm, damp washcloth until three or four months;",
+  "introducing a dog shampoo and conditioner from about three months.",
+  "Treat these as one professional’s approach, not a rule, and ask your vet if you’re unsure whether your puppy is ready.",
+  "Be gentle around the face. Even tearless shampoos can irritate a puppy’s eyes. Take care around the ears, nose and mouth [2] .",
+  "Rinse and dry thoroughly. Use a dryer only on a low setting [2] .",
+  "The full bathing method is in how to bathe your dog .",
+  "Nails: yes, puppies can have their nails trimmed. Starting early helps them grow into adults who are comfortable with it [4] .",
+  "Handle the paws first. Start by touching and holding your puppy’s paws regularly [4] [5] .",
+  "Trim just one or two nails at a time to begin with [5] .",
+  "How to find the quick and trim safely: see trimming nails .",
+  "Brushing: get your puppy used to the brush from the beginning [3] :",
+  "Be gentle and patient.",
+  "Let them sniff the brush.",
+  "Give a toy to chew while you brush.",
+  "Reward them at the end.",
+  "Brushing technique: see brushing technique .",
+  "Teeth: puppyhood is a good time to start, too. Begin by gently rubbing the gums with a finger [6] . Then follow brushing teeth .",
+  "If you plan to use a professional groomer, starting while your puppy is young is a good idea. Look for a groomer who is gentle and patient [3] .",
+  "A first visit doesn’t need to be a full groom. It can simply teach your puppy that grooming isn’t scary. One master groomer describes first visits built around getting used to the table, the sound of the clippers and a light brush, with plenty of treats [2] .",
+  "Vaccinations: groomers may require proof that your puppy is vaccinated before a visit. Ask your vet when your puppy will be ready, and check the groomer’s requirements.",
+  "Choosing a groomer, and what to ask: see choosing a groomer .",
+  "What happens: puppies are born with a soft, fluffy, single coat. It gives way to an adult coat, which is usually thicker and stiffer. Double-coated breeds grow two layers of adult fur [3] .",
+  "When it happens: puppies often lose their puppy coat at around four to six months. This varies widely by breed: it can start as early as 12 weeks or wait until about a year, and some breeds take longer still to grow a full adult coat [3] .",
+  "What it looks like: some long-haired puppies go through an awkward stage where the coat looks ruffled, patchy or shaggy as the adult coat comes in [3] . Some puppies also change color as they grow [3] .",
+  "Why it matters for grooming: regular grooming is especially important while the coat is changing, particularly for puppies growing into longer coats [3] . Brushing helps you stay ahead of tangles as the new coat comes in. To find out which adult coat group your dog is growing into, see your dog’s coat type .",
+  "Losing the puppy coat is normal. Some hair loss isn’t. See your vet if your puppy has [3] :",
+  "bare patches;",
+  "scaly, red or inflamed skin;",
+  "large patches of lost fur;",
+  "excessive scratching.",
+  "Don’t overwhelm your puppy. Exposure to grooming should happen safely and without overwhelming them, so stop before your puppy shows fear, tries to withdraw or starts avoiding you [1] .",
+  "Don’t try to do a full groom all at once. Short, gentle, repeated sessions teach more than one long one [2] .",
+  "Don’t use hot water or a hot dryer. Lukewarm water, and a low dryer setting [2] .",
+  "Don’t get shampoo near the eyes. Even tearless products can irritate them [2] .",
+  "Don’t force a frightened puppy through grooming. If fear is already there, see if your puppy becomes fearful .",
+  "When can I give my puppy their first bath?",
+  "There’s no single official age. One certified master groomer suggests gentle bathing can begin as early as two months, using only a warm, damp washcloth until three or four months [2] . Keep the water lukewarm [2] . If you’re unsure whether your puppy is ready, ask your vet.",
+  "My puppy bites the brush. Is that normal?",
+  "Puppies explore with their mouths, so it’s common for a brush to look like a toy. Give your puppy a chew toy to work on while you brush, let them sniff the brush first, keep sessions short, and reward them at the end [3] . If biting comes with fear or snapping, see if your puppy becomes fearful .",
+  "When should my puppy have their first haircut?",
+  "There’s no universal age. A first professional visit can simply be about getting used to grooming, rather than a full haircut [2] . Groomers may require vaccinations first, so ask your vet when your puppy will be ready, and ask the groomer what they need.",
+  "Where to go next",
+  "How to brush your dog properly",
+  "Brushing technique once your puppy is comfortable.",
+  "How to trim your dog’s nails",
+  "Finding the quick and trimming safely.",
+  "Grooming a dog who hates being groomed",
+  "If your puppy is frightened of grooming.",
+  "Choosing a dog groomer",
+  "Preparing for your puppy’s first professional groom.",
+  "This is general information about grooming healthy puppies, not veterinary advice. Ask your vet about vaccinations, and about any skin, coat or health concerns. How we write, source and fund our guides .",
+  "Sources",
+  "[1] American Veterinary Society of Animal Behavior (AVSAB): “AVSAB Position Statement on Puppy Socialization” (PDF, 2014 edition). https://avsab.org/wp-content/uploads/2018/03/Puppy_Socialization_Position_Statement_Download_-_10-3-14.pdf",
+  "[2] AKC Staff, American Kennel Club: “Bathing Your Puppy: A Step-by-Step Guide” (quoting certified master groomer Jennifer Bishop-Jenkins), published November 14, 2019, updated May 12, 2026. https://www.akc.org/expert-advice/health/bathing-your-puppy-step-by-step-guide/",
+  "[3] AKC Staff, American Kennel Club: “Why Do Puppies Shed Their Coats?” (sponsored by Purina Pro Plan), published January 1, 2022, updated November 19, 2025. https://www.akc.org/expert-advice/health/why-puppies-shed/",
+  "[4] Harriet Meyers, American Kennel Club: “How to Trim Your Dog’s Nails Safely”, updated June 1, 2026. https://www.akc.org/expert-advice/health/how-to-trim-dogs-nails-safely/",
+  "[5] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[6] University of Wisconsin School of Veterinary Medicine: “Protect Your Pet’s Teeth: Top Tips from a Veterinary Dentist”, updated February 11, 2022. https://www.vetmed.wisc.edu/protect-pets-teeth/"
+ ]
+}

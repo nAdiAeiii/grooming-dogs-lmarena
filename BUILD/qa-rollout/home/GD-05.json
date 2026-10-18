@@ -1,0 +1,166 @@
+{
+ "title": "How to Brush a Dog: Line Brushing, Mats and Shedding",
+ "description": "Brush your dog to the skin with line brushing, remove small mats safely, know when matting needs a groomer, and manage shedding instead of chasing it.",
+ "canonical": "https://grooming-dogs.com/brushing-your-dog/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "How to Brush a Dog: Line Brushing, Mats and Shedding",
+ "breadcrumb": "Home › Brushing",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>It&#8217;s much better to brush out tangles <em>before</em> the bath, because water makes mats worse <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup> and wet mats tighten as they dry <sup><a href=\\\"#s4\\\" aria-label=\\\"Source 4\\\">[4]</a></sup>. If your dog has already been bathed with small tangles in the coat, make sure they&#8217;re completely dry, then work the tangles out gently as described above. Leave tight mats for a groomer.</p>\"}, \"name\": \"Can I brush a matted dog after a bath?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>You can&#8217;t stop it: all dogs shed to some degree <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. What you can do is remove loose hair regularly with brushing, which helps control shedding <sup><a href=\\\"#s1\\\" aria-label=\\\"Source 1\\\">[1]</a></sup>. For double coats, also remove loose undercoat with an undercoat rake or de-shedding tool <sup><a href=\\\"#s3\\\" aria-label=\\\"Source 3\\\">[3]</a></sup>. If shedding is sudden, patchy or comes with skin changes, see a vet.</p>\"}, \"name\": \"How do I stop my dog shedding so much?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/brushing-your-dog/\", \"name\": \"Brushing\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:37+00:00\", \"description\": \"Brush your dog to the skin with line brushing, remove small mats safely, know when matting needs a groomer, and manage shedding instead of chasing it.\", \"headline\": \"How to Brush a Dog: Line Brushing, Mats and Shedding\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1-1024x683.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#webpage\"}, \"keywords\": \"how to brush a dog\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#webpage\"}, \"name\": \"How to Brush a Dog: Line Brushing, Mats and Shedding\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/brushing-your-dog/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:37+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"How to Brush a Dog: Line Brushing, Mats and Shedding\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1-1024x683.jpeg\"}, \"url\": \"https://grooming-dogs.com/brushing-your-dog/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1-1024x683.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-8498547-1-1024x683.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "How to brush your dog properly"
+  ],
+  [
+   "2",
+   "Why surface brushing doesn't work"
+  ],
+  [
+   "2",
+   "Line brushing, step by step"
+  ],
+  [
+   "2",
+   "Brushing different coat types"
+  ],
+  [
+   "3",
+   "Short and smooth"
+  ],
+  [
+   "3",
+   "Wiry"
+  ],
+  [
+   "3",
+   "Double"
+  ],
+  [
+   "3",
+   "Long and silky"
+  ],
+  [
+   "3",
+   "Curly"
+  ],
+  [
+   "2",
+   "Dealing with mats"
+  ],
+  [
+   "3",
+   "How to judge a mat"
+  ],
+  [
+   "3",
+   "Removing a small mat"
+  ],
+  [
+   "3",
+   "When matting needs a professional"
+  ],
+  [
+   "2",
+   "Managing shedding"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Can I brush a matted dog after a bath?"
+  ],
+  [
+   "3",
+   "How do I stop my dog shedding so much?"
+  ]
+ ],
+ "copy": [
+  "Home › Brushing",
+  "You want to brush your dog in a way that actually prevents tangles, deal safely with any knots you find, and keep shedding under control.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "How often to brush: depends on the coat. See how often to brush .",
+  "Which brush to buy: see choosing the right brush .",
+  "Photo: Yaroslav Shuraev / Pexels",
+  "Short answer:",
+  "Brush to the skin, a small section at a time. Use gentle strokes, then follow with a comb [1] [3] . If the comb catches, a tangle is still there.",
+  "Tease out small tangles gently. Never cut mats out with scissors [4] .",
+  "Leave tight mats close to the skin to a groomer.",
+  "Brush before a bath, because water makes mats worse [3] .",
+  "Manage shedding with regular brushing and, for double coats, a tool that removes loose undercoat [1] [3] .",
+  "Brushing over the top of the coat makes it look neat, but it misses the hair close to the skin. That’s where tangles start. The goal is to work all the way down to the skin, using gentle strokes [1] .",
+  "Brushing also gives you a regular chance to check your dog over for burrs, bits of plant material, mats, cuts, scrapes or anything else unusual [1] .",
+  "Line brushing means brushing the coat in small sections, from the skin outward, so no layer gets missed.",
+  "What you’ll need",
+  "A brush suited to your dog’s coat",
+  "A steel comb, preferably wide-toothed for working through tangles [2]",
+  "An undercoat rake or de-shedding tool, for double coats [3]",
+  "Treats",
+  "Not sure which ones to get? See choosing the right brush .",
+  "Settle your dog. Lying down on their side or standing calmly both work. Have treats within reach.",
+  "Start at the bottom of one area, for example a back leg. Use one hand to hold back the hair above, so you can see a line of skin.",
+  "Brush the hair below that line, from the skin outward, with gentle strokes [1] .",
+  "Follow with the comb through the same section [3] . If it glides through to the skin, move on. If it catches, go back and work that spot gently.",
+  "Let a little more hair down and repeat, working up and across the body section by section.",
+  "Pay extra attention to the spots where mats often form: behind the ears and under the legs [1] .",
+  "Mats often form behind the ears. Work through the longer hair there gently, section by section. Photo: Goochie Poochie Grooming / Pexels",
+  "If one spot hurts, stop: for example, if your dog yelps, flinches or pulls away when you brush it. Don’t hold your dog still and carry on. Pain or sore skin is a reason to see a vet.",
+  "If your dog won’t let you brush them at all, see grooming a dog who hates being groomed .",
+  "Technique varies with the coat. Not sure which group your dog belongs to? See identify your dog’s coat type .",
+  "A rubber-bristled brush, used over the whole coat, helps spread the skin’s natural oils through the fur [3] . These coats rarely tangle, so line brushing isn’t usually needed.",
+  "A rubber-bristled brush works for routine brushing [3] . For how a wiry coat is best kept over time, ask a groomer.",
+  "Brush right down to the undercoat, because that’s where loose hair collects. Add an undercoat rake or de-shedding tool to your regular brushing [3] . A slicker brush helps in the densest areas [2] .",
+  "Brush, then comb, to prevent tangles and mats [3] . Line brushing makes the biggest difference on this coat. Tease out any tangles gently rather than pulling through them [5] .",
+  "Use the same brush-then-comb approach, working all the way down to the skin [3] [1] . Curls can hide tangles close to the skin, so the comb check in step 4 matters.",
+  "A small tangle: a loose knot you can start to separate with your fingers, usually near the surface of the coat. This is a home job.",
+  "A tight mat: hair packed close to the skin, a large matted patch, or mats in many places. This is not a home job. See “When matting needs a professional” below.",
+  "Don’t wet a mat to try to loosen it. Water makes mats worse [3] : wet mats tighten as they dry and pull at the skin [4] .",
+  "Hold the hair at the base of the tangle, between the knot and the skin, so you don’t pull on your dog’s skin.",
+  "Work the knot apart with your fingers first.",
+  "Gently tease out what’s left with a slicker brush [5] , then work through it with a wide-toothed comb [2] .",
+  "Take your time. Stop if your dog is uncomfortable, and come back to it later.",
+  "Never cut mats out with scissors. Veterinarians regularly see dogs that need stitches after someone tried to cut out a mat at home [4] . If a mat won’t tease out, leave it for a groomer.",
+  "Book a groomer if:",
+  "the mats are tight and close to the skin;",
+  "they cover a large area;",
+  "there are mats in many places;",
+  "removing them hurts your dog.",
+  "A groomer can work through a badly tangled coat gradually, rather than going straight to the clippers. For example, groomers may use conditioner and professional drying equipment to loosen a heavily tangled double coat before grooming it [2] . Sometimes clipping the matted hair is the kinder option, and that’s a decision for the groomer.",
+  "See when to book a groomer .",
+  "Dense mats can trap moisture against the skin, and infections can develop underneath them [4] . If the skin under or around a mat is red, sore, broken, smells unusual or seems painful, see a vet rather than trying to deal with it yourself. For problems you notice after a groom, see skin problems under mats .",
+  "All dogs shed to some degree [1] . You can’t stop shedding, but consistent brushing helps keep it under control [1] .",
+  "For double coats, the soft undercoat sheds more often, especially during seasonal coat changes. This is sometimes called “blowing coat” [2] . Remove loose undercoat with an undercoat rake or de-shedding tool alongside regular brushing [3] , or with a grooming rake or steel comb [2] .",
+  "During heavy shedding, you’ll likely need to brush more often than usual. See how often to brush for your dog’s coat.",
+  "Brush before a bath, so loose hair comes out first. See bathing after brushing .",
+  "Sudden hair loss, bald patches, or shedding along with itchy or sore skin is different from normal shedding. See a vet.",
+  "Can I brush a matted dog after a bath?",
+  "It’s much better to brush out tangles before the bath, because water makes mats worse [3] and wet mats tighten as they dry [4] . If your dog has already been bathed with small tangles in the coat, make sure they’re completely dry, then work the tangles out gently as described above. Leave tight mats for a groomer.",
+  "How do I stop my dog shedding so much?",
+  "You can’t stop it: all dogs shed to some degree [1] . What you can do is remove loose hair regularly with brushing, which helps control shedding [1] . For double coats, also remove loose undercoat with an undercoat rake or de-shedding tool [3] . If shedding is sudden, patchy or comes with skin changes, see a vet.",
+  "Where to go next",
+  "Bathing your dog",
+  "The next step after a full brush-out.",
+  "Grooming tools",
+  "The brush, comb or rake your dog’s coat needs.",
+  "Dog coat types",
+  "Check which coat group your dog belongs to.",
+  "How often to groom your dog",
+  "How often your dog’s coat needs brushing.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog has sore or broken skin, or is in pain, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, published January 17, 2023, updated September 2, 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/",
+  "[2] Elaine Waldorf Gewirtz, American Kennel Club: “What Is a Double-Coated Dog? Coat Types, Grooming, and Care”, published February 22, 2024, updated September 14, 2026. https://www.akc.org/expert-advice/health/double-coated-dog-breeds/",
+  "[3] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[4] Ann Hohenhaus, DVM, The Animal Medical Center (New York): “Can Bath Time be Dangerous for Pets?”, November 30, 2016. https://www.amcny.org/blog/2016/11/30/can-bath-time-dangerous-pets/",
+  "[5] ASPCA: “At-Home Pet Grooming: Top Tips and Recommendations”, April 9, 2020. https://www.aspca.org/news/home-pet-grooming-top-tips-and-recommendations"
+ ]
+}

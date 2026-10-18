@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hybrid V2 Wireframes</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --paper: #f2f1ec; --ink: #1c1c1c; --muted: #5b5c57; --box: #e2e0d8; --desk: #2a2a29; --deskink: #f1f1ef; --sage: #8fa68e; --line: #c9c6bc; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 32px max(16px, 3vw) 80px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  h2 { font-size: 18px; margin: 40px 0 12px; }
+  p.lead { margin: 0 0 8px; color: var(--muted); max-width: 70ch; }
+  a { color: #40593f; }
+  .boards { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+  @media (max-width: 860px) { .boards { grid-template-columns: 1fr; } }
+  .label { font-weight: 600; margin-bottom: 8px; }
+  .frame { border: 2px solid var(--ink); background: #fff; }
+  .mast { display: flex; justify-content: space-between; gap: 8px; padding: 10px 12px; border-bottom: 2px solid var(--ink); font-size: 13px; }
+  .split { display: grid; grid-template-columns: 58fr 42fr; }
+  .col { padding: 12px; display: grid; gap: 10px; align-content: start; }
+  .desk { background: var(--desk); color: var(--deskink); }
+  .b { background: var(--box); padding: 10px 12px; font-size: 13px; }
+  .b strong { display: block; font-size: 13px; }
+  .b em { color: var(--muted); font-style: normal; display: block; margin-top: 2px; }
+  .desk .b { background: #3a3a39; }
+  .desk .b em { color: #c2c3bd; }
+  .card { background: #fbfaf6; color: var(--ink); }
+  .card em { color: var(--muted) !important; }
+  .field { border-bottom: 1px solid var(--line); /* taste-skill-ignore: wireframe form field */ padding: 6px 0; font-size: 12px; color: var(--muted); }
+  .sticky { font-size: 12px; color: var(--sage); }
+  .tall { min-height: 120px; }
+  .mobile .b { font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { background: var(--box); }
+  .cut td:first-child { text-decoration: line-through; color: var(--muted); }
+  ul { margin: 6px 0 0; padding-left: 18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Hybrid V2 wireframes</h1>
+  <p class="lead">Structure before styling. Left: desktop at 1440px (split stage, desk sticky). Right: phone at 390px. Every link named here is a real published URL or section anchor from the build records.</p>
+  <p class="lead"><a href="./">Open the working prototype</a></p>
+
+  <div class="boards">
+    <div>
+      <p class="label">Desktop</p>
+      <div class="frame">
+        <div class="mast"><span>GROOMING DOGS (wordmark)</span><span>Grooming tasks · Your dog · Problems · Tools &amp; groomers · Search ( / )</span></div>
+        <div class="split">
+          <div class="col">
+            <div class="b tall"><strong>Headline (real home H1) + one sentence</strong><em>“Practical dog grooming, explained for owners”. Purpose: say what the site is in one look.</em></div>
+            <div class="b"><strong>Five chapters as a contents spread</strong><em>Understand · Everyday · Tools &amp; Technique · By Situation · Professional. Each row: real guide title + first line of its short answer. Pointing at a row previews it on the desk. Purpose: browse the whole site in one screen of reading.</em></div>
+            <div class="b"><strong>Decide between (real tables)</strong><em>Clippers or grinder (/trimming-dog-nails/#grinder-or-clipper) · Salon, mobile, self-wash or home visit (/choosing-a-dog-groomer/#salon-mobile-self-wash-or-home-visit) · Home or professional (/dog-grooming-cost/#home-grooming-vs-professional-grooming) · Trim at home or leave it (/dog-haircuts-and-trimming/#what-to-trim-at-home-and-what-to-leave). Purpose: choose a method with trade-offs.</em></div>
+            <div class="b"><strong>Something looks wrong (symptom finder)</strong><em>Rows of /dog-grooming-problems/#symptoms-at-a-glance. Purpose: safety, and when to call a vet.</em></div>
+            <div class="b"><strong>Know the coat (coat lens)</strong><em>/dog-coat-types/#how-to-identify-your-dogs-coat → that coat’s row in /how-often-should-you-groom-your-dog/ and /dog-grooming-tools/#starter-kits-by-coat-type. Purpose: the only place coat changes the advice.</em></div>
+            <div class="b"><strong>How this guide works</strong><em>/about/ · /editorial-policy/ · /contact/. Purpose: trust, sources, corrections.</em></div>
+            <div class="b"><strong>Footer, one quiet line</strong><em>About · Editorial policy · Contact · Privacy · Glossary (architecture §E.2).</em></div>
+          </div>
+          <div class="col desk">
+            <p class="sticky">Sticky for the whole visit</p>
+            <div class="b card"><strong>Intake card</strong>
+              <div class="field">What do you want to do? [ search field ]</div>
+              <div class="field">Results print here: guides, sections, questions</div>
+              <em>Purpose: search always within reach, first control on the page.</em></div>
+            <div class="b card tall"><strong>Preview of the guide in focus</strong><em>Published short answer · its sections as deep links · “readers go next” from its real links · open on grooming-dogs.com. Purpose: answer without leaving, then the exact section.</em></div>
+            <div class="b"><strong>Suggested questions (empty state)</strong><em>Real published questions, e.g. from /bathing-your-dog/#common-questions.</em></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile">
+      <p class="label">Phone</p>
+      <div class="frame">
+        <div class="mast"><span>GROOMING DOGS</span><span>Menu · Search</span></div>
+        <div class="col">
+          <div class="b"><strong>Headline + sentence</strong></div>
+          <div class="b desk card"><strong>Intake card (search first)</strong><em>Not sticky here; the masthead Search button reopens it from anywhere.</em></div>
+          <div class="b"><strong>Chapters</strong><em>Tap a guide: its preview opens as a bottom sheet with the same content as the desk.</em></div>
+          <div class="b"><strong>Decide between</strong><em>Tabs; tables restack to label / value pairs.</em></div>
+          <div class="b"><strong>Something looks wrong</strong></div>
+          <div class="b"><strong>Know the coat</strong></div>
+          <div class="b"><strong>How this guide works</strong></div>
+          <div class="b"><strong>Footer line</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Challenged and cut</h2>
+  <table>
+    <thead><tr><th>Element</th><th>Why it goes</th></tr></thead>
+    <tbody class="cut">
+      <tr><td>Coat mosaic as the hero (V1)</td><td>Makes coat the gate for every question; most real questions do not depend on coat.</td></tr>
+      <tr><td>30 coat-by-task answers and 12 sample guides (V1, Desk)</td><td>Not real pages. Replaced by each real page’s published short answer.</td></tr>
+      <tr><td>Tool plate of drawn silhouettes</td><td>The real tools page already compares tools by coat in a table; V2 links to it and shows its starter-kit rows in the coat lens.</td></tr>
+      <tr><td>Poster-size “Clip or grind?” words</td><td>Visual noise around a table that carries the content.</td></tr>
+      <tr><td>Monument footer line</td><td>A designed close is not worth a second screen of nothing; one quiet line with the real support links.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Open gaps (flagged, not guessed)</h2>
+  <ul>
+    <li>The live site has no search; the prototype searches a static index built from the build records. Production needs a publish-time index or WordPress’s native search.</li>
+    <li>Shedding and mats are sections of /brushing-your-dog/, not pages; links go to those anchors.</li>
+    <li>Links were verified against the published build records, not fetched live from this environment.</li>
+    <li>No photographs (the site’s images are not reachable here).</li>
+  </ul>
+</div>
+</body>
+</html>

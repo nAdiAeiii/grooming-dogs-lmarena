@@ -1,0 +1,185 @@
+{
+ "title": "Dog Coat Types: How to Identify Your Dog&#039;s Coat",
+ "description": "Short and smooth, wiry, double, long and silky or curly? Identify your dog&#039;s coat, including mixed breeds and doodles, and see what it means for grooming.",
+ "canonical": "https://grooming-dogs.com/dog-coat-types/",
+ "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+ "og_title": "Dog Coat Types: How to Identify Your Dog&#039;s Coat",
+ "breadcrumb": "Home › Coat types",
+ "schema": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Not necessarily. Doodle coats vary from dog to dog, so go by the coat itself. If it&#8217;s curled or tightly waved, treat it as a curly coat. If it&#8217;s longer and straighter, the long and silky guidance is the closer match. If it&#8217;s a mix, care for the more demanding coat.</p>\"}, \"name\": \"Is a doodle a curly coat?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>Part the coat with your fingers. A double coat has a soft, dense undercoat beneath a separate outer layer of longer, coarser hairs <sup><a href=\\\"#s2\\\" aria-label=\\\"Source 2\\\">[2]</a></sup>. With a single-layer coat you won&#8217;t find that distinct fuzzy layer underneath. If you&#8217;re unsure, ask your groomer to show you.</p>\"}, \"name\": \"How can I tell a double coat from a single coat?\"}, {\"@type\": \"Question\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"<p>That can happen, especially in mixed breeds. Care for the more demanding coat, especially when it comes to brushing through to the skin, and check for tangles where the coat is longest. For how often to do it, use <a href=\\\"/how-often-should-you-groom-your-dog/\\\">the grooming schedule</a> row for that coat.</p>\"}, \"name\": \"My dog seems to be two coat types at once. What now?\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/#organization\", \"@type\": \"Organization\", \"name\": \"Grooming Dogs\"}",
+  "{\"@id\": \"https://grooming-dogs.com/#website\", \"@type\": \"WebSite\", \"inLanguage\": \"en-US\", \"name\": \"Grooming Dogs\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"url\": \"https://grooming-dogs.com\"}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-coat-types/#breadcrumb\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com\", \"name\": \"Home\"}, \"position\": \"1\"}, {\"@type\": \"ListItem\", \"item\": {\"@id\": \"https://grooming-dogs.com/dog-coat-types/\", \"name\": \"Coat types\"}, \"position\": \"2\"}]}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-coat-types/#richSnippet\", \"@type\": \"Article\", \"author\": {\"@id\": \"https://grooming-dogs.com/#organization\"}, \"datePublished\": \"2026-10-05T17:26:36+00:00\", \"description\": \"Short and smooth, wiry, double, long and silky or curly? Identify your dog&#039;s coat, including mixed breeds and doodles, and see what it means for grooming.\", \"headline\": \"Dog Coat Types: How to Identify Your Dog&#039;s Coat\", \"image\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145879-1024x684.jpeg\"}, \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/dog-coat-types/#webpage\"}, \"keywords\": \"dog coat types\", \"mainEntityOfPage\": {\"@id\": \"https://grooming-dogs.com/dog-coat-types/#webpage\"}, \"name\": \"Dog Coat Types: How to Identify Your Dog&#039;s Coat\", \"publisher\": {\"@id\": \"https://grooming-dogs.com/#organization\"}}",
+  "{\"@id\": \"https://grooming-dogs.com/dog-coat-types/#webpage\", \"@type\": \"WebPage\", \"breadcrumb\": {\"@id\": \"https://grooming-dogs.com/dog-coat-types/#breadcrumb\"}, \"datePublished\": \"2026-10-05T17:26:36+00:00\", \"inLanguage\": \"en-US\", \"isPartOf\": {\"@id\": \"https://grooming-dogs.com/#website\"}, \"name\": \"Dog Coat Types: How to Identify Your Dog&#039;s Coat\", \"primaryImageOfPage\": {\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145879-1024x684.jpeg\"}, \"url\": \"https://grooming-dogs.com/dog-coat-types/\"}",
+  "{\"@id\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145879-1024x684.jpeg\", \"@type\": \"ImageObject\", \"height\": \"200\", \"inLanguage\": \"en-US\", \"url\": \"https://grooming-dogs.com/wp-content/uploads/2026/10/pexels-photo-19145879-1024x684.jpeg\", \"width\": \"200\"}"
+ ],
+ "headings": [
+  [
+   "1",
+   "Dog coat types : how to identify your dog's coat"
+  ],
+  [
+   "2",
+   "How to identify your dog's coat"
+  ],
+  [
+   "2",
+   "The five coat types"
+  ],
+  [
+   "3",
+   "Short and smooth"
+  ],
+  [
+   "3",
+   "Wiry"
+  ],
+  [
+   "3",
+   "Double"
+  ],
+  [
+   "3",
+   "Long and silky"
+  ],
+  [
+   "3",
+   "Curly"
+  ],
+  [
+   "2",
+   "Common breeds by coat type"
+  ],
+  [
+   "2",
+   "Mixed breeds and doodles"
+  ],
+  [
+   "2",
+   "Should you shave a double-coated dog?"
+  ],
+  [
+   "2",
+   "Common questions"
+  ],
+  [
+   "3",
+   "Is a doodle a curly coat?"
+  ],
+  [
+   "3",
+   "How can I tell a double coat from a single coat?"
+  ],
+  [
+   "3",
+   "My dog seems to be two coat types at once. What now?"
+  ]
+ ],
+ "copy": [
+  "Home › Coat types",
+  "Before you can follow a grooming routine, you need to know what kind of coat you’re working with. This page helps you identify your dog’s coat, including mixed breeds and doodles, and explains what each type means for grooming.",
+  "By Grooming Dogs · Updated October 5, 2026",
+  "This page tells you which coat your dog has and what that coat needs. How often to groom each coat is in the grooming schedule by coat type .",
+  "Photo: Goochie Poochie Grooming / Pexels",
+  "Short answer: Go by the coat you can see and feel, not just the breed name. Grooming Dogs sorts coats into five groups: short and smooth, wiry, double, long and silky, and curly. Your dog’s group tells you:",
+  "what kind of brushing and tools suit the coat;",
+  "whether it needs regular haircuts;",
+  "for double coats, why shaving is usually a bad idea.",
+  "Grooming needs also vary with the individual dog and how they live [3] , so treat the group as a starting point.",
+  "Look at the coat, run your hand over it, and gently part it with your fingers so you can see what’s underneath.",
+  "What you see and feel",
+  "Likely coat group",
+  "Short hair lying close to the body; smooth to the touch",
+  "Short and smooth",
+  "Rough, harsh or bristly hair [1]",
+  "Wiry",
+  "A soft, dense, fuzzy layer underneath when you part the coat, below a separate outer layer [1] [2]",
+  "Double",
+  "Long, fine, straight hair that falls rather than stands up [1]",
+  "Long and silky",
+  "Curls or tight waves [1]",
+  "Curly",
+  "If two rows seem to fit, see Mixed breeds and doodles below. If you’re still unsure, ask your groomer or vet to look at the coat with you.",
+  "What it looks like: a short coat that lies flat against the body. Bulldog types and smooth-coated Dachshund types typically have this coat [1] .",
+  "What it needs: of the five groups, this is the simplest to maintain. A rubber-bristled brush helps spread the skin’s natural oils through the fur [1] . These coats don’t need haircuts.",
+  "A short, smooth coat lies close to the body. Photo: Doğan Alpaslan Demir / Pexels",
+  "What it looks like: rough, harsh hair that feels coarse rather than soft. Airedale and Cairn Terrier types typically have this coat [1] .",
+  "What it needs: regular brushing with a rubber-bristled brush [1] . How a wiry coat is best kept over time depends on the dog and on what you want, so ask a groomer what suits your dog.",
+  "A wiry coat looks and feels rough and textured. Photo: Sebastian Coman Travel / Pexels",
+  "What it looks like: two layers.",
+  "Outer layer: longer, coarser guard hairs.",
+  "Underneath: a soft, dense undercoat [2] .",
+  "Double coats come in different lengths, from short to very long [2] . Examples include:",
+  "Short: the Labrador Retriever [1] [2] and both Corgi breeds [2] .",
+  "Medium: herding breeds such as the Border Collie and Australian Shepherd [2] .",
+  "Long: working breeds such as the Bernese Mountain Dog and Newfoundland [2] .",
+  "What it needs: de-shedding with an undercoat rake or de-shedding tool, in addition to regular brushing [1] . The undercoat is where loose hair and tangles build up, so brushing needs to reach it.",
+  "Shaving: don’t shave a double coat. The reasons are below .",
+  "Double coats look full and dense. Parting the coat shows the soft undercoat beneath. Photo: Sergei Starostin / Pexels",
+  "What it looks like: long, fine hair that hangs down. Shih Tzu types typically have this coat [1] .",
+  "What it needs: brushing followed by a steel comb, to prevent tangles and mats and to remove debris [1] . A rubber-bristled brush or a wire slicker brush both work. Long coats also need regular haircuts, done at home or by a professional [1] .",
+  "A long, silky coat hangs down and tangles easily without regular combing. Photo: Mirko Fabian / Pexels",
+  "What it looks like: curls or tight waves. Poodle types typically have this coat [1] .",
+  "What it needs: the same brush-then-comb approach as long and silky coats, to stop tangles and mats forming [1] . Curly breeds such as the Poodle need frequent coat maintenance [3] , and curly coats need regular haircuts [1] .",
+  "A curly coat needs combing through to the skin to stop tangles forming. Photo: Afif Ramdhasuma / Pexels",
+  "Next steps for every coat:",
+  "How often to do each of these: see the grooming schedule .",
+  "Brushing technique: see how to brush your dog properly .",
+  "Which brush, rake or comb to buy: see grooming tools for your dog’s coat .",
+  "These are typical examples, not rules. Individual dogs, and dogs from different breeding lines, can vary. Always check the coat in front of you.",
+  "Coat group",
+  "Typical examples",
+  "Source",
+  "Short and smooth",
+  "Bulldog types; smooth-coated Dachshund types",
+  "S1",
+  "Wiry",
+  "Airedale and Cairn Terrier types",
+  "S1",
+  "Double",
+  "Labrador Retriever; Pembroke and Cardigan Welsh Corgi; Border Collie; Australian Shepherd; Bernese Mountain Dog; Newfoundland",
+  "S1, S2",
+  "Long and silky",
+  "Shih Tzu types",
+  "S1",
+  "Curly",
+  "Poodle types",
+  "S1",
+  "Your breed isn’t listed? Use How to identify your dog’s coat above. The coat itself is a better guide than a list.",
+  "A mixed-breed dog’s coat can’t be worked out from the breed names alone. Look at the coat itself and match it to the identification table. Doodles and other crosses are no different: one dog may have a curly coat and another a straighter, longer one.",
+  "If your dog seems to have two coat types, for example a curly back and straighter legs, or a dense undercoat beneath long hair, care for the more demanding coat. In practice that usually means brushing and combing through to the skin, and checking for tangles in the areas that mat most easily. A groomer can help you work out what your dog’s coat needs.",
+  "Generally, no. The American Kennel Club advises against shaving double-coated breeds [2] :",
+  "The coat may not grow back properly. Shaving removes both layers, and they regrow at different rates. The undercoat can outpace the topcoat, leaving an uneven coat that no longer works as it should [2] .",
+  "It doesn’t cool your dog down. Dogs don’t cool themselves the way people do, so removing the coat doesn’t do the job people expect [2] .",
+  "It can cause other problems. Without its natural insulating layer, a dog may become more vulnerable to overheating. It can also leave the skin open to sunburn and other skin damage, parasites such as fleas and ticks, dry skin and ingrown hairs [2] .",
+  "In hot weather , the AKC suggests these instead of shaving [2] :",
+  "regular grooming with brushes, rakes and combs to remove loose undercoat;",
+  "shade and water;",
+  "cooling mats;",
+  "limiting activity in the hottest part of the day.",
+  "If the coat is badly tangled, don’t reach straight for the clippers. A gradual approach is recommended [2] . A groomer can help, and the brushing guide explains how to deal with tangles: how to brush your dog properly .",
+  "If your vet recommends clipping an area for a medical reason, follow their advice.",
+  "This advice is about double coats. Long, silky and curly coats are different. They keep growing and need regular haircuts as part of normal care [1] . What’s realistic to trim at home is covered in trimming and haircuts at home .",
+  "Is a doodle a curly coat?",
+  "Not necessarily. Doodle coats vary from dog to dog, so go by the coat itself. If it’s curled or tightly waved, treat it as a curly coat. If it’s longer and straighter, the long and silky guidance is the closer match. If it’s a mix, care for the more demanding coat.",
+  "How can I tell a double coat from a single coat?",
+  "Part the coat with your fingers. A double coat has a soft, dense undercoat beneath a separate outer layer of longer, coarser hairs [2] . With a single-layer coat you won’t find that distinct fuzzy layer underneath. If you’re unsure, ask your groomer to show you.",
+  "My dog seems to be two coat types at once. What now?",
+  "That can happen, especially in mixed breeds. Care for the more demanding coat, especially when it comes to brushing through to the skin, and check for tangles where the coat is longest. For how often to do it, use the grooming schedule row for that coat.",
+  "Where to go next",
+  "How often to groom your dog",
+  "Now you know the coat, see how often each job needs doing.",
+  "How to brush your dog properly",
+  "The technique that keeps every coat type tangle-free.",
+  "Grooming tools",
+  "The brushes, rakes and combs each coat needs.",
+  "Grooming glossary",
+  "Undercoat, guard hairs and other terms explained.",
+  "This is general information about grooming healthy dogs, not veterinary advice. If your dog’s skin or coat changes suddenly, or you notice sores, sunburn or hair loss, contact your vet. How we write, source and fund our guides .",
+  "Sources",
+  "[1] Humane World for Animals: “How to groom your dog at home” (undated). https://www.humaneworld.org/en/resources/how-groom-your-dog-home",
+  "[2] Elaine Waldorf Gewirtz, American Kennel Club: “What Is a Double-Coated Dog? Coat Types, Grooming, and Care”, published 22 February 2024, updated 14 September 2026. https://www.akc.org/expert-advice/health/double-coated-dog-breeds/",
+  "[3] AKC Staff, American Kennel Club: “How to Groom Your Dog at Home: Easy Tips for Everyday Care”, published 17 January 2023, updated 2 September 2026. https://www.akc.org/expert-advice/health/how-to-groom-a-dog/"
+ ]
+}
