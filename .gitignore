@@ -12,3 +12,5 @@ preview/dist/
 .taste-skill/
 # Full-size originals; assets/fetch_photos.sh downloads them again. The resized copies in assets/img are committed.
 prototype/editorial-hybrid/assets/photos/
+# Screenshots from BUILD/editorial-hybrid/tools/verify.cjs
+verify-shots/
